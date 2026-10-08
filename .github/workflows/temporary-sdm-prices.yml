@@ -1,0 +1,30 @@
+name: Temporary Secret de Maison price export
+on:
+  push:
+    paths:
+      - '.github/workflows/temporary-sdm-prices.yml'
+permissions:
+  contents: read
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Inspect official public catalog structure
+        run: |
+          python3 - <<'PY'
+          import requests,re
+          from bs4 import BeautifulSoup
+          u='https://secretdemaison.ru/catalog/?curPos=0'
+          try:
+              r=requests.get(u,timeout=25,headers={'User-Agent':'Mozilla/5.0 (compatible; PriceCatalogResearch/1.0)'})
+              print('HTTP_STATUS',r.status_code,'BYTES',len(r.content),'URL',r.url)
+              soup=BeautifulSoup(r.text,'html.parser')
+              print('PAGE_TITLE',soup.title.get_text(' ',strip=True) if soup.title else '')
+              tag=soup.find(string=re.compile('Артикул 12828'))
+              if tag:
+                  for parent in list(tag.parents)[:6]:
+                      print('PARENT',parent.name,parent.get('class'),str(parent)[:2400])
+              print('TOTAL_ITEMS',re.findall(r'\d{3,4}\s+товар',soup.get_text(' ',strip=True))[:6])
+          except Exception as e: print('FETCH_ERROR',repr(e))
+          PY
