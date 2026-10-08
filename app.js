@@ -67,7 +67,7 @@ function enrichCatalogProduct(product){
 const UNPUBLISHED_SOURCE_IDS=new Set([1843,1852,1853]);
 function normalizeCatalogProducts(products){
   return products.map((product,index)=>{
-    const variants=(product.variants||[]).filter(variant=>!UNPUBLISHED_SOURCE_IDS.has(Number(variant.sourceId)));
+    const variants=(product.variants||[]).filter(variant=>!UNPUBLISHED_SOURCE_IDS.has(Number(variant.sourceId))).map(variant=>({...variant,wholesalePrice:Number(variant.designerPrice)>0?Number(variant.designerPrice):variant.wholesalePrice}));
     return enrichCatalogProduct({...product,name:stripPackaging(product.name),variants,variantCount:variants.length,_index:index,_selected:variants[0]?.sourceId});
   }).filter(product=>product.variants.length);
 }
@@ -102,8 +102,8 @@ function syncCatalogHistory(){if(history.state?.view==='product'&&els.productDia
 function instantScroll(target){const root=document.documentElement,previous=root.style.scrollBehavior;root.style.scrollBehavior='auto';if(typeof target==='number')scrollTo(0,target);else (target?.id==='catalog'?els.grid:target)?.scrollIntoView({block:'start'});requestAnimationFrame(()=>{root.style.scrollBehavior=previous})}
 function restoreCatalog(snapshot={},y=0){Object.assign(state,{categoryMain:'all',categoryCode:'all',search:'',sort:'featured',page:1,min:'',max:'',multi:false,newOnly:false,view:'catalog'},snapshot);expandedMobileCategory=state.categoryMain==='all'?null:state.categoryMain;$('#searchInput').value=state.search;$('#sortSelect').value=state.sort;$('#priceMin').value=state.min;$('#priceMax').value=state.max;$('#multiVariant').checked=state.multi;renderCategories();applyFilters();requestAnimationFrame(()=>instantScroll(Number(y)||0))}
 function withCatalogPrices(full,p){
-  const prices=new Map(p.variants.map(variant=>[String(variant.sourceId),variant.wholesalePrice]));
-  const variants=full.variants.filter(variant=>!UNPUBLISHED_SOURCE_IDS.has(Number(variant.sourceId))).map(variant=>prices.has(String(variant.sourceId))?{...variant,wholesalePrice:prices.get(String(variant.sourceId))}:variant);
+  const prices=new Map(p.variants.map(variant=>[String(variant.sourceId),variant]));
+  const variants=full.variants.filter(variant=>!UNPUBLISHED_SOURCE_IDS.has(Number(variant.sourceId))).map(variant=>prices.has(String(variant.sourceId))?{...variant,wholesalePrice:prices.get(String(variant.sourceId)).wholesalePrice,designerPrice:prices.get(String(variant.sourceId)).designerPrice,designerDiscountPercent:prices.get(String(variant.sourceId)).designerDiscountPercent,retailPrice:prices.get(String(variant.sourceId)).retailPrice}:variant);
   return{...full,variants,variantCount:variants.length,name:p.name,constructionKey:p.constructionKey,categoryCodes:p.categoryCodes};
 }
 async function getFullProduct(p){if(state.detailCache.has(p.id))return withCatalogPrices(state.detailCache.get(p.id),p);const r=await fetch(DATA_BASE+p.detailShard);if(!r.ok)throw Error(`HTTP ${r.status}`);const d=await r.json();Object.values(d.products).forEach(x=>state.detailCache.set(x.id,enrichCatalogProduct(x)));return withCatalogPrices(state.detailCache.get(p.id)||p,p)}
