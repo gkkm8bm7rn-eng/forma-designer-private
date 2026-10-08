@@ -11,18 +11,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 14
     steps:
+      - name: Checkout tested designer source
+        uses: actions/checkout@v4
       - name: Install browser
         run: |
           npm install --no-save --no-audit --no-fund playwright@1.56.1
           npx playwright install chromium
       - name: Measure responsive layout and shifts
         run: |
+          python3 -m http.server 8765 >/tmp/forma-local-server.log 2>&1 &
           cat > qa.cjs <<'JS'
           const {chromium,devices}=require('playwright');
-          const base='https://gkkm8bm7rn-eng.github.io/forma-designer-private/';
+          const base='http://127.0.0.1:8765/';
           (async()=>{
           const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
-          for(const width of [320,360,390,430,600,768,1024,1280,1440]){
+          for(const width of [280,320,360,375,390,430,600,768,900,901,1024,1280,1440,1920]){
            const context=await browser.newContext({viewport:{width,height:844},deviceScaleFactor:1,locale:'ru-RU'});
            const page=await context.newPage();
            const errors=[],failed=[];
@@ -45,6 +48,23 @@ jobs:
            console.log('QA_ROW='+JSON.stringify({width,firstMs:first,readyMs:ready,...result,errors,failed}));
            await context.close();
           }
+          const checkCtx=await browser.newContext({viewport:{width:390,height:844},locale:'ru-RU'});
+          const check=await checkCtx.newPage(),interactionErrors=[];
+          check.on('pageerror',e=>interactionErrors.push(e.message));
+          await check.goto(base+'?smoke=1',{waitUntil:'domcontentloaded',timeout:45000});
+          await check.waitForSelector('.product-card',{timeout:40000});
+          const countBefore=await check.locator('#favoritesCount').innerText();
+          await check.locator('.product-card button[data-favorite]').first().click();
+          const countAfter=await check.locator('#favoritesCount').innerText();
+          await check.locator('#searchInput').fill('Космо');
+          await check.locator('.search-submit').click();
+          await check.waitForTimeout(150);
+          const resultNames=await check.locator('.product-card .product-name').allInnerTexts();
+          await check.locator('.product-card .quick-add').first().click();
+          const cartCount=await check.locator('#cartCount').innerText();
+          const qa={countBefore,countAfter,searchCount:resultNames.length,searchMatches:resultNames.every(s=>/космо|cosmo/i.test(s)),cartCount,categoryRows:await check.locator('.mobile-category-trigger').count(),interactionsErrors:interactionErrors};
+          console.log('FUNCTIONAL_QA='+JSON.stringify(qa));
+          await checkCtx.close();
           await browser.close();
           })().catch(err=>{console.error('QA_ERROR '+err.stack);process.exit(1)});
           JS
