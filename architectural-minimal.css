@@ -43,7 +43,6 @@ html body footer#delivery{background:#1C1C1C!important}
 /* Monochrome polish: neutral gray only, high-contrast text, original brand lettering. */
 html body{background:#F2F2F2!important;color:#1C1C1C!important}
 html body .site-header{background:#F7F7F7!important}
-html body .brand-lockup,html body .brand-line{font-family:Georgia,"Times New Roman",serif!important;letter-spacing:inherit}
 html body .header-actions button{box-shadow:none!important}
 html body .catalog-section>.section-heading h2{color:#1C1C1C!important}
 html body .catalog-section>.section-heading .result-count{color:#666666!important}
