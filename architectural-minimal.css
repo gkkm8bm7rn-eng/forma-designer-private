@@ -281,3 +281,21 @@ html body .recent-card .recent-add{
 @media(prefers-reduced-motion:reduce){
   html body .product-card .product-visual img{transition:none!important}
 }
+
+/* Stabilize initial product area and dynamic heading without new elements. */
+/* Keep the original footer below the viewport until the first catalog page
+   is rendered. The reserve only exists while the existing count is hidden,
+   so zero-results searches and empty favorites are unaffected. */
+html body .catalog-section:has(#resultCount[hidden]) #productGrid:empty{
+  min-height:max(360px,55svh)!important;
+}
+html body .catalog-section>.section-heading{min-height:52px!important}
+@media(min-width:641px) and (max-width:900px){
+ html body .catalog-section>.section-heading{min-height:56px!important}
+}
+@media(max-width:640px){
+ html body .catalog-section>.section-heading{min-height:30px!important}
+}
+@media(max-width:359px){
+ html body .catalog-section>.section-heading{min-height:57px!important}
+}
