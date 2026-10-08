@@ -4,7 +4,7 @@
  * on its own stable version so a design update does not discard product photos.
  * Bump IMAGE_CACHE only when product media itself changes materially.
  */
-const SHELL_VERSION='20261008-new-arrivals-toggle-3';
+const SHELL_VERSION='20261008-designer-prices-1';
 const SHELL_CACHE=`forma-shell-${SHELL_VERSION}`;
 const DATA_CACHE=`forma-data-${SHELL_VERSION}`;
 const IMAGE_CACHE='forma-images-v1';
@@ -158,7 +158,7 @@ self.addEventListener('fetch',event=>{
   }
 
   if(url.pathname.endsWith('/data/catalog-index.json')||url.pathname.endsWith('/data/category-assignments.json')){
-    event.respondWith(staleWhileRevalidate(request,SHELL_CACHE));
+    event.respondWith(networkFirst(request,SHELL_CACHE));
     return;
   }
 
