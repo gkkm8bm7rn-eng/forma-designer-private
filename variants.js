@@ -209,8 +209,9 @@ function variantChoices(product,variant,context='card'){
 }
 
 function priceTemplate(variant,detail=false){
-  const retail=variant.retailPrice>variant.wholesalePrice?`<span class="retail-row">Розничная цена <del>${money(variant.retailPrice)}</del></span>`:'';
-  return`<span class="price-stack ${detail?'detail-prices':''}"><span class="price-kind">Оптовая цена</span><strong class="${detail?'detail-price':'product-price'}">${money(variant.wholesalePrice)}</strong>${retail}</span>`;
+  const retail=Number(variant.retailPrice)>Number(variant.wholesalePrice)?`<span class="retail-row">Розничная цена <del>${money(variant.retailPrice)}</del></span>`:'';
+  const offer=variant.designerDiscountPercent?`<span class="designer-discount">−${variant.designerDiscountPercent}%</span>`:'';
+  return`<span class="price-stack ${detail?'detail-prices':''}"><span class="price-kind">Цена для дизайнера ${offer}</span><strong class="${detail?'detail-price':'product-price'}">${money(variant.wholesalePrice)}</strong>${retail}</span>`;
 }
 
 function cardTemplate(product){
