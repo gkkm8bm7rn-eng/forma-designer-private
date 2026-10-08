@@ -1,0 +1,93 @@
+name: Temporary site loading performance audit
+on:
+  push:
+    paths:
+      - '.github/workflows/temporary-performance-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Install headless Chrome
+        run: |
+          npm install --no-save --no-audit --no-fund playwright@1.56.1
+          npx playwright install chromium
+      - name: Measure published store mobile and desktop
+        run: |
+          cat > /tmp/site-audit.cjs <<'JS'
+const {chromium,devices}=require('playwright');
+const TARGET='https://gkkm8bm7rn-eng.github.io/forma-designer-private/';
+(async()=>{
+const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+async function measure(label, opts) {
+  const context=await browser.newContext({
+    ...(opts.mobile?devices['iPhone 13']:{viewport:{width:1365,height:768},deviceScaleFactor:1}),
+    locale:'ru-RU'
+  });
+  const page=await context.newPage(), errors=[],failures=[];
+  page.on('pageerror',err=>errors.push(err.message));
+  page.on('requestfailed',req=>{if(failures.length<8)failures.push(req.url().split('?')[0]+': '+(req.failure()?.errorText||''))});
+  const cdp=await context.newCDPSession(page);
+  if(opts.mobile) {
+    await cdp.send('Network.enable');
+    await cdp.send('Network.emulateNetworkConditions',{offline:false,latency:150,downloadThroughput:200000,uploadThroughput:95000});
+    await cdp.send('Emulation.setCPUThrottlingRate',{rate:4});
+  }
+  await page.addInitScript(()=>{
+    window.__lcp=0;window.__cls=0;
+    try{new PerformanceObserver(l=>{for(const e of l.getEntries())window.__lcp=e.startTime}).observe({type:'largest-contentful-paint',buffered:true})}catch{}
+    try{new PerformanceObserver(l=>{for(const e of l.getEntries())if(!e.hadRecentInput)window.__cls+=e.value}).observe({type:'layout-shift',buffered:true})}catch{}
+  });
+  const passes=opts.mobile?2:1;
+  for(let pass=0;pass<passes;pass++){
+    const wall=Date.now();let navError=null;
+    try{await page.goto(TARGET+(pass===0?'?perf-cold=1':''),{waitUntil:'domcontentloaded',timeout:60000})}catch(err){navError=err.message}
+    let productsReady=false,firstImagesReady=false;
+    try{await page.waitForSelector('.product-card',{timeout:60000});productsReady=true}catch{}
+    const ready=Date.now()-wall;
+    if(productsReady){try{
+      await page.waitForFunction(()=>[...document.querySelectorAll('.product-card img')].slice(0,2).every(i=>i.complete&&i.naturalWidth>0),null,{timeout:40000});
+      firstImagesReady=true;
+    }catch{}}
+    const imagesAt=Date.now()-wall;
+    await page.waitForTimeout(900);
+    const info=await page.evaluate(()=>{
+      const nav=performance.getEntriesByType('navigation')[0];
+      const paint=performance.getEntriesByType('paint').find(x=>x.name==='first-contentful-paint');
+      const resources=performance.getEntriesByType('resource');
+      const imgs=[...document.querySelectorAll('.product-card img')];
+      return {
+        fcp:Math.round(paint?.startTime||0),
+        lcp:Math.round(window.__lcp||0),
+        cls:Number((window.__cls||0).toFixed(4)),
+        dom:Math.round(nav?.domContentLoadedEventEnd||0),
+        load:Math.round(nav?.loadEventEnd||0),
+        totalResources:resources.length,
+        transferBytes:resources.reduce((sum,r)=>sum+(r.transferSize||0),0),
+        rawBytes:resources.reduce((sum,r)=>sum+(r.decodedBodySize||0),0),
+        products:document.querySelectorAll('.product-card').length,
+        imageCount:imgs.length,
+        loadedImages:imgs.filter(i=>i.complete&&i.naturalWidth>0).length,
+        cssLoaded:[...document.styleSheets].some(s=>s.href?.includes('architectural-minimal.css')),
+        bodyScrollWidth:document.body.scrollWidth,
+        viewport:innerWidth,
+      }
+    });
+    console.log('PERFORMANCE_RESULT='+JSON.stringify({case:label,pass:pass?'repeat':'cold',navError,readyMs:ready,firstTwoImagesMs:imagesAt,productsReady,firstImagesReady,...info,jsErrors:errors.slice(-5),networkFails:failures.slice(-8)}));
+    if(pass===0 && opts.mobile){
+      const status=await page.evaluate(()=>({sw:!!navigator.serviceWorker,controller:!!navigator.serviceWorker?.controller}));
+      console.log('SERVICE_WORKER='+JSON.stringify(status));
+    }
+  }
+  await context.close();
+}
+await measure('mobile-4g-cpu4x',{mobile:true});
+await measure('desktop-broadband',{mobile:false});
+await browser.close();
+})().catch(e=>{console.error('AUDIT_ERROR '+e.stack);process.exit(1)});
+          JS
+          cp /tmp/site-audit.cjs ./site-audit.cjs
+          node site-audit.cjs
