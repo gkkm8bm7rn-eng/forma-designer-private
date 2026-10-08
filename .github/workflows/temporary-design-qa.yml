@@ -1,0 +1,51 @@
+name: Temporary designer responsive QA
+on:
+  push:
+    paths:
+      - '.github/workflows/temporary-design-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - name: Install browser
+        run: |
+          npm install --no-save --no-audit --no-fund playwright@1.56.1
+          npx playwright install chromium
+      - name: Measure responsive layout and shifts
+        run: |
+          cat > qa.cjs <<'JS'
+          const {chromium,devices}=require('playwright');
+          const base='https://gkkm8bm7rn-eng.github.io/forma-designer-private/';
+          (async()=>{
+          const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+          for(const width of [320,360,390,430,600,768,1024,1280,1440]){
+           const context=await browser.newContext({viewport:{width,height:844},deviceScaleFactor:1,locale:'ru-RU'});
+           const page=await context.newPage();
+           const errors=[],failed=[];
+           page.on('pageerror',e=>errors.push(e.message));
+           page.on('requestfailed',r=>{if(failed.length<4)failed.push(r.url())});
+           await page.addInitScript(()=>{window.shifts=[];try{new PerformanceObserver(l=>{for(const e of l.getEntries()){if(!e.hadRecentInput)window.shifts.push({value:e.value,sources:e.sources?.slice(0,5).map(s=>({node:s.node?.className||s.node?.id||s.node?.nodeName,before:s.previousRect?.y,after:s.currentRect?.y}))})}}).observe({type:'layout-shift',buffered:true})}catch{}});
+           const started=Date.now();
+           await page.goto(base+'?qa='+Date.now(),{waitUntil:'domcontentloaded',timeout:45000});
+           const first=Date.now()-started;
+           await page.waitForSelector('.product-card',{timeout:40000});
+           const ready=Date.now()-started;
+           await page.waitForTimeout(700);
+           const result=await page.evaluate(()=>{
+             const get=selector=>{const x=document.querySelector(selector);if(!x)return null;const r=x.getBoundingClientRect(),s=getComputedStyle(x);return {font:s.fontSize,height:Math.round(r.height),width:Math.round(r.width),x:Math.round(r.x),y:Math.round(r.y),overflow:s.overflow,color:s.color,bg:s.backgroundColor}};
+             const shift=window.shifts.reduce((s,e)=>s+e.value,0);
+             return {viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,bodyWidth:document.body.scrollWidth,shift:+shift.toFixed(4),shifts:window.shifts.sort((a,b)=>b.value-a.value).slice(0,4),styles:{
+               header:get('.site-header'),hero:get('.hero'),search:get('.search-field'),categories:get('.category-row'),catalogHeading:get('.catalog-section>.section-heading'),card:get('.product-card'),cardImage:get('.product-card .product-visual'),cardTitle:get('.product-name'),cardPrice:get('.product-price'),buy:get('.quick-add'),recentHeading:get('.recent-section h2'),recentBuy:get('.recent-add')
+             },products:document.querySelectorAll('.product-card').length};
+           });
+           console.log('QA_ROW='+JSON.stringify({width,firstMs:first,readyMs:ready,...result,errors,failed}));
+           await context.close();
+          }
+          await browser.close();
+          })().catch(err=>{console.error('QA_ERROR '+err.stack);process.exit(1)});
+          JS
+          node qa.cjs
