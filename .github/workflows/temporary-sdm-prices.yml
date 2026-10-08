@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Inspect official public catalog structure
         run: |
+          python3 -m pip install --quiet --break-system-packages beautifulsoup4
           python3 - <<'PY'
           import requests,re
           from bs4 import BeautifulSoup
