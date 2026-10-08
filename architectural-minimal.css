@@ -132,12 +132,12 @@ html body .variant-swatch-option:focus-visible{outline-color:#1C1C1C!important}
 html body .axis-swatch.active{box-shadow:0 0 0 3px #1C1C1C!important}
 html body .variant-text.active{border-color:#1C1C1C!important}
 html body .variant-swatch-option.active{outline-color:#1C1C1C!important}
-/* Favorites: inactive outlines and active filled glyphs retain their behavior. */
-html body button[data-favorite]{color:#444444!important}
-html body button[data-favorite].active{color:#1C1C1C!important}
-html body .site-header .favorites-button .action-icon{color:#1C1C1C!important}
-html body .detail-favorite:not(.active){color:#444444!important;border-color:#B5B5B5!important}
-html body .detail-favorite.active{background:#1C1C1C!important;color:#FFFFFF!important;border-color:#1C1C1C!important}
+/* Favorites keep their original red accent by user choice. */
+html body button[data-favorite],
+html body button[data-favorite].active{color:#b74736!important}
+html body .site-header .favorites-button .action-icon{color:#b74736!important}
+html body .detail-favorite:not(.active){color:#b74736!important;border-color:#B5B5B5!important}
+html body .detail-favorite.active{background:#FFFFFF!important;color:#b74736!important;border-color:#B5B5B5!important}
 /* Pagination: neutral arrows and matching controls. */
 html body .pagination .page-button{border-color:#B5B5B5!important;border-radius:5px!important;color:#1C1C1C}
 html body .pagination .page-button.active{background:#1C1C1C!important;border-color:#1C1C1C!important;color:#FFFFFF!important}
