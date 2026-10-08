@@ -1,0 +1,41 @@
+/* FORMA HOME Designer — approved Architectural Minimal visual skin */
+:root{--ink:#202320;--muted:#777b78;--paper:#f7f7f4;--line:#d9d9d5;--accent:#202320;--accent-dark:#171918;--green:#202320;--green-dark:#171918}
+html body{background:#f7f7f4;color:#202320}
+html body .trade-note{display:none!important}
+html body .site-header{background:#fafaf8!important;border-color:#dedfda!important;box-shadow:none!important}
+html body .site-header .favorites-button,html body .site-header .cart-button{border-color:#d4d6d1!important;border-radius:5px!important;color:#202320!important;background:#fff!important;box-shadow:none!important}
+html body .site-header .action-count{background:#202320!important}
+html body .brand-forma,html body .brand-home,html body .brand-slash{color:#202320!important}
+html body main#top>.hero{background:none!important;min-height:0!important}
+html body main#top>.hero .hero-content{display:flex!important;align-items:center!important;justify-content:center!important;min-height:0!important;height:auto!important;padding:18px!important;background:#eae9e5!important;border:1px solid #d6d7d2!important;border-radius:4px!important;box-shadow:none!important}
+html body main#top>.hero .hero-content::before,html body main#top>.hero .hero-content::after{display:none!important;content:none!important}
+html body main#top>.hero .eyebrow{display:none!important}
+html body main#top>.hero h1{display:block!important;margin:0!important;max-width:none!important;font:400 clamp(19px,2.3vw,30px)/1.15 Georgia,serif!important;letter-spacing:-.025em!important;text-align:center!important;color:#202320!important}
+html body .catalog-tools .search-field{border-color:#d1d3cf!important;border-radius:5px!important;box-shadow:none!important;background:#fff!important}
+html body .search-submit,html body .filter-toggle{border-radius:4px!important;border-color:#202320!important;background:#202320!important;color:#fff!important}
+html body .catalog-utility .sort-field{border-color:#d1d3cf!important;border-radius:5px!important;background:#fff!important}
+html body .category-main,html body .category-subgroup,html body .category-chip{border-color:#c9ccc7!important;border-radius:5px!important;box-shadow:none!important;background:#fff!important;color:#202320!important}
+html body .category-main.active,html body .category-chip.active{background:#202320!important;color:#fff!important;border-color:#202320!important}
+html body .category-icon{border-radius:3px!important;background:#edeeeb!important;color:#202320!important}
+html body .category-main.active .category-icon{background:#555955!important;color:#fff!important}
+html body .mobile-category-shell{border-radius:5px!important;border-color:#c9ccc7!important;box-shadow:none!important}
+html body .mobile-category-trigger{background:#fff!important;color:#202320!important}
+html body .mobile-category-section+.mobile-category-section{border-color:#d9d9d5!important}
+html body .mobile-scroll-button{border-radius:4px!important;color:#202320!important}
+html body .new-products-toggle{border-radius:4px!important;background:#fff!important;color:#202320!important;border-color:#bfc2bc!important;box-shadow:none!important}
+html body .new-products-toggle.active{background:#202320!important;color:#fff!important}
+html body .product-card{border-radius:4px!important;background:#fff!important;box-shadow:none!important}
+html body .product-card .product-visual{background:#f0f0ec!important}
+html body .product-name{font-family:Inter,system-ui,sans-serif!important;font-weight:600!important;color:#202320!important}
+html body .product-price,html body .detail-price{color:#202320!important}
+html body .quick-add,html body .primary-button,html body .detail-sticky-actions .primary-button{background:#202320!important;border-color:#202320!important;color:#fff!important;border-radius:4px!important;box-shadow:none!important}
+html body .designer-discount{background:#e5e5e0!important;color:#202320!important;border-radius:3px!important}
+html body .product-new-badge{background:#f0f0ed!important;color:#505550!important;border-radius:3px!important;border:1px solid #c8cac5!important}
+html body .product-category-link,html body .product-type,html body .detail-breadcrumbs button{border-radius:3px!important}
+html body .product-dialog,html body .drawer{background:#fafaf8!important;color:#202320!important}
+html body .gallery,html body .gallery-stage{background:#f0f0ec!important}
+html body .detail-favorite{background:#fff!important;color:#202320!important;border-radius:4px!important;border-color:#c8cbc5!important}
+html body .product-dialog[open] .detail-sticky-actions{background:rgba(250,250,248,.96)!important;border-radius:6px!important;border-color:#d6d8d3!important}
+html body .page-button.active{background:#202320!important;border-color:#202320!important}
+html body footer#delivery{background:#202320!important}
+@media(max-width:640px){html body main#top>.hero{margin:8px 12px 0!important;padding:0!important}html body main#top>.hero .hero-content{min-height:56px!important;padding:12px!important}html body main#top>.hero h1{display:block!important;font-size:clamp(17px,4.4vw,21px)!important;line-height:1.17!important}html body .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px 8px!important}html body .product-card .product-info{padding:9px 9px 11px!important}html body .new-products-toggle{font-size:11px!important;padding:4px 6px!important}}
