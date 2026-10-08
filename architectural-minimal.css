@@ -1,5 +1,5 @@
 /* FORMA HOME Designer — Monochrome Architecture. Visual-only overrides; no new layout or elements. */
-:root{--ink:#1C1C1C;--muted:#666666;--paper:#F2F2F2;--line:#D0D0D0;--accent:#1C1C1C;--accent-dark:#141414;--green:#1C1C1C;--green-dark:#141414}
+:root{--ink:#1C1C1C;--muted:#666666;--paper:#F2F2F2;--white:#FFFFFF;--line:#D0D0D0;--accent:#1C1C1C;--accent-dark:#141414;--green:#1C1C1C;--green-dark:#141414;--sage:#E2E2E2;--sage-deep:#B5B5B5}
 html body{background:#F2F2F2;color:#1C1C1C}
 html body .trade-note{display:none!important}
 html body .site-header{background:#F7F7F7!important;border-color:#D0D0D0!important;box-shadow:none!important}
