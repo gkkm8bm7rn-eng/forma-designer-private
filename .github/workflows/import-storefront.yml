@@ -1,0 +1,25 @@
+name: Copy FORMA HOME storefront
+on:
+  push:
+    paths:
+      - '.github/workflows/import-storefront.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Clone full storefront
+        run: |
+          git clone --single-branch --branch main https://github.com/gkkm8bm7rn-eng/tetopt.git storefront
+      - name: Copy the storefront into designer repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd storefront
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/gkkm8bm7rn-eng/forma-designer-private.git"
+          git push --force origin main
