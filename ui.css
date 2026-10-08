@@ -29,3 +29,6 @@ button[data-favorite]{display:grid!important;place-items:center!important;paddin
 .product-new-badge{display:inline-flex;align-items:center;border-radius:999px;padding:5px 10px;background:#f7eddb;color:#795a27;font-weight:800;letter-spacing:.04em;white-space:nowrap}
 .section-heading:has(.new-products-toggle){gap:8px}
 @media(max-width:640px){.new-products-toggle{padding:5px 8px;font-size:12px;min-height:27px}.section-heading:has(.new-products-toggle){display:flex;align-items:center;gap:6px}.section-heading:has(.new-products-toggle) .result-count{margin-left:auto;font-size:11px}.product-new-badge{padding:4px 7px;font-size:10px}}
+
+/* Designer sale price badge; limited to pricing, no layout restructure. */
+.designer-discount{display:inline-block;margin-left:5px;padding:2px 5px;border-radius:4px;background:#ede7d8;color:#66513b;font-weight:700;font-size:.83em;white-space:nowrap}
