@@ -10,22 +10,174 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
-      - name: Inspect official public catalog structure
+      - name: Install HTML parser
+        run: python3 -m pip install --quiet --break-system-packages beautifulsoup4
+      - name: Read official current catalog listing prices
         run: |
-          python3 -m pip install --quiet --break-system-packages beautifulsoup4
-          python3 - <<'PY'
-          import requests,re
+          cat > price_export.py <<'PY'
+          import requests, re, json, time, math, os, sys
+          from datetime import datetime, timezone
+          from urllib.parse import urljoin
           from bs4 import BeautifulSoup
-          u='https://secretdemaison.ru/catalog/?curPos=0'
-          try:
-              r=requests.get(u,timeout=25,headers={'User-Agent':'Mozilla/5.0 (compatible; PriceCatalogResearch/1.0)'})
-              print('HTTP_STATUS',r.status_code,'BYTES',len(r.content),'URL',r.url)
-              soup=BeautifulSoup(r.text,'html.parser')
-              print('PAGE_TITLE',soup.title.get_text(' ',strip=True) if soup.title else '')
-              tag=soup.find(string=re.compile('Артикул 12828'))
-              if tag:
-                  for parent in list(tag.parents)[:6]:
-                      print('PARENT',parent.name,parent.get('class'),str(parent)[:2400])
-              print('TOTAL_ITEMS',re.findall(r'\d{3,4}\s+товар',soup.get_text(' ',strip=True))[:6])
-          except Exception as e: print('FETCH_ERROR',repr(e))
+          
+          BASE = "https://secretdemaison.ru"
+          CATALOG = BASE + "/catalog/"
+          OUT = "secret-de-maison-current-prices-2026-10-09.json"
+          HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+          session = requests.Session()
+          session.headers.update(HEADERS)
+          errors = []
+          rows = []
+          seen = set()
+          price_pat = re.compile(r"(?<!\d)(\d[\d\s\u00a0\u202f]*?)\s*руб\.?", re.I)
+          
+          def get_page(pos):
+              url = CATALOG + "?curPos=" + str(pos)
+              for attempt in range(4):
+                  try:
+                      r = session.get(url,timeout=30)
+                      if r.status_code == 429 or r.status_code >= 500:
+                          time.sleep(min(12, 2 ** (attempt + 1)))
+                          continue
+                      r.raise_for_status()
+                      if 'catalog-item' not in r.text:
+                          raise ValueError("No catalog items in HTML")
+                      return BeautifulSoup(r.text, "html.parser")
+                  except Exception as e:
+                      if attempt == 3:
+                          errors.append({"offset":pos,"error":str(e)[:180]})
+                          print("PAGE_ERROR",pos,str(e)[:180],flush=True)
+                          return None
+                      time.sleep(1.4 * (attempt + 1))
+              return None
+          
+          def parse_page(soup,offset):
+              items = soup.select(".catalog-results .catalog-item")
+              parsed = []
+              for j,item in enumerate(items):
+                  uid = (item.get("data-id") or "").strip()
+                  title_el = item.select_one(".catalog-item__title")
+                  if not uid or not title_el:
+                      errors.append({"offset":offset,"index":j,"error":"Missing product id or title"})
+                      continue
+                  name = title_el.get_text(" ",strip=True)
+                  url = urljoin(BASE,title_el.get("href",""))
+                  a = item.select_one(".catalog-item__art")
+                  article = (a.get_text(" ",strip=True).replace("Артикул","").strip() if a else None)
+                  img = item.select_one(".catalog-item__image img")
+                  photo = urljoin(BASE,img.get("data-src") or img.get("src") or "") if img else None
+                  price_el = item.select_one(".catalog-item__cost")
+                  raw = price_el.get_text(" ",strip=True) if price_el else ""
+                  amounts = [int(re.sub(r"\D","",v)) for v in price_pat.findall(raw)]
+                  current = amounts[-1] if amounts else None
+                  previous = amounts[-2] if len(amounts)>1 else None
+                  sale_marker = "sale" in item.get("class",[])
+                  can_add = bool(item.select_one("button[onclick*='Cart.add']"))
+                  info = {}
+                  for li in item.select(".catalog-item__info li"):
+                      span=li.find("span")
+                      if span:
+                          key=span.get_text(" ",strip=True).rstrip(":")
+                          val=li.get_text(" ",strip=True).replace(span.get_text(" ",strip=True),"",1).strip()
+                          if val: info[key] = val
+                  parsed.append({
+                      "source_product_id":uid,
+                      "article":article or None,
+                      "name":name,
+                      "product_url":url,
+                      "image_url":photo,
+                      "current_price_rub":current,
+                      "previous_price_rub":previous,
+                      "discounted": bool(previous is not None and current is not None and previous>current),
+                      "marked_sale":sale_marker,
+                      "can_add_to_cart":can_add,
+                      "raw_display_price":raw or None,
+                      "specs":info,
+                      "catalog_offset":offset,
+                      "catalog_position":offset+j+1
+                  })
+              return parsed
+          
+          start=datetime.now(timezone.utc).isoformat(timespec="seconds")
+          soup=get_page(0)
+          if soup is None:
+              sys.exit("Cannot access official site")
+          number=soup.select_one(".catalog-filter__numbers span")
+          expected=int(re.sub(r"\D","",number.get_text())) if number else None
+          if not expected or not(100<expected<20000):
+              sys.exit("Cannot trust official catalog product count")
+          first=parse_page(soup,0)
+          per_page=len(first)
+          if not(10<=per_page<=40):
+              sys.exit("Unexpected pagination size "+str(per_page))
+          pages=math.ceil(expected/per_page)
+          print("CATALOG_START", "expected",expected,"page_size",per_page,"pages",pages,flush=True)
+          for offset in range(0,pages*per_page,per_page):
+              if offset==0: chunk=first
+              else:
+                  page=get_page(offset)
+                  chunk=parse_page(page,offset) if page else []
+              for p in chunk:
+                  uid=p["source_product_id"]
+                  if uid in seen:
+                      errors.append({"offset":offset,"error":"Duplicate id","id":uid})
+                      continue
+                  seen.add(uid)
+                  rows.append(p)
+              if offset % (per_page*10)==0 or offset >=(pages-1)*per_page:
+                  print("PROGRESS",offset,"unique",len(rows),"priced",sum(v["current_price_rub"] is not None for v in rows),"errors",len(errors),flush=True)
+              time.sleep(.35)
+          
+          # End-of-scan consistency check: official product count and first page should agree.
+          check=get_page(0)
+          end_count_el=check.select_one(".catalog-filter__numbers span") if check else None
+          end_count=int(re.sub(r"\D","",end_count_el.get_text())) if end_count_el else None
+          first_changed=False
+          if check:
+              check_rows=parse_page(check,0)
+              x={p["source_product_id"]:(p["current_price_rub"],p["previous_price_rub"]) for p in check_rows}
+              first_changed=any(x.get(p["source_product_id"])!=(p["current_price_rub"],p["previous_price_rub"]) for p in first)
+          complete=(len(rows)==expected and expected==end_count and len(errors)==0 and not first_changed)
+          rows.sort(key=lambda p:p["catalog_position"])
+          stats={
+              "official_listed_total_start":expected,
+              "official_listed_total_end":end_count,
+              "records_extracted":len(rows),
+              "records_with_price":sum(p["current_price_rub"] is not None for p in rows),
+              "records_without_public_price":sum(p["current_price_rub"] is None for p in rows),
+              "records_with_actual_price_reduction":sum(p["discounted"] for p in rows),
+              "records_marked_sale":sum(p["marked_sale"] for p in rows),
+              "page_count":pages,
+              "errors_count":len(errors),
+              "first_page_changed_during_scan":first_changed,
+              "complete":complete
+          }
+          result={
+              "source_name":"Secret de Maison — официальный сайт",
+              "source_website":BASE+"/",
+              "source_catalog_url":CATALOG,
+              "checked_at_utc":datetime.now(timezone.utc).isoformat(timespec="seconds"),
+              "scan_started_at_utc":start,
+              "currency":"RUB",
+              "pricing_method":"last displayed price is the currently payable price; preceding struck-through price stored separately",
+              "notes":["Each record is an individual listing/product ID, not a model grouping.","Missing price is null; no value estimated.","Stock availability and online-order status are not guaranteed by listing.","All data is a timestamped public snapshot and may subsequently change."],
+              "statistics":stats,
+              "errors":errors,
+              "products":rows
+          }
+          with open(OUT,"w",encoding="utf-8") as f:
+              json.dump(result,f,ensure_ascii=False,indent=2)
+          print("FINAL_STATISTICS="+json.dumps(stats,ensure_ascii=False),flush=True)
+          print("OUTPUT",OUT,os.path.getsize(OUT),"bytes",flush=True)
+          if not complete:
+              print("WARNING: Catalog export incomplete or changed during collection",flush=True)
           PY
+          python3 price_export.py
+      - name: Upload JSON snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: secret-de-maison-current-prices-2026-10-09
+          path: secret-de-maison-current-prices-2026-10-09.json
+          if-no-files-found: error
+          retention-days: 7
