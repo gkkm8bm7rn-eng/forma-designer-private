@@ -80,8 +80,7 @@ function localAssetUrl(value){
   try{
     var url=new URL(value,location.href);
     if(url.hostname!==GITHUB_HOST||url.pathname.indexOf(GITHUB_PREFIX)!==0)return value;
-    if(location.hostname===GITHUB_HOST)return value;
-    return new URL(url.pathname.slice('/tetopt'.length)+url.search,location.origin).href;
+    return new URL('assets/'+url.pathname.slice(GITHUB_PREFIX.length)+url.search,new URL('./',document.baseURI)).href;
   }catch{return value}
 }
 function localizeMedia(root){
