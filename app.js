@@ -115,7 +115,16 @@ function instantScroll(target){
 function restoreCatalog(snapshot={},y=0){Object.assign(state,{categoryMain:'all',categoryCode:'all',search:'',sort:'featured',page:1,min:'',max:'',multi:false,newOnly:false,view:'catalog'},snapshot);expandedMobileCategory=state.categoryMain==='all'?null:state.categoryMain;$('#searchInput').value=state.search;$('#sortSelect').value=state.sort;$('#priceMin').value=state.min;$('#priceMax').value=state.max;$('#multiVariant').checked=state.multi;renderCategories();applyFilters();requestAnimationFrame(()=>instantScroll(Number(y)||0))}
 function withCatalogPrices(full,p){
   const prices=new Map(p.variants.map(variant=>[String(variant.sourceId),variant]));
-  const variants=full.variants.filter(variant=>!UNPUBLISHED_SOURCE_IDS.has(Number(variant.sourceId))).map(variant=>prices.has(String(variant.sourceId))?{...variant,wholesalePrice:prices.get(String(variant.sourceId)).wholesalePrice,designerPrice:prices.get(String(variant.sourceId)).designerPrice,designerDiscountPercent:prices.get(String(variant.sourceId)).designerDiscountPercent,retailPrice:prices.get(String(variant.sourceId)).retailPrice}:variant);
+  const variants=full.variants.filter(variant=>!UNPUBLISHED_SOURCE_IDS.has(Number(variant.sourceId))).map(variant=>{
+    const price=prices.get(String(variant.sourceId));
+    if(!price)return variant;
+    return {...variant,
+      wholesalePrice:Number(price.designerPrice)>0?Number(price.designerPrice):price.wholesalePrice,
+      designerPrice:price.designerPrice,
+      designerDiscountPercent:price.designerDiscountPercent,
+      retailPrice:price.retailPrice
+    };
+  });
   return{...full,variants,variantCount:variants.length,name:p.name,constructionKey:p.constructionKey,categoryCodes:p.categoryCodes};
 }
 async function getFullProduct(p){if(state.detailCache.has(p.id))return withCatalogPrices(state.detailCache.get(p.id),p);const r=await fetch(DATA_BASE+p.detailShard);if(!r.ok)throw Error(`HTTP ${r.status}`);const d=await r.json();Object.values(d.products).forEach(x=>state.detailCache.set(x.id,enrichCatalogProduct(x)));return withCatalogPrices(state.detailCache.get(p.id)||p,p)}
