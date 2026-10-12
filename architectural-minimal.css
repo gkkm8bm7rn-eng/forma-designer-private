@@ -310,3 +310,80 @@ html body .catalog-section>.section-heading{min-height:52px!important}
   html body .card-photo-position,
   html body .gallery-nav{-webkit-backdrop-filter:none;backdrop-filter:none}
 }
+
+
+/* Respect the hidden attribute even when legacy button styles use !important. */
+html body .product-card .quick-add[hidden],
+html body .recent-card .recent-add[hidden]{
+  display:none!important;
+}
+
+/* Cart feedback: price stays in its own row; compact, accessible quantity control follows. */
+.product-bottom.has-cart-quantity,
+.recent-bottom.has-cart-quantity{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr)!important;
+  align-items:stretch!important;
+  gap:8px!important;
+}
+.product-bottom.has-cart-quantity>.card-cart-quantity,
+.recent-bottom.has-cart-quantity>.card-cart-quantity{
+  width:100%;
+  min-width:0;
+  margin:0;
+  grid-template-columns:44px minmax(0,1fr) 44px;
+  gap:6px;
+}
+html body .card-cart-quantity span{
+  white-space:nowrap;
+  overflow:hidden;
+  font-size:14px;
+}
+html body .card-cart-quantity strong{margin:0;font-size:15px}
+
+/* Mobile navigation and feedback: no blur/compositor effects on Safari. */
+@media(max-width:640px){
+  html body .mobile-category-hint{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:7px;
+    min-height:30px;
+    padding:7px 12px;
+    background:#f7f7f7!important;
+    color:#757575!important;
+    font-size:11px;
+    font-weight:550;
+    letter-spacing:0;
+    text-align:center;
+  }
+  html body .mobile-scroll-button{
+    width:32px;
+    height:32px;
+    min-width:32px;
+    border:1px solid #d0d0d0;
+    border-radius:50%!important;
+    background:#fff;
+    box-shadow:0 2px 7px rgba(0,0,0,.08);
+    color:#555!important;
+  }
+  html body .mobile-scroll-button:focus-visible{
+    outline:2px solid #333;
+    outline-offset:2px;
+  }
+  html body .card-cart-quantity button{
+    min-width:44px;
+    min-height:44px;
+  }
+  html body #toast{
+    top:74px;
+    bottom:auto;
+    max-width:calc(100vw - 36px);
+    padding:10px 16px;
+    border-radius:7px;
+    font-size:13px;
+    line-height:1.25;
+    text-align:center;
+    box-shadow:0 8px 24px rgba(0,0,0,.18);
+  }
+}
