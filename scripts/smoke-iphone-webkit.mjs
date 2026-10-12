@@ -4,10 +4,10 @@ import { webkit, devices } from 'playwright';
 const browser=await webkit.launch({headless:true});
 const errors=[];
 try {
-  const context=await browser.newContext({...devices['iPhone 13'], reducedMotion:'reduce', serviceWorkers:'allow'});
+  const context=await browser.newContext({...devices['iPhone 13'], serviceWorkers:'allow'});
   const page=await context.newPage();
   page.on('pageerror',error=>errors.push(error.message));
-  const url='http://127.0.0.1:8765/';
+  const url='http://127.0.0.1:8765/?tetopt_internal=on';
   for (let visit=1;visit<=2;visit++){
     if(visit===1) await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000});
     else await page.reload({waitUntil:'domcontentloaded',timeout:45000});
