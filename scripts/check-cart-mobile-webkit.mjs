@@ -54,14 +54,16 @@ async function measure(page,selector){
     const price=wrap.querySelector('.price-stack,.recent-prices');
     const step=wrap.querySelector('.card-cart-quantity');
     const numeric=step.querySelector('span');
+    const addButton=wrap.querySelector('[data-add]');
     const toast=document.querySelector('#toast');
     const header=document.querySelector('.site-header');
     const rect=e=>{const r=e.getBoundingClientRect();return{left:r.left,right:r.right,top:r.top,bottom:r.bottom,width:r.width,height:r.height}};
-    return {wrap:rect(wrap),price:rect(price),step:rect(step),counter:numeric.textContent.trim(),btns:[...step.querySelectorAll('button')].map(rect),toast:rect(toast),toastTopGap:toast.getBoundingClientRect().top-header.getBoundingClientRect().bottom,viewport:innerWidth};
+    return {wrap:rect(wrap),price:rect(price),step:rect(step),counter:numeric.textContent.trim(),hiddenAddDisplay:getComputedStyle(addButton).display,btns:[...step.querySelectorAll('button')].map(rect),toast:rect(toast),toastTopGap:toast.getBoundingClientRect().top-header.getBoundingClientRect().bottom,viewport:innerWidth};
   },selector);
 }
 function assertNoOverlap(m,width,kind){
-  assert.ok(m.step.top>=m.price.bottom-2,kind+' stepper overlays price: '+JSON.stringify(m));
+  assert.equal(m.hiddenAddDisplay,'none',kind+' original add button remains visible: '+JSON.stringify(m));
+  assert.ok(m.step.top>=m.price.bottom-2&&m.step.top-m.price.bottom<=20,kind+' stepper must follow price without overlap or empty button row: '+JSON.stringify(m));
   assert.ok(m.step.left>=m.wrap.left-2&&m.step.right<=m.wrap.right+2,kind+' stepper exceeds its card: '+JSON.stringify(m));
   assert.ok(m.btns.every(x=>x.width>=40&&x.height>=40),kind+' controls too small');
   assert.ok(m.wrap.right<=width+2,kind+' card exceeds the viewport');
