@@ -27,7 +27,22 @@ try {
     assert.ok(check.scrollWidth<=check.viewport+2,'Mobile layout overflows horizontally');
     console.log('PASS: iPhone WebKit visit '+visit+'; '+JSON.stringify(check));
   }
-  await page.locator('#productGrid .product-image-stage').first().click();
+  const target=page.locator('#productGrid .product-image-stage').first();
+  console.log('Before tapping product: '+JSON.stringify(await page.evaluate(()=>{
+    const el=document.querySelector('#productGrid .product-image-stage');
+    const r=el.getBoundingClientRect();
+    return {scrollY,top:r.top,height:r.height,scrollBehavior:getComputedStyle(document.documentElement).scrollBehavior};
+  })));
+  await page.evaluate(()=>{
+    document.documentElement.style.scrollBehavior='auto';
+    document.querySelector('#productGrid .product-image-stage')?.scrollIntoView({behavior:'instant',block:'center'});
+  });
+  console.log('After direct scroll: '+JSON.stringify(await page.evaluate(()=>{
+    const el=document.querySelector('#productGrid .product-image-stage');
+    const r=el.getBoundingClientRect();
+    return {scrollY,top:r.top,height:r.height};
+  })));
+  await target.click({timeout:12000});
   await page.locator('.product-dialog[open]').waitFor({timeout:30000});
   assert.ok(await page.locator('#productDetail').textContent(),'Product details are empty');
   assert.deepEqual(errors,[],'JavaScript page errors');
