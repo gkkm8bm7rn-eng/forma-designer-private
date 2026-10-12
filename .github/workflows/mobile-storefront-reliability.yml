@@ -2,8 +2,6 @@ name: Mobile storefront reliability
 on:
   pull_request:
     branches: [main]
-  push:
-    branches: [fix/mobile-reliability-20261012]
 permissions:
   contents: read
 jobs:
