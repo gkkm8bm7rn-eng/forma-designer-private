@@ -299,3 +299,14 @@ html body .catalog-section>.section-heading{min-height:52px!important}
 @media(max-width:359px){
  html body .catalog-section>.section-heading{min-height:57px!important}
 }
+
+/* iOS Safari scroll painting: avoid root clipping and many blurred compositor layers.
+   Keep card sizes, grid, colors and interactions unchanged. */
+@media (max-width:640px){
+  html,body{overflow-x:visible}
+  html{scroll-behavior:auto}
+  html body .site-header{-webkit-backdrop-filter:none;backdrop-filter:none}
+  html body .card-photo-nav,
+  html body .card-photo-position,
+  html body .gallery-nav{-webkit-backdrop-filter:none;backdrop-filter:none}
+}
