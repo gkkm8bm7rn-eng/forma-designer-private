@@ -370,7 +370,7 @@ html body .card-cart-quantity strong{margin:0;font-size:15px}
     min-height:44px;
   }
   html body #toast{
-    bottom:calc(60px + env(safe-area-inset-bottom,0px));
+    bottom:max(86px, calc(52px + env(safe-area-inset-bottom,0px)));
     max-width:calc(100vw - 36px);
     padding:10px 16px;
     border-radius:7px;
