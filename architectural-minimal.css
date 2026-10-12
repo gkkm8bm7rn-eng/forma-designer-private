@@ -312,6 +312,12 @@ html body .catalog-section>.section-heading{min-height:52px!important}
 }
 
 
+/* Respect the hidden attribute even when legacy button styles use !important. */
+html body .product-card .quick-add[hidden],
+html body .recent-card .recent-add[hidden]{
+  display:none!important;
+}
+
 /* Cart feedback: price stays in its own row; compact, accessible quantity control follows. */
 .product-bottom.has-cart-quantity,
 .recent-bottom.has-cart-quantity{
