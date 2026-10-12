@@ -28,7 +28,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "visually-approved-current",
           "designerDiscountPercent": 10,
-          "designerPrice": 2115
+          "designerPrice": 2120
         },
         {
           "sourceId": 690,
@@ -80,7 +80,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 3744
+          "designerPrice": 3750
         }
       ]
     },
@@ -186,7 +186,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 6669
+          "designerPrice": 6670
         },
         {
           "sourceId": 1733,
@@ -209,7 +209,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 15173,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=15173",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 9350,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -271,7 +273,9 @@
             "assets/products/1646/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 266390,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -307,7 +311,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 9410,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -343,7 +349,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 64030,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -379,7 +387,9 @@
               "label": "чёрный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 11730,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1753,
@@ -448,7 +458,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 26158,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=26158",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 13210,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -478,7 +490,9 @@
             "assets/products/1648/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 123760,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -514,7 +528,9 @@
               "label": "натуральный",
               "hex": "#b99b71"
             }
-          }
+          },
+          "designerPrice": 72930,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -607,7 +623,9 @@
             "assets/products/1645/02.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 371620,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -639,7 +657,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 20295
+          "designerPrice": 20300
         },
         {
           "sourceId": 1318,
@@ -662,7 +680,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 20295
+          "designerPrice": 20300
         },
         {
           "sourceId": 1319,
@@ -685,7 +703,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 20295
+          "designerPrice": 20300
         },
         {
           "sourceId": 1320,
@@ -708,7 +726,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 20295
+          "designerPrice": 20300
         }
       ]
     },
@@ -803,7 +821,9 @@
             "assets/products/1647/02.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 446590,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -833,8 +853,8 @@
           ],
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
-          "designerDiscountPercent": 14,
-          "designerPrice": 18696
+          "designerDiscountPercent": 15,
+          "designerPrice": 18480
         },
         {
           "sourceId": 1373,
@@ -856,7 +876,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 19566
+          "designerPrice": 19570
         },
         {
           "sourceId": 1374,
@@ -878,7 +898,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 19566
+          "designerPrice": 19570
         },
         {
           "sourceId": 1375,
@@ -901,7 +921,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 19566
+          "designerPrice": 19570
         }
       ]
     },
@@ -965,8 +985,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 19,
-          "designerPrice": 5468
+          "designerDiscountPercent": 15,
+          "designerPrice": 5740
         }
       ]
     },
@@ -1003,8 +1023,8 @@
               "hex": "#76533e"
             }
           },
-          "designerDiscountPercent": 16,
-          "designerPrice": 8568
+          "designerDiscountPercent": 15,
+          "designerPrice": 8670
         }
       ]
     },
@@ -1040,7 +1060,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 26070,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1070,7 +1092,9 @@
             "assets/products/1402/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 4080,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1405,
@@ -1138,7 +1162,9 @@
             "assets/products/1404/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 5590,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1945,
@@ -1163,7 +1189,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 25747,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=25747",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 5590,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1200,7 +1228,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 6075
+          "designerPrice": 6080
         },
         {
           "sourceId": 1475,
@@ -1228,7 +1256,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 6075
+          "designerPrice": 6080
         }
       ]
     },
@@ -1325,7 +1353,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 11907
+          "designerPrice": 11910
         },
         {
           "sourceId": 1366,
@@ -1367,7 +1395,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 11907
+          "designerPrice": 11910
         },
         {
           "sourceId": 1931,
@@ -1455,7 +1483,9 @@
               "label": "натуральный",
               "hex": "#b99b71"
             }
-          }
+          },
+          "designerPrice": 69360,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1493,7 +1523,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 20727
+          "designerPrice": 20730
         },
         {
           "sourceId": 1958,
@@ -1520,7 +1550,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 9894,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=9894",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 11960,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1556,8 +1588,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 10,
-          "designerPrice": 77400
+          "designerDiscountPercent": 15,
+          "designerPrice": 73100
         }
       ]
     },
@@ -1595,7 +1627,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 33156
+          "designerPrice": 33160
         }
       ]
     },
@@ -1625,7 +1657,9 @@
             "assets/products/15/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 75870,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1661,7 +1695,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 23920,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1955,
@@ -1688,7 +1724,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 7190,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=7190",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 13810,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1784,7 +1822,9 @@
               "label": "белый",
               "hex": "#f5f3ee"
             }
-          }
+          },
+          "designerPrice": 13330,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1741,
@@ -1836,7 +1876,9 @@
             "assets/products/114/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 25410,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1751,
@@ -1861,7 +1903,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 19730,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=19730",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 22260,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1752,
@@ -1886,7 +1930,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 20622,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=20622",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 22260,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1924,7 +1970,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 20664
+          "designerPrice": 20670
         },
         {
           "sourceId": 1956,
@@ -1951,7 +1997,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 5791,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=5791",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 14230,
+          "designerDiscountPercent": 15
         }
       ]
     }

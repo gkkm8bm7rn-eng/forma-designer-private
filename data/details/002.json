@@ -128,7 +128,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 4986
+          "designerPrice": 4990
         },
         {
           "sourceId": 1491,
@@ -150,7 +150,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 4986
+          "designerPrice": 4990
         },
         {
           "sourceId": 1492,
@@ -173,7 +173,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 4986
+          "designerPrice": 4990
         }
       ]
     },
@@ -203,7 +203,9 @@
             "assets/products/853/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 19880,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 854,
@@ -223,7 +225,9 @@
             "assets/products/854/01.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "visually-approved-local-replacement"
+          "primaryImageStatus": "visually-approved-local-replacement",
+          "designerPrice": 19880,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 855,
@@ -244,7 +248,9 @@
             "assets/products/855/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "curated-local-cover"
+          "primaryImageStatus": "curated-local-cover",
+          "designerPrice": 19880,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 856,
@@ -265,7 +271,9 @@
             "assets/products/856/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 19880,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 857,
@@ -345,7 +353,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 26660,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 861,
@@ -392,7 +402,9 @@
             "assets/products/859/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 19880,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1841,
@@ -448,7 +460,7 @@
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=26225",
           "photoBankEnrichedAt": "2026-10-08",
           "designerDiscountPercent": 15,
-          "designerPrice": 19873
+          "designerPrice": 19880
         },
         {
           "sourceId": 1843,
@@ -504,7 +516,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 20979
+          "designerPrice": 20980
         }
       ]
     },
@@ -626,7 +638,9 @@
               "label": "бежевый",
               "hex": "#cbbb9f"
             }
-          }
+          },
+          "designerPrice": 4410,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 903,
@@ -680,7 +694,9 @@
               "label": "бежевый",
               "hex": "#cbbb9f"
             }
-          }
+          },
+          "designerPrice": 4410,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1846,
@@ -707,7 +723,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 25127,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=25127",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 5240,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -814,7 +832,9 @@
           "photoBankCode": 19366,
           "photoBankSource": "https://tetchair.ru/products/kreslo-bergamo-hrom-22-kozh-zam-bezhevyy-36-34.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 16310,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 930,
@@ -850,7 +870,9 @@
           "photoBankCode": 19371,
           "photoBankSource": "https://tetchair.ru/products/kreslo-bergamo-hrom-22-flok-bezhevyy-7.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 15830,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 929,
@@ -944,7 +966,9 @@
           "photoBankCode": 25886,
           "photoBankSource": "https://tetchair.ru/products/kreslo-bergamo-hrom-22-kozh-zam-sv-korichnevyy-13.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 16310,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 932,
@@ -980,7 +1004,9 @@
           "photoBankCode": 19374,
           "photoBankSource": "https://tetchair.ru/products/kreslo-bergamo-hrom-22-flok-seryy-29.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 15830,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 933,
@@ -1016,7 +1042,9 @@
           "photoBankCode": 19399,
           "photoBankSource": "https://tetchair.ru/products/kreslo-bergamo-hrom-22-tkan-temno-seryy-f68.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 16900,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1115,
@@ -1157,7 +1185,9 @@
           "photoBankCode": 21153,
           "photoBankSource": "https://tetchair.ru/products/kreslo-devon-22-kozh-zam-tkan-siniy-seryy-36-39-tw-12.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 11370,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 977,
@@ -1185,7 +1215,9 @@
           "photoBankCode": 19295,
           "photoBankSource": "https://tetchair.ru/products/kreslo-driver-22-kozh-zam-tkan-bezhevyy-bronza-36-34-21.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 11370,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 978,
@@ -1234,7 +1266,9 @@
           "photoBankCode": 19297,
           "photoBankSource": "https://tetchair.ru/products/kreslo-driver-22-kozh-zam-tkan-chernyy-krasnyy-36-6-08.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 11370,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 985,
@@ -1255,7 +1289,9 @@
             "assets/products/985/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 11060,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 980,
@@ -1283,7 +1319,9 @@
           "photoBankCode": 19298,
           "photoBankSource": "https://tetchair.ru/products/kreslo-driver-22-kozh-zam-tkan-chernyy-seryy-36-6-12.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 11370,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 984,
@@ -1304,7 +1342,9 @@
             "assets/products/984/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 11060,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 981,
@@ -1332,7 +1372,9 @@
           "photoBankCode": 19299,
           "photoBankSource": "https://tetchair.ru/products/kreslo-driver-22-kozh-zam-tkan-chernyy-bordo-36-6-13.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 11370,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 986,
@@ -1360,7 +1402,9 @@
           "photoBankCode": 19327,
           "photoBankSource": "https://tetchair.ru/products/kreslo-driver-22-kozh-zam-tkan-chernyy-chernyy-36-6-tw-11.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 11370,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 982,
@@ -1388,7 +1432,9 @@
           "photoBankCode": 19300,
           "photoBankSource": "https://tetchair.ru/products/kreslo-driver-22-kozh-zam-tkan-chernyy-siniy-36-6-10.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 11370,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 983,
@@ -1509,7 +1555,9 @@
           "photoBankCode": 19378,
           "photoBankSource": "https://tetchair.ru/products/kreslo-comfort-lt-22-kozh-zam-bezhevyy-36-34.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 12860,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 959,
@@ -1545,7 +1593,9 @@
           "photoBankCode": 19383,
           "photoBankSource": "https://tetchair.ru/products/kreslo-comfort-lt-22-flok-bezhevyy-7.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 12380,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 957,
@@ -1639,7 +1689,9 @@
           "photoBankCode": 25885,
           "photoBankSource": "https://tetchair.ru/products/kreslo-comfort-lt-22-kozh-zam-sv-korichnevyy-13.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 12860,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 958,
@@ -1659,7 +1711,9 @@
             "assets/products/958/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "visually-approved-current"
+          "primaryImageStatus": "visually-approved-current",
+          "designerPrice": 12860,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 964,
@@ -1767,7 +1821,9 @@
           "photoBankCode": 19386,
           "photoBankSource": "https://tetchair.ru/products/kreslo-comfort-lt-22-flok-seryy-29.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 12380,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 963,
@@ -1803,7 +1859,9 @@
           "photoBankCode": 19387,
           "photoBankSource": "https://tetchair.ru/products/kreslo-comfort-lt-22-flok-siniy-32.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 12380,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1865,
@@ -1865,7 +1923,9 @@
               "label": "серый",
               "hex": "#8b8b86"
             }
-          }
+          },
+          "designerPrice": 8630,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1033,
@@ -1915,7 +1975,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 4,
           "designerDiscountPercent": 10,
-          "designerPrice": 6066
+          "designerPrice": 6070
         },
         {
           "sourceId": 1027,
@@ -2053,7 +2113,9 @@
           "photoBankCode": 15055,
           "photoBankSource": "https://tetchair.ru/products/kreslo-melody-flok-siniy-32.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 8630,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1032,
@@ -2119,7 +2181,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 4,
           "designerDiscountPercent": 10,
-          "designerPrice": 6066
+          "designerPrice": 6070
         },
         {
           "sourceId": 1035,
@@ -2174,7 +2236,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 15056,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=15056",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 8630,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2213,7 +2277,9 @@
           "photoBankCode": 973,
           "photoBankSource": "https://tetchair.ru/products/kreslo-sn747-kozh-zam-bezhevyy-36-34.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 8930,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1126,
@@ -2249,7 +2315,9 @@
           "photoBankCode": 15143,
           "photoBankSource": "https://tetchair.ru/products/kreslo-sn747-flok-bezhevyy-7.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 8930,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1120,
@@ -2277,7 +2345,9 @@
           "photoBankCode": 1040,
           "photoBankSource": "https://tetchair.ru/products/kreslo-sn747-kozh-zam-chernyy-36-6.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 8930,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1122,
@@ -2349,7 +2419,9 @@
           "photoBankCode": 2151,
           "photoBankSource": "https://tetchair.ru/products/kreslo-sn747-tkan-seryy-207.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 8930,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1124,
@@ -2488,7 +2560,9 @@
           "photoBankCode": 12901,
           "photoBankSource": "https://tetchair.ru/products/kreslo-softy-lux-kozh-zam-bezhevyy-36-34.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 18330,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1064,
@@ -2522,7 +2596,9 @@
           "photoBankCode": 13593,
           "photoBankSource": "https://tetchair.ru/products/kreslo-softy-lux-flok-bezhevyy-7.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 17850,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1061,
@@ -2543,7 +2619,9 @@
             "assets/products/1061/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 18330,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1065,
@@ -2611,7 +2689,9 @@
           "photoBankCode": 13591,
           "photoBankSource": "https://tetchair.ru/products/kreslo-softy-lux-flok-seryy-29.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 17850,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1063,
@@ -2645,7 +2725,9 @@
           "photoBankCode": 13592,
           "photoBankSource": "https://tetchair.ru/products/kreslo-softy-lux-flok-siniy-32.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 17850,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1066,
@@ -2706,7 +2788,9 @@
               "label": "коричневый",
               "hex": "#76533e"
             }
-          }
+          },
+          "designerPrice": 19520,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1067,
@@ -2740,7 +2824,9 @@
           "photoBankCode": 13952,
           "photoBankSource": "https://tetchair.ru/products/kreslo-softy-lux-flok-rozovyy-137.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 17850,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1068,
@@ -2774,7 +2860,9 @@
           "photoBankCode": 25739,
           "photoBankSource": "https://tetchair.ru/products/kreslo-softy-lux-ekokozha-lux-classic-18-01-belyy.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 19520,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2806,7 +2894,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 15084
+          "designerPrice": 15090
         },
         {
           "sourceId": 870,
@@ -2829,7 +2917,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 15084
+          "designerPrice": 15090
         },
         {
           "sourceId": 872,
@@ -2916,7 +3004,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 14688
+          "designerPrice": 14690
         },
         {
           "sourceId": 875,
@@ -2939,7 +3027,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 14688
+          "designerPrice": 14690
         },
         {
           "sourceId": 876,
@@ -2968,7 +3056,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 14517
+          "designerPrice": 14520
         },
         {
           "sourceId": 877,
@@ -2997,7 +3085,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 14517
+          "designerPrice": 14520
         },
         {
           "sourceId": 1847,
@@ -3024,7 +3112,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 24945,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=24945",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 15830,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -3306,7 +3396,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2493
+          "designerPrice": 2500
         },
         {
           "sourceId": 367,
@@ -3343,7 +3433,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2493
+          "designerPrice": 2500
         },
         {
           "sourceId": 370,
@@ -3384,7 +3474,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2493
+          "designerPrice": 2500
         },
         {
           "sourceId": 373,
@@ -3417,7 +3507,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2493
+          "designerPrice": 2500
         },
         {
           "sourceId": 375,
@@ -3528,7 +3618,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2493
+          "designerPrice": 2500
         },
         {
           "sourceId": 382,
@@ -3572,7 +3662,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2493
+          "designerPrice": 2500
         },
         {
           "sourceId": 388,
@@ -3615,7 +3705,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 2620,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 391,
@@ -3642,7 +3734,9 @@
               "label": "белый",
               "hex": "#f5f3ee"
             }
-          }
+          },
+          "designerPrice": 2620,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 393,
@@ -3753,7 +3847,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2493
+          "designerPrice": 2500
         },
         {
           "sourceId": 400,
@@ -3794,7 +3888,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2493
+          "designerPrice": 2500
         },
         {
           "sourceId": 403,
@@ -3989,7 +4083,9 @@
               "label": "белый",
               "hex": "#f5f3ee"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 695,
@@ -4024,7 +4120,9 @@
               "label": "хром",
               "hex": "#b9bab8"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 698,
@@ -4059,7 +4157,9 @@
               "label": "хром",
               "hex": "#b9bab8"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 701,
@@ -4094,7 +4194,9 @@
               "label": "бежевый",
               "hex": "#cbbb9f"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 704,
@@ -4126,7 +4228,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 707,
@@ -4155,7 +4259,9 @@
             "assets/products/709/01.webp"
           ],
           "localImageCount": 12,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 710,
@@ -4184,7 +4290,9 @@
             "assets/products/712/03.webp"
           ],
           "localImageCount": 12,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 713,
@@ -4219,7 +4327,9 @@
               "label": "хром",
               "hex": "#b9bab8"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 716,
@@ -4254,7 +4364,9 @@
               "label": "хром",
               "hex": "#b9bab8"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 719,
@@ -4289,7 +4401,9 @@
               "label": "хром",
               "hex": "#b9bab8"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 722,
@@ -4320,7 +4434,9 @@
               "label": "хром",
               "hex": "#b9bab8"
             }
-          }
+          },
+          "designerPrice": 3460,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 724,
@@ -4387,7 +4503,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2925
+          "designerPrice": 2930
         },
         {
           "sourceId": 526,
@@ -4414,7 +4530,7 @@
           "localImageCount": 8,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 3339
+          "designerPrice": 3340
         },
         {
           "sourceId": 524,
@@ -4437,7 +4553,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 2925
+          "designerPrice": 2930
         },
         {
           "sourceId": 530,
@@ -4464,7 +4580,7 @@
           "localImageCount": 8,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 3339
+          "designerPrice": 3340
         },
         {
           "sourceId": 525,
@@ -4486,7 +4602,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "visually-approved-current",
           "designerDiscountPercent": 10,
-          "designerPrice": 2925
+          "designerPrice": 2930
         },
         {
           "sourceId": 529,
@@ -4511,7 +4627,7 @@
           "localImageCount": 6,
           "primaryImageStatus": "visually-approved-current",
           "designerDiscountPercent": 10,
-          "designerPrice": 3339
+          "designerPrice": 3340
         },
         {
           "sourceId": 527,
@@ -4538,7 +4654,7 @@
           "localImageCount": 8,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 3339
+          "designerPrice": 3340
         },
         {
           "sourceId": 531,
@@ -4563,7 +4679,7 @@
           "localImageCount": 6,
           "primaryImageStatus": "visually-approved-current",
           "designerDiscountPercent": 10,
-          "designerPrice": 3339
+          "designerPrice": 3340
         },
         {
           "sourceId": 532,
@@ -4588,7 +4704,7 @@
           "localImageCount": 6,
           "primaryImageStatus": "visually-approved-current",
           "designerDiscountPercent": 10,
-          "designerPrice": 3339
+          "designerPrice": 3340
         },
         {
           "sourceId": 528,
@@ -4615,7 +4731,7 @@
           "localImageCount": 8,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 3339
+          "designerPrice": 3340
         },
         {
           "sourceId": 533,
@@ -4637,7 +4753,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "visually-approved-current",
           "designerDiscountPercent": 10,
-          "designerPrice": 2925
+          "designerPrice": 2930
         },
         {
           "sourceId": 541,
@@ -4936,7 +5052,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 421,
@@ -4967,7 +5085,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 423,
@@ -5006,7 +5126,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 426,
@@ -5045,7 +5167,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 431,
@@ -5076,7 +5200,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 432,
@@ -5115,7 +5241,9 @@
               "label": "белый",
               "hex": "#f5f3ee"
             }
-          }
+          },
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 440,
@@ -5154,7 +5282,9 @@
               "label": "натуральный",
               "hex": "#b99b71"
             }
-          }
+          },
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 443,
@@ -5191,7 +5321,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 3087
+          "designerPrice": 3090
         },
         {
           "sourceId": 446,
@@ -5226,7 +5356,9 @@
               "label": "натуральный",
               "hex": "#b99b71"
             }
-          }
+          },
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 452,
@@ -5280,7 +5412,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 24343,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=24343",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1807,
@@ -5303,7 +5437,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 24344,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=24344",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1808,
@@ -5326,7 +5462,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 24349,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=24349",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 3280,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -5470,7 +5608,9 @@
               "label": "темно-серый",
               "hex": "#565854"
             }
-          }
+          },
+          "designerPrice": 2980,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 650,
@@ -5520,7 +5660,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 12654,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=12654",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 2980,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -5558,7 +5700,9 @@
             "assets/products/663/01.webp"
           ],
           "localImageCount": 12,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 1670,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 673,
@@ -5586,7 +5730,7 @@
           "localImageCount": 9,
           "primaryImageStatus": "visually-approved-current",
           "designerDiscountPercent": 10,
-          "designerPrice": 1413
+          "designerPrice": 1420
         },
         {
           "sourceId": 676,
@@ -5614,7 +5758,7 @@
           "localImageCount": 9,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 1413
+          "designerPrice": 1420
         },
         {
           "sourceId": 679,
@@ -5663,7 +5807,9 @@
             "assets/products/683/03.webp"
           ],
           "localImageCount": 6,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 1670,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 686,
@@ -5706,7 +5852,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 19827,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=19827",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 1670,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1826,
@@ -5729,7 +5877,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 19828,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=19828",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 1670,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1827,
@@ -5752,7 +5902,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 19829,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=19829",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 1670,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -5787,7 +5939,9 @@
               "label": "серый",
               "hex": "#8b8b86"
             }
-          }
+          },
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1241,
@@ -5841,7 +5995,9 @@
           "photoBankCode": 25725,
           "photoBankSource": "https://tetchair.ru/products/kreslo-one-kozh-zam-bezhevyy-36-34.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1242,
@@ -5871,7 +6027,9 @@
           "photoBankCode": 21660,
           "photoBankSource": "https://tetchair.ru/products/kreslo-one-flok-molochnyy-4.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1243,
@@ -5955,7 +6113,9 @@
           "photoBankCode": 25956,
           "photoBankSource": "https://tetchair.ru/products/kreslo-one-van-velyur-oliva-23.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1245,
@@ -5983,7 +6143,9 @@
           "photoBankCode": 25726,
           "photoBankSource": "https://tetchair.ru/products/kreslo-one-kozh-zam-belyy-36-01.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1248,
@@ -6051,7 +6213,9 @@
           "photoBankCode": 25730,
           "photoBankSource": "https://tetchair.ru/products/kreslo-one-velyur-chernyy-35.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1250,
@@ -6079,7 +6243,9 @@
           "photoBankCode": 25856,
           "photoBankSource": "https://tetchair.ru/products/kreslo-one-kozh-zam-chernyy-36-6.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1252,
@@ -6107,7 +6273,9 @@
           "photoBankCode": 25955,
           "photoBankSource": "https://tetchair.ru/products/kreslo-one-van-velyur-bordovyy-10.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1912,
@@ -6161,7 +6329,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 25728,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=25728",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -6206,7 +6376,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 3,
           "designerDiscountPercent": 10,
-          "designerPrice": 18828
+          "designerPrice": 18830
         },
         {
           "sourceId": 996,
@@ -6242,7 +6412,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 3,
           "designerDiscountPercent": 10,
-          "designerPrice": 18828
+          "designerPrice": 18830
         },
         {
           "sourceId": 995,
@@ -6278,7 +6448,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 4,
           "designerDiscountPercent": 10,
-          "designerPrice": 18828
+          "designerPrice": 18830
         },
         {
           "sourceId": 998,
@@ -6336,7 +6506,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 4,
           "designerDiscountPercent": 10,
-          "designerPrice": 19395
+          "designerPrice": 19400
         }
       ]
     },
@@ -6546,7 +6716,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 15330,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=15330",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 9170,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -6605,7 +6777,9 @@
             "assets/products/1086/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "visually-approved-current"
+          "primaryImageStatus": "visually-approved-current",
+          "designerPrice": 11550,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1091,
@@ -6633,7 +6807,9 @@
           "photoBankCode": 25888,
           "photoBankSource": "https://tetchair.ru/products/kreslo-trendy-22-kozh-zam-tkan-sv-korichnevyy-bronzovyy-13-21.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 11550,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1085,
@@ -6663,7 +6839,9 @@
           "photoBankCode": 19515,
           "photoBankSource": "https://tetchair.ru/products/kreslo-trendy-22-kozh-zam-tkan-chernyy-seryy-36-6-12.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 11550,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1087,
@@ -6719,7 +6897,9 @@
           "photoBankCode": 19519,
           "photoBankSource": "https://tetchair.ru/products/kreslo-trendy-22-kozh-zam-tkan-zelenyy-seryy-36-001-12.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 11550,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1089,
@@ -6830,7 +7010,9 @@
           "photoBankCode": 21871,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-flok-seryy-29.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1224,
@@ -6894,7 +7076,9 @@
           "photoBankCode": 25731,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-kozh-zam-bezhevyy-36-34.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1225,
@@ -6924,7 +7108,9 @@
           "photoBankCode": 21873,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-flok-molochnyy-4.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1226,
@@ -6954,7 +7140,9 @@
           "photoBankCode": 21874,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-kozh-zam-chernyy-36-6.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1233,
@@ -6988,7 +7176,9 @@
           "photoBankCode": 25736,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-velyur-chernyy-35.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1227,
@@ -7044,7 +7234,9 @@
           "photoBankCode": 25954,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-fiesta-velyur-oliva-23.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1229,
@@ -7072,7 +7264,9 @@
           "photoBankCode": 25732,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-kozh-zam-belyy-36-01.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1230,
@@ -7106,7 +7300,9 @@
           "photoBankCode": 25733,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-velyur-korichnevyy-6.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1231,
@@ -7140,7 +7336,9 @@
           "photoBankCode": 25734,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-velyur-siniy-32.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1232,
@@ -7174,7 +7372,9 @@
           "photoBankCode": 25735,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-velyur-rozovyy-137.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1234,
@@ -7202,7 +7402,9 @@
           "photoBankCode": 25953,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-fiesta-velyur-bordovyy-10.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -7242,7 +7444,9 @@
               "label": "белый",
               "hex": "#f5f3ee"
             }
-          }
+          },
+          "designerPrice": 2270,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 632,
@@ -7394,7 +7598,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 5247
+          "designerPrice": 5250
         },
         {
           "sourceId": 469,
@@ -7516,7 +7720,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 5247
+          "designerPrice": 5250
         }
       ]
     },
@@ -7792,7 +7996,9 @@
           "photoBankCode": 13862,
           "photoBankSource": "https://tetchair.ru/products/kreslo-york-flok-siniy-32.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 14700,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1117,
@@ -7843,7 +8049,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 13859,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=13859",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 14700,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -7970,7 +8178,9 @@
           "photoBankCode": 25662,
           "photoBankSource": "https://tetchair.ru/products/kreslo-rainbow-grey-ceryy-.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 12740,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -8051,7 +8261,9 @@
           "photoBankCode": 13564,
           "photoBankSource": "https://tetchair.ru/products/kreslo-style-flok-siniy-32.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 7800,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1073,
@@ -8081,7 +8293,9 @@
           "photoBankCode": 13565,
           "photoBankSource": "https://tetchair.ru/products/kreslo-style-flok-oliva-23.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 7800,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1075,
@@ -8273,7 +8487,9 @@
               "label": "бежевый",
               "hex": "#cbbb9f"
             }
-          }
+          },
+          "designerPrice": 5010,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 888,
@@ -8294,7 +8510,9 @@
             "assets/products/888/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 5220,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 891,
@@ -8375,7 +8593,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 25084,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=25084",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 4930,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1850,
@@ -8461,7 +8681,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 2664
+          "designerPrice": 2670
         },
         {
           "sourceId": 918,
@@ -8538,7 +8758,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 2646
+          "designerPrice": 2650
         }
       ]
     },
@@ -8625,7 +8845,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3750,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 340,
@@ -8662,7 +8884,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 3177
+          "designerPrice": 3180
         },
         {
           "sourceId": 344,
@@ -8739,7 +8961,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 19232,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=19232",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 3750,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1798,
@@ -8799,7 +9023,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4536
+          "designerPrice": 4540
         },
         {
           "sourceId": 124,
@@ -8827,7 +9051,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4536
+          "designerPrice": 4540
         },
         {
           "sourceId": 126,
@@ -8855,7 +9079,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4536
+          "designerPrice": 4540
         },
         {
           "sourceId": 125,
@@ -8883,7 +9107,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4536
+          "designerPrice": 4540
         }
       ]
     },
@@ -8920,7 +9144,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4761
+          "designerPrice": 4770
         },
         {
           "sourceId": 128,
@@ -8948,7 +9172,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4761
+          "designerPrice": 4770
         },
         {
           "sourceId": 130,
@@ -8976,7 +9200,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4761
+          "designerPrice": 4770
         },
         {
           "sourceId": 129,
@@ -9038,7 +9262,9 @@
               "label": "орех",
               "hex": "#76563e"
             }
-          }
+          },
+          "designerPrice": 10150,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 193,
@@ -9064,7 +9290,9 @@
               "label": "белый",
               "hex": "#f5f3ee"
             }
-          }
+          },
+          "designerPrice": 10150,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 194,
@@ -9085,7 +9313,9 @@
             "assets/products/194/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 10150,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 195,
@@ -9112,7 +9342,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 10150,
+          "designerDiscountPercent": 15
         }
       ]
     }

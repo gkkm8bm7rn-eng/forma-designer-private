@@ -141,7 +141,9 @@
               "label": "натуральный",
               "hex": "#b99b71"
             }
-          }
+          },
+          "designerPrice": 5840,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -177,7 +179,9 @@
               "label": "натуральный",
               "hex": "#b99b71"
             }
-          }
+          },
+          "designerPrice": 5840,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -245,7 +249,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 12222
+          "designerPrice": 12230
         }
       ]
     },
@@ -338,7 +342,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -490,7 +496,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 19258,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=19258",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 3810,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1832,
@@ -555,7 +563,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 9252
+          "designerPrice": 9260
         }
       ]
     },
@@ -593,7 +601,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 11547
+          "designerPrice": 11550
         },
         {
           "sourceId": 1775,
@@ -718,7 +726,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3810,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -802,7 +812,9 @@
               "label": "слоновая кость",
               "hex": "#e5dcc8"
             }
-          }
+          },
+          "designerPrice": 5780,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -872,7 +884,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4941
+          "designerPrice": 4950
         }
       ]
     },
@@ -966,7 +978,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 4194
+          "designerPrice": 4200
         }
       ]
     },
@@ -1096,7 +1108,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 5202
+          "designerPrice": 5210
         }
       ]
     },
@@ -1132,7 +1144,9 @@
               "label": "чёрный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 34750,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 119,
@@ -1159,7 +1173,9 @@
               "label": "чёрный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 34750,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1257,7 +1273,9 @@
             "assets/products/1665/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 33660,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1318,7 +1336,9 @@
               "label": "белый",
               "hex": "#f5f3ee"
             }
-          }
+          },
+          "designerPrice": 17620,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1449,7 +1469,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 24852,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=24852",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 12500,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1564,7 +1586,9 @@
           "photoBankCode": 13665,
           "photoBankSource": "https://tetchair.ru/products/kreslo-bend-oreh-kozh-zam-chernyy.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 16010,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1902,

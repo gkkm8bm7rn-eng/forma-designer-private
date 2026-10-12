@@ -50,7 +50,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 4275
+          "designerPrice": 4280
         },
         {
           "sourceId": 199,
@@ -73,7 +73,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 4275
+          "designerPrice": 4280
         },
         {
           "sourceId": 200,
@@ -96,7 +96,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 4275
+          "designerPrice": 4280
         }
       ]
     },
@@ -134,7 +134,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4419
+          "designerPrice": 4420
         },
         {
           "sourceId": 136,
@@ -163,7 +163,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4419
+          "designerPrice": 4420
         },
         {
           "sourceId": 138,
@@ -191,7 +191,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4419
+          "designerPrice": 4420
         },
         {
           "sourceId": 137,
@@ -408,7 +408,9 @@
             "assets/products/821/01.webp"
           ],
           "localImageCount": 12,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 2380,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 824,
@@ -435,7 +437,7 @@
           "localImageCount": 8,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 2259
+          "designerPrice": 2260
         },
         {
           "sourceId": 825,
@@ -491,7 +493,7 @@
           "localImageCount": 12,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 2259
+          "designerPrice": 2260
         }
       ]
     },
@@ -641,7 +643,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 15993
+          "designerPrice": 16000
         },
         {
           "sourceId": 1481,
@@ -758,7 +760,9 @@
           "photoBankCode": 19961,
           "photoBankSource": "https://tetchair.ru/products/kreslo-dublin-velyur-clermon-bezhevyy-40.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 12620,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1868,
@@ -785,7 +789,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 19269,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=19269",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 12620,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -824,7 +830,9 @@
           "photoBankCode": 20172,
           "photoBankSource": "https://tetchair.ru/products/kreslo-miracle-green-zelenyy-.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 14170,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1179,
@@ -955,7 +963,9 @@
           "photoBankCode": 25696,
           "photoBankSource": "https://tetchair.ru/products/kreslo-trust-lux-ekokozha-lux-classic-18-22-chernyy.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 24280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1096,
@@ -985,7 +995,9 @@
           "photoBankCode": 19891,
           "photoBankSource": "https://tetchair.ru/products/kreslo-trust-max-kozh-zam-chernyy-chernyy-stegannyy-chernyy-36-6-36-6-36-6-06.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 23090,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1093,
@@ -1038,7 +1050,9 @@
               "label": "коричневый",
               "hex": "#76533e"
             }
-          }
+          },
+          "designerPrice": 24280,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1094,
@@ -1072,7 +1086,9 @@
           "photoBankCode": 25698,
           "photoBankSource": "https://tetchair.ru/products/kreslo-trust-lux-tkan-seryy-kub-05.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 24280,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1117,7 +1133,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 4,
           "designerDiscountPercent": 10,
-          "designerPrice": 4023
+          "designerPrice": 4030
         },
         {
           "sourceId": 1151,
@@ -1153,7 +1169,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 4,
           "designerDiscountPercent": 10,
-          "designerPrice": 4023
+          "designerPrice": 4030
         },
         {
           "sourceId": 1152,
@@ -1538,7 +1554,9 @@
           "photoBankCode": 25022,
           "photoBankSource": "https://tetchair.ru/products/kreslo-chief-metalbl-tkan-svetlo-korichnevyy-kub-03-tw-24.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 20710,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 952,
@@ -1572,7 +1590,9 @@
           "photoBankCode": 25019,
           "photoBankSource": "https://tetchair.ru/products/kreslo-chief-metalbl-kozh-zam-tkan-chernyy-chernyy-stegannyy-chernyy-36-6-36-6-tw-11.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 21310,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 953,
@@ -1634,7 +1654,9 @@
           "photoBankCode": 25021,
           "photoBankSource": "https://tetchair.ru/products/kreslo-chief-metalbl-tkan-seryy-kub-05-tw-12.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 20710,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1905,7 +1927,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4716
+          "designerPrice": 4720
         },
         {
           "sourceId": 142,
@@ -1933,7 +1955,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4716
+          "designerPrice": 4720
         },
         {
           "sourceId": 141,
@@ -1962,7 +1984,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4716
+          "designerPrice": 4720
         }
       ]
     },
@@ -2072,7 +2094,9 @@
             "assets/products/787/01.webp"
           ],
           "localImageCount": 12,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 3160,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 794,
@@ -2103,7 +2127,7 @@
           "localImageCount": 12,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 2934
+          "designerPrice": 2940
         },
         {
           "sourceId": 798,
@@ -2130,7 +2154,7 @@
           "localImageCount": 8,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 3384
+          "designerPrice": 3390
         },
         {
           "sourceId": 1834,
@@ -2153,7 +2177,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 20186,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=20186",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 3160,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1835,
@@ -2176,7 +2202,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 20187,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=20187",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 3160,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2212,7 +2240,9 @@
               "label": "серый",
               "hex": "#8b8b86"
             }
-          }
+          },
+          "designerPrice": 2620,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 655,
@@ -2273,7 +2303,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2079
+          "designerPrice": 2080
         }
       ]
     },
@@ -2404,7 +2434,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4689
+          "designerPrice": 4690
         },
         {
           "sourceId": 1468,
@@ -2433,7 +2463,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4689
+          "designerPrice": 4690
         },
         {
           "sourceId": 1469,
@@ -2462,7 +2492,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4689
+          "designerPrice": 4690
         }
       ]
     },
@@ -2539,7 +2569,9 @@
           "photoBankCode": 25345,
           "photoBankSource": "https://tetchair.ru/products/kreslo-comfort-lux-22-metalbl-velyur-seryy-29.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 13990,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 967,
@@ -2573,7 +2605,9 @@
           "photoBankCode": 25250,
           "photoBankSource": "https://tetchair.ru/products/kreslo-comfort-lux-22-metalbl-tkan-svetlo-korichnevyy-kub-03.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 13990,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 969,
@@ -2593,7 +2627,9 @@
             "assets/products/969/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "visually-approved-current"
+          "primaryImageStatus": "visually-approved-current",
+          "designerPrice": 14580,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2691,7 +2727,9 @@
           "photoBankCode": 25686,
           "photoBankSource": "https://tetchair.ru/products/kreslo-lincoln-metalbl-kozh-zam-chernyy-36-6.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 17620,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1889,
@@ -2718,7 +2756,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 26220,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=26220",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 17620,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2756,7 +2796,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 11115
+          "designerPrice": 11120
         },
         {
           "sourceId": 1104,
@@ -2792,7 +2832,9 @@
           "photoBankCode": 14448,
           "photoBankSource": "https://tetchair.ru/products/kreslo-urban-low-flok-siniy-32.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 11670,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1105,
@@ -2814,7 +2856,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "visually-approved-local-replacement",
           "designerDiscountPercent": 10,
-          "designerPrice": 11115
+          "designerPrice": 11120
         },
         {
           "sourceId": 1106,
@@ -2836,7 +2878,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "visually-approved-local-replacement",
           "designerDiscountPercent": 10,
-          "designerPrice": 11115
+          "designerPrice": 11120
         }
       ]
     },
@@ -2871,7 +2913,9 @@
               "label": "бежевый",
               "hex": "#cbbb9f"
             }
-          }
+          },
+          "designerPrice": 11480,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 293,
@@ -2897,7 +2941,9 @@
               "label": "бежевый",
               "hex": "#cbbb9f"
             }
-          }
+          },
+          "designerPrice": 12200,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 290,
@@ -2917,7 +2963,9 @@
             "assets/products/290/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "visually-approved-current"
+          "primaryImageStatus": "visually-approved-current",
+          "designerPrice": 12200,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 291,
@@ -2943,7 +2991,9 @@
               "label": "серый",
               "hex": "#8b8b86"
             }
-          }
+          },
+          "designerPrice": 12200,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 292,
@@ -2969,7 +3019,9 @@
               "label": "коричневый",
               "hex": "#76533e"
             }
-          }
+          },
+          "designerPrice": 12200,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1781,
@@ -2998,7 +3050,7 @@
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=25753",
           "photoBankEnrichedAt": "2026-10-08",
           "designerDiscountPercent": 10,
-          "designerPrice": 11547
+          "designerPrice": 11550
         },
         {
           "sourceId": 1782,
@@ -3027,7 +3079,7 @@
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=25754",
           "photoBankEnrichedAt": "2026-10-08",
           "designerDiscountPercent": 10,
-          "designerPrice": 11547
+          "designerPrice": 11550
         },
         {
           "sourceId": 1783,
@@ -3431,7 +3483,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 3654
+          "designerPrice": 3660
         }
       ]
     },
@@ -3469,7 +3521,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 12537
+          "designerPrice": 12540
         },
         {
           "sourceId": 1445,
@@ -3549,7 +3601,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 15084
+          "designerPrice": 15090
         }
       ]
     },
@@ -3578,7 +3630,9 @@
             "assets/products/1212/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "visually-approved-current"
+          "primaryImageStatus": "visually-approved-current",
+          "designerPrice": 8210,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1214,
@@ -3739,7 +3793,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 5,
           "designerDiscountPercent": 10,
-          "designerPrice": 10827
+          "designerPrice": 10830
         }
       ]
     },
@@ -3771,7 +3825,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 11907
+          "designerPrice": 11910
         },
         {
           "sourceId": 1160,
@@ -3794,7 +3848,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 11907
+          "designerPrice": 11910
         }
       ]
     },
@@ -3871,7 +3925,9 @@
           "photoBankCode": 25264,
           "photoBankSource": "https://tetchair.ru/products/kreslo-boss-metalbl-tkan-seryy-kub-05.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 16070,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 942,
@@ -3905,7 +3961,9 @@
           "photoBankCode": 25265,
           "photoBankSource": "https://tetchair.ru/products/kreslo-boss-metalbl-tkan-svetlo-korichnevyy-kub-03.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 16070,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 943,
@@ -3933,7 +3991,9 @@
           "photoBankCode": 25281,
           "photoBankSource": "https://tetchair.ru/products/kreslo-boss-metalbl-kozh-zam-chernyy-36-6.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 16780,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -3976,7 +4036,9 @@
           "photoBankCode": 24938,
           "photoBankSource": "https://tetchair.ru/products/kreslo-dover-hrom-bukle-teddy-cocoa.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 16900,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 971,
@@ -4010,7 +4072,9 @@
           "photoBankCode": 24939,
           "photoBankSource": "https://tetchair.ru/products/kreslo-dover-hrom-bukle-teddy-oliva.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 3
+          "photoBankImageCount": 3,
+          "designerPrice": 16900,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 972,
@@ -4044,7 +4108,9 @@
           "photoBankCode": 24940,
           "photoBankSource": "https://tetchair.ru/products/kreslo-dover-hrom-bukle-teddy-dark-grey.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 16900,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -4119,7 +4185,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 4,
           "designerDiscountPercent": 10,
-          "designerPrice": 13104
+          "designerPrice": 13110
         },
         {
           "sourceId": 1004,
@@ -4184,7 +4250,9 @@
             "assets/products/883/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "visually-approved-local-replacement"
+          "primaryImageStatus": "visually-approved-local-replacement",
+          "designerPrice": 11730,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 884,
@@ -4210,7 +4278,9 @@
               "label": "серый",
               "hex": "#8b8b86"
             }
-          }
+          },
+          "designerPrice": 11730,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 885,
@@ -4263,7 +4333,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 21616,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=21616",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 11730,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -4293,7 +4365,9 @@
             "assets/products/880/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 11730,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 881,
@@ -4314,7 +4388,9 @@
             "assets/products/881/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 11730,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -4345,7 +4421,9 @@
             "assets/products/894/02.webp"
           ],
           "localImageCount": 5,
-          "primaryImageStatus": "curated-local-cover"
+          "primaryImageStatus": "curated-local-cover",
+          "designerPrice": 11540,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 895,
@@ -4366,7 +4444,9 @@
             "assets/products/895/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 11540,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 896,
@@ -4388,7 +4468,9 @@
             "assets/products/896/02.webp"
           ],
           "localImageCount": 5,
-          "primaryImageStatus": "curated-local-cover"
+          "primaryImageStatus": "curated-local-cover",
+          "designerPrice": 11540,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -4524,7 +4606,9 @@
           "photoBankCode": 24247,
           "photoBankSource": "https://tetchair.ru/products/kreslo-pragmatic-tkan-rogozhka-chernyy-2603.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 8750,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1260,
@@ -4560,7 +4644,9 @@
           "photoBankCode": 24248,
           "photoBankSource": "https://tetchair.ru/products/kreslo-pragmatic-tkan-rogozhka-seryy-c27.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 8750,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1915,
@@ -4657,7 +4743,9 @@
           "photoBankCode": 11576,
           "photoBankSource": "https://tetchair.ru/products/kreslo-sn833-kozh-zam-chernyy-36-6.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 5
+          "photoBankImageCount": 5,
+          "designerPrice": 10950,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1890,
@@ -4684,7 +4772,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 2271,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=2271",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 10710,
+          "designerDiscountPercent": 15
         }
       ]
     }

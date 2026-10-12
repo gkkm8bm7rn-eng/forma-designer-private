@@ -34,7 +34,9 @@
           "photoBankCode": 25664,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fantasy-grey-ceryy-.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 13690,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1149,
@@ -62,7 +64,9 @@
           "photoBankCode": 25665,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fantasy-pink-rozovyy-.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 4
+          "photoBankImageCount": 4,
+          "designerPrice": 13690,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -159,7 +163,9 @@
             "assets/products/166/03.webp"
           ],
           "localImageCount": 6,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 5950,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -197,7 +203,9 @@
               "label": "хром",
               "hex": "#b9bab8"
             }
-          }
+          },
+          "designerPrice": 4380,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1765,
@@ -418,7 +426,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 3520,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1828,
@@ -532,7 +542,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 13041
+          "designerPrice": 13050
         }
       ]
     },
@@ -682,7 +692,7 @@
           "photoBankEnrichedAt": "2026-08-20",
           "photoBankImageCount": 3,
           "designerDiscountPercent": 10,
-          "designerPrice": 19053
+          "designerPrice": 19060
         }
       ]
     },
@@ -846,7 +856,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 120231
+          "designerPrice": 120240
         }
       ]
     },
@@ -908,7 +918,9 @@
             "assets/products/1652/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 33150,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1004,7 +1016,9 @@
             "assets/products/1653/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 64940,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1066,7 +1080,9 @@
             "assets/products/1650/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 49470,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1194,7 +1210,9 @@
             "assets/products/1649/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 216750,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1395,7 +1413,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 6130,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 155,
@@ -1486,7 +1506,9 @@
             "assets/products/255/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 17620,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1778,
@@ -1509,7 +1531,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 20573,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=20573",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 19280,
+          "designerDiscountPercent": 15
         }
       ]
     },

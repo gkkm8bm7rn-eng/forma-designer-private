@@ -145,7 +145,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 119169
+          "designerPrice": 119170
         }
       ]
     },
@@ -239,7 +239,9 @@
             "assets/products/1288/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 1600,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -269,7 +271,9 @@
             "assets/products/1289/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 760,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -307,7 +311,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 10089
+          "designerPrice": 10090
         }
       ]
     },
@@ -345,7 +349,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 2448
+          "designerPrice": 2450
         }
       ]
     },
@@ -383,7 +387,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 1701
+          "designerPrice": 1710
         }
       ]
     },
@@ -421,7 +425,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 3519
+          "designerPrice": 3520
         }
       ]
     },
@@ -457,8 +461,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 12,
-          "designerPrice": 215266
+          "designerDiscountPercent": 15,
+          "designerPrice": 207930
         }
       ]
     },
@@ -493,7 +497,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 86360,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -528,7 +534,9 @@
               "label": "натуральный",
               "hex": "#b99b71"
             }
-          }
+          },
+          "designerPrice": 74120,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -565,7 +573,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 13266
+          "designerPrice": 13270
         }
       ]
     },
@@ -659,7 +667,9 @@
             "assets/products/1581/01.webp"
           ],
           "localImageCount": 2,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 850,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -715,7 +725,9 @@
             "assets/products/1584/01.webp"
           ],
           "localImageCount": 2,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 850,
+          "designerDiscountPercent": 15
         }
       ]
     },

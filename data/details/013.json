@@ -58,7 +58,9 @@
             "assets/products/7/02.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 5230,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 8,
@@ -77,7 +79,9 @@
             "assets/products/8/01.webp"
           ],
           "localImageCount": 2,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 5230,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -106,7 +110,9 @@
             "assets/products/1596/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 40800,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1597,
@@ -127,7 +133,9 @@
             "assets/products/1597/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 40800,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1598,
@@ -148,7 +156,9 @@
             "assets/products/1598/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 40800,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1599,
@@ -169,7 +179,9 @@
             "assets/products/1599/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 40800,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1600,
@@ -190,7 +202,9 @@
             "assets/products/1600/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 40800,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -331,7 +345,9 @@
             "assets/products/1586/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 22780,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1587,
@@ -352,7 +368,9 @@
             "assets/products/1587/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 22780,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1588,
@@ -373,7 +391,9 @@
             "assets/products/1588/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 22780,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1589,
@@ -393,7 +413,9 @@
             "assets/products/1589/03.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 22780,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -539,7 +561,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 5391
+          "designerPrice": 5400
         },
         {
           "sourceId": 1509,
@@ -562,7 +584,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 5391
+          "designerPrice": 5400
         },
         {
           "sourceId": 1510,
@@ -585,7 +607,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 5598
+          "designerPrice": 5600
         }
       ]
     },
@@ -738,7 +760,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 11628
+          "designerPrice": 11630
         },
         {
           "sourceId": 1488,
@@ -761,7 +783,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 11628
+          "designerPrice": 11630
         },
         {
           "sourceId": 1489,
@@ -878,7 +900,9 @@
             "assets/products/1/02.webp"
           ],
           "localImageCount": 2,
-          "primaryImageStatus": "visually-approved-current"
+          "primaryImageStatus": "visually-approved-current",
+          "designerPrice": 2800,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 2,
@@ -897,7 +921,9 @@
             "assets/products/2/02.webp"
           ],
           "localImageCount": 2,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 2800,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -950,7 +976,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 11628
+          "designerPrice": 11630
         },
         {
           "sourceId": 1486,
@@ -1091,7 +1117,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "visually-approved-current",
           "designerDiscountPercent": 10,
-          "designerPrice": 7749
+          "designerPrice": 7750
         },
         {
           "sourceId": 1513,
@@ -1114,7 +1140,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 7695
+          "designerPrice": 7700
         },
         {
           "sourceId": 1512,
@@ -1137,7 +1163,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 7695
+          "designerPrice": 7700
         }
       ]
     },
@@ -1271,7 +1297,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "visually-approved-local-replacement",
           "designerDiscountPercent": 10,
-          "designerPrice": 9126
+          "designerPrice": 9130
         },
         {
           "sourceId": 1515,
@@ -1315,7 +1341,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 9225
+          "designerPrice": 9230
         }
       ]
     },
@@ -1579,7 +1605,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 345798
+          "designerPrice": 345800
         }
       ]
     },
@@ -1646,7 +1672,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 3879
+          "designerPrice": 3880
         },
         {
           "sourceId": 804,
@@ -1675,7 +1701,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 3879
+          "designerPrice": 3880
         },
         {
           "sourceId": 805,
@@ -1704,7 +1730,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 3879
+          "designerPrice": 3880
         },
         {
           "sourceId": 806,
@@ -1733,7 +1759,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 3996
+          "designerPrice": 4000
         }
       ]
     },
@@ -1767,7 +1793,9 @@
               "label": "коричневый",
               "hex": "#76533e"
             }
-          }
+          },
+          "designerPrice": 5780,
+          "designerDiscountPercent": 15
         }
       ]
     },
