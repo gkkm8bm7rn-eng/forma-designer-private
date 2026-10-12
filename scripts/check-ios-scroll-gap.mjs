@@ -20,10 +20,18 @@ try {
     rootOverflow:getComputedStyle(document.documentElement).overflow,
     bodyOverflow:getComputedStyle(document.body).overflow,
     scrollHeight:document.scrollingElement.scrollHeight,
-    cardHeights:Array.from(document.querySelectorAll('#productGrid .product-card')).slice(0,6).map(e=>Math.round(e.getBoundingClientRect().height))
+    cardHeights:Array.from(document.querySelectorAll('#productGrid .product-card')).slice(0,6).map(e=>Math.round(e.getBoundingClientRect().height)),
+    htmlOverflowX:getComputedStyle(document.documentElement).overflowX,
+    bodyOverflowX:getComputedStyle(document.body).overflowX,
+    scrollBehavior:getComputedStyle(document.documentElement).scrollBehavior,
+    headerBlur:getComputedStyle(document.querySelector('.site-header')).backdropFilter
   }));
   assert.match(initial.title,/Барные и полубарные стулья/i);
   console.log('INITIAL '+JSON.stringify(initial));
+  assert.equal(initial.htmlOverflowX,'visible','Root clipping must be disabled for iPhone');
+  assert.equal(initial.bodyOverflowX,'visible','Body clipping must be disabled for iPhone');
+  assert.equal(initial.scrollBehavior,'auto','Avoid implicit smooth scrolling on Safari');
+  assert.equal(initial.headerBlur,'none','Avoid blurred compositing sticky header');
   const top=initial.gridTop;
   const targets=[0,top-500,top-100,top,top+200,top+450,top+800,top+1350,top+2000,top+2700].map(n=>Math.max(0,Math.round(n)));
   for(const target of targets){
@@ -50,6 +58,16 @@ try {
     if(state.visible.some(c=>c.h>8000))throw new Error('Unbounded product card height');
     if(state.grid.h<300)throw new Error('Collapsed product grid');
   }
+  await page.evaluate(()=>window.scrollTo(0,0));
+  await page.waitForTimeout(300);
+  await page.evaluate(()=>document.querySelector('.mobile-category-option[data-category-code="1"]')?.click());
+  await page.waitForFunction(()=>document.getElementById('catalogTitle')?.textContent==='Стулья');
+  await page.waitForTimeout(250);
+  const afterCategory=await page.evaluate(()=>({scrollY,gridY:document.getElementById('productGrid').getBoundingClientRect().top,cards:document.querySelectorAll('#productGrid .product-card').length}));
+  console.log('CATEGORY CHANGE '+JSON.stringify(afterCategory));
+  assert.equal(afterCategory.cards,24);
+  assert.ok(afterCategory.gridY<=innerHeight,'Catalog must remain within scrollable document');
   console.log('PAGE ERRORS '+JSON.stringify(issues));
+  assert.deepEqual(issues,[],'Unexpected page errors during deep scrolling and category change');
   await context.close();
 } finally {await browser.close()}
