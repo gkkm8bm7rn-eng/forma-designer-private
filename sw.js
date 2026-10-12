@@ -4,7 +4,7 @@
  * on its own stable version so a design update does not discard product photos.
  * Bump IMAGE_CACHE only when product media itself changes materially.
  */
-const SHELL_VERSION='20261008-stable-responsive-6';
+const SHELL_VERSION='20261012-mobile-reliability-1';
 const SHELL_CACHE=`forma-shell-${SHELL_VERSION}`;
 const DATA_CACHE=`forma-data-${SHELL_VERSION}`;
 const IMAGE_CACHE='forma-images-v1';
@@ -12,11 +12,10 @@ const CACHE_PREFIX='forma-';
 const LEGACY_IMAGE_PREFIX='forma-images-';
 const GITHUB_ASSET_HOST='gkkm8bm7rn-eng.github.io';
 const GITHUB_ASSET_PREFIX='/tetopt/assets/';
-const LOCAL_ASSET_PREFIX='/assets/';
+const LOCAL_ASSET_PREFIX=new URL('./assets/',self.registration.scope).pathname;
 const MAX_CACHED_IMAGES=80;
 
 const SHELL_ASSETS=[
-  './',
   './index.html',
   './styles.css',
   './enhancements.css',
@@ -27,9 +26,7 @@ const SHELL_ASSETS=[
   './variants.js',
   './app.js',
   './search-fallback.js',
-  './cart-feedback.js',
-  './data/catalog-index.json',
-  './data/category-assignments.json'
+  './cart-feedback.js'
 ];
 
 self.addEventListener('install',event=>{
@@ -46,8 +43,8 @@ function normalizedAssetUrl(value){
   let url;
   try{url=value instanceof URL?new URL(value.href):new URL(typeof value==='string'?value:value.url)}catch{return''}
   if(url.hostname===GITHUB_ASSET_HOST&&url.pathname.startsWith(GITHUB_ASSET_PREFIX)){
-    const localPath=url.pathname.slice('/tetopt'.length);
-    return new URL(localPath+url.search,self.location.origin).href;
+    const assetPath=url.pathname.slice(GITHUB_ASSET_PREFIX.length);
+    return new URL('assets/'+assetPath+url.search,self.registration.scope).href;
   }
   if(url.origin===self.location.origin&&url.pathname.startsWith(LOCAL_ASSET_PREFIX))return url.href;
   return'';
@@ -114,7 +111,7 @@ async function trimImages(cache){
 }
 
 async function fetchImageSource(request,normalized){
-  if(normalized){
+  if(normalized&&normalized!==request.url){
     try{
       const local=await fetch(normalized);
       if(local.ok)return local;
