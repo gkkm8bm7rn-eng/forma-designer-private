@@ -42,7 +42,15 @@ try {
     const r=el.getBoundingClientRect();
     return {scrollY,top:r.top,height:r.height};
   })));
-  await target.click({timeout:12000});
+  const point=await page.evaluate(()=>{
+    const stage=document.querySelector('#productGrid .product-image-stage');
+    const rect=stage.getBoundingClientRect();
+    const x=rect.left+rect.width/2,y=rect.top+rect.height/2;
+    const element=document.elementFromPoint(x,y);
+    return {x,y,hitMatches:!!element&&(element===stage||stage.contains(element)),hitTag:element?.tagName};
+  });
+  assert.ok(point.hitMatches,'First product image is blocked by another element: '+JSON.stringify(point));
+  await page.touchscreen.tap(point.x,point.y);
   await page.locator('.product-dialog[open]').waitFor({timeout:30000});
   assert.ok(await page.locator('#productDetail').textContent(),'Product details are empty');
   assert.deepEqual(errors,[],'JavaScript page errors');
