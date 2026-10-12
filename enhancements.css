@@ -88,12 +88,13 @@ html body .card-photo-nav.next::before,
 html body .gallery-nav.next::before{transform:rotate(-45deg)}
 html body .mobile-category-hint>span{
   display:inline-block!important;
-  width:16px!important;
-  height:16px!important;
-  margin-right:6px!important;
-  vertical-align:-3px;
-  font-size:0!important;
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23657161' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 2v12M5.5 4.5 8 2l2.5 2.5M5.5 11.5 8 14l2.5-2.5'/%3E%3C/svg%3E") center/14px 14px no-repeat!important;
+  width:8px!important;
+  height:8px!important;
+  margin:0 0 3px 1px!important;
+  border-right:1.5px solid currentColor;
+  border-bottom:1.5px solid currentColor;
+  background:none!important;
+  transform:rotate(45deg);
 }
 
 /* Preferred banner treatment: same wording and brand mood, optically centered and slightly larger. */
