@@ -22,6 +22,7 @@ try{
     await page.locator('#productGrid .product-card [data-add]').first().evaluate(el=>el.click());
     await page.waitForFunction(()=>document.querySelector('#productGrid .product-bottom.has-cart-quantity .card-cart-quantity strong')?.textContent==='1',null,{timeout:10000});
     let result=await measure(page,'#productGrid .product-card .product-bottom.has-cart-quantity');
+    console.log('CART METRICS '+JSON.stringify(result));
     assertNoOverlap(result,width,'catalog');
     assert.equal(result.counter,'1','The product card stepper should display only the number');
     assert.ok(result.bottomGap>=45,'Cart confirmation must be above bottom browser chrome');
