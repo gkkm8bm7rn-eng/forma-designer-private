@@ -99,7 +99,19 @@ function catalogSnapshot(){return{categoryMain:state.categoryMain,categoryCode:s
 function catalogUrl(snapshot=catalogSnapshot()){const params=new URLSearchParams;if(snapshot.categoryCode!=='all')params.set('category',snapshot.categoryCode);else if(snapshot.categoryMain!=='all')params.set('main',snapshot.categoryMain);if(snapshot.page>1)params.set('page',String(snapshot.page));if(snapshot.search)params.set('q',snapshot.search);if(snapshot.sort!=='featured')params.set('sort',snapshot.sort);if(snapshot.newOnly)params.set('new','1');return baseUrl()+(params.size?`#${params}`:'#catalog')}
 function productUrl(id,sourceId){const params=new URLSearchParams({product:id});if(sourceId)params.set('variant',String(sourceId));return`${baseUrl()}#${params}`}
 function syncCatalogHistory(){if(history.state?.view==='product'&&els.productDialog.open)return;const snapshot=catalogSnapshot();history.replaceState({view:'catalog',catalog:snapshot,scrollY},'',catalogUrl(snapshot))}
-function instantScroll(target){const root=document.documentElement,previous=root.style.scrollBehavior;root.style.scrollBehavior='auto';if(typeof target==='number')scrollTo(0,target);else (target?.id==='catalog'?els.grid:target)?.scrollIntoView({block:'start'});requestAnimationFrame(()=>{root.style.scrollBehavior=previous})}
+function instantScroll(target){
+  const run=()=>{
+    const root=document.documentElement,previous=root.style.scrollBehavior;
+    root.style.scrollBehavior='auto';
+    const element=typeof target==='number'?null:(target?.id==='catalog'?els.grid:target);
+    const y=typeof target==='number'?target:element?window.scrollY+element.getBoundingClientRect().top:null;
+    if(Number.isFinite(y))window.scrollTo(0,Math.max(0,y));
+    requestAnimationFrame(()=>{root.style.scrollBehavior=previous});
+  };
+  // On iPhone wait for the catalog to paint after a filter/category DOM change.
+  if(matchMedia('(max-width:640px)').matches)requestAnimationFrame(run);
+  else run();
+}
 function restoreCatalog(snapshot={},y=0){Object.assign(state,{categoryMain:'all',categoryCode:'all',search:'',sort:'featured',page:1,min:'',max:'',multi:false,newOnly:false,view:'catalog'},snapshot);expandedMobileCategory=state.categoryMain==='all'?null:state.categoryMain;$('#searchInput').value=state.search;$('#sortSelect').value=state.sort;$('#priceMin').value=state.min;$('#priceMax').value=state.max;$('#multiVariant').checked=state.multi;renderCategories();applyFilters();requestAnimationFrame(()=>instantScroll(Number(y)||0))}
 function withCatalogPrices(full,p){
   const prices=new Map(p.variants.map(variant=>[String(variant.sourceId),variant]));
