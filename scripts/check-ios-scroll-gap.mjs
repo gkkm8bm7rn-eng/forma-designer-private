@@ -63,10 +63,10 @@ try {
   await page.evaluate(()=>document.querySelector('.mobile-category-option[data-category-code="1"]')?.click());
   await page.waitForFunction(()=>document.getElementById('catalogTitle')?.textContent==='Стулья');
   await page.waitForTimeout(250);
-  const afterCategory=await page.evaluate(()=>({scrollY,gridY:document.getElementById('productGrid').getBoundingClientRect().top,cards:document.querySelectorAll('#productGrid .product-card').length}));
+  const afterCategory=await page.evaluate(()=>({scrollY,viewportHeight:innerHeight,gridY:document.getElementById('productGrid').getBoundingClientRect().top,cards:document.querySelectorAll('#productGrid .product-card').length}));
   console.log('CATEGORY CHANGE '+JSON.stringify(afterCategory));
   assert.equal(afterCategory.cards,24);
-  assert.ok(afterCategory.gridY<=innerHeight,'Catalog must remain within scrollable document');
+  assert.ok(afterCategory.gridY<=afterCategory.viewportHeight,'Catalog must remain within scrollable document');
   console.log('PAGE ERRORS '+JSON.stringify(issues));
   assert.deepEqual(issues,[],'Unexpected page errors during deep scrolling and category change');
   await context.close();
