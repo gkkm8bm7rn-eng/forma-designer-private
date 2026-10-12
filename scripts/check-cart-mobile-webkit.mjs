@@ -21,6 +21,7 @@ try{
 
     await page.locator('#productGrid .product-card [data-add]').first().evaluate(el=>el.click());
     await page.waitForFunction(()=>document.querySelector('#productGrid .product-bottom.has-cart-quantity .card-cart-quantity strong')?.textContent==='1',null,{timeout:10000});
+    await page.waitForTimeout(350); // Wait for the 250ms toast transition before measuring its viewport position.
     let result=await measure(page,'#productGrid .product-card .product-bottom.has-cart-quantity');
     console.log('CART METRICS '+JSON.stringify(result));
     assertNoOverlap(result,width,'catalog');
