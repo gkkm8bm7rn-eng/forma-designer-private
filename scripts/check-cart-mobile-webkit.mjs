@@ -26,7 +26,7 @@ try{
     console.log('CART METRICS '+JSON.stringify(result));
     assertNoOverlap(result,width,'catalog');
     assert.equal(result.counter,'1','The product card stepper should display only the number');
-    assert.ok(result.bottomGap>=60,'Cart confirmation must be above bottom browser chrome');
+    assert.ok(result.toastTopGap>=8,'Cart confirmation must stay below the sticky header');
     await page.locator('#productGrid .card-cart-quantity [data-card-cart-delta="1"]').first().evaluate(e=>e.click());
     await page.waitForFunction(()=>document.querySelector('#productGrid .card-cart-quantity strong')?.textContent==='2');
     await page.locator('#productGrid .card-cart-quantity [data-card-cart-delta="-1"]').first().evaluate(e=>e.click());
@@ -55,8 +55,9 @@ async function measure(page,selector){
     const step=wrap.querySelector('.card-cart-quantity');
     const numeric=step.querySelector('span');
     const toast=document.querySelector('#toast');
+    const header=document.querySelector('.site-header');
     const rect=e=>{const r=e.getBoundingClientRect();return{left:r.left,right:r.right,top:r.top,bottom:r.bottom,width:r.width,height:r.height}};
-    return {wrap:rect(wrap),price:rect(price),step:rect(step),counter:numeric.textContent.trim(),btns:[...step.querySelectorAll('button')].map(rect),toast:rect(toast),bottomGap:innerHeight-toast.getBoundingClientRect().bottom,viewport:innerWidth};
+    return {wrap:rect(wrap),price:rect(price),step:rect(step),counter:numeric.textContent.trim(),btns:[...step.querySelectorAll('button')].map(rect),toast:rect(toast),toastTopGap:toast.getBoundingClientRect().top-header.getBoundingClientRect().bottom,viewport:innerWidth};
   },selector);
 }
 function assertNoOverlap(m,width,kind){
