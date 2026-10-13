@@ -203,7 +203,7 @@
           "sourceId": 1709,
           "specs": "массив палисандра, 120х40х192см, натуральный тонированный ",
           "wholesalePrice": 116100,
-          "retailPrice": 232200,
+          "retailPrice": 185760,
           "primaryImage": "assets/products/1709/01.webp",
           "label": "120х40х192см · натуральный тонированный",
           "axes": {
@@ -212,8 +212,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 197370
+          "designerDiscountPercent": 10,
+          "designerPrice": 167190
         }
       ]
     },
@@ -1549,11 +1549,11 @@
           "sourceId": 1714,
           "specs": "массив палисандра/стекло, 100х40х128см, натуральный тонированный ",
           "wholesalePrice": 54302,
-          "retailPrice": 108600,
+          "retailPrice": 113440,
           "primaryImage": "assets/products/1714/00-main.webp",
           "label": "100х40х128см · натуральный тонированный",
           "designerDiscountPercent": 15,
-          "designerPrice": 92310
+          "designerPrice": 96430
         }
       ]
     },
@@ -1820,8 +1820,8 @@
               "hex": "#76533e"
             }
           },
-          "designerDiscountPercent": 18,
-          "designerPrice": 9586
+          "designerDiscountPercent": 15,
+          "designerPrice": 9940
         },
         {
           "sourceId": 306,
@@ -1895,7 +1895,7 @@
           "sourceId": 139,
           "specs": "велюр, серый, 29, 42х56х102см",
           "wholesalePrice": 3740,
-          "retailPrice": 5810,
+          "retailPrice": 5240,
           "primaryImage": "assets/products/139/00-main.webp",
           "label": "29 · 42х56х102см",
           "axes": {
@@ -1904,8 +1904,8 @@
               "hex": "#8b8b86"
             }
           },
-          "designerDiscountPercent": 19,
-          "designerPrice": 4706
+          "designerDiscountPercent": 10,
+          "designerPrice": 4720
         },
         {
           "sourceId": 140,
@@ -2539,11 +2539,11 @@
           "sourceId": 1679,
           "specs": "массив манго/МДФ, 130х47х220см, черный",
           "wholesalePrice": 139200,
-          "retailPrice": 278400,
+          "retailPrice": 174000,
           "primaryImage": "assets/products/1679/00-main.webp",
           "label": "130х47х220см · черный",
           "designerDiscountPercent": 10,
-          "designerPrice": 250560
+          "designerPrice": 156600
         }
       ]
     },
@@ -2993,7 +2993,7 @@
           "sourceId": 319,
           "specs": "вельвет/металл, 68х60х88см, серый /черный",
           "wholesalePrice": 3910,
-          "retailPrice": 10960,
+          "retailPrice": 5470,
           "primaryImage": "assets/products/319/00-main.webp",
           "label": "68х60х88см · серый /черный",
           "axes": {
@@ -3006,8 +3006,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 19,
-          "designerPrice": 8878
+          "designerDiscountPercent": 10,
+          "designerPrice": 4930
         }
       ]
     },
@@ -3673,7 +3673,7 @@
           "sourceId": 625,
           "specs": "пластик, 60х63х83см, коричневый 14",
           "wholesalePrice": 2200,
-          "retailPrice": 6160,
+          "retailPrice": 3080,
           "primaryImage": "assets/products/625/00-main.webp",
           "label": "60х63х83см · коричневый 14",
           "axes": {
@@ -3682,8 +3682,8 @@
               "hex": "#76533e"
             }
           },
-          "designerDiscountPercent": 17,
-          "designerPrice": 5113
+          "designerDiscountPercent": 10,
+          "designerPrice": 2780
         }
       ]
     },
@@ -3771,11 +3771,11 @@
           "sourceId": 1557,
           "specs": "алюминиевый сплав, 46х46х51см, черный/золотой",
           "wholesalePrice": 4700,
-          "retailPrice": 23000,
+          "retailPrice": 9400,
           "primaryImage": "assets/products/1557/00-main.webp",
           "label": "46х46х51см · черный/золотой",
           "designerDiscountPercent": 15,
-          "designerPrice": 19550
+          "designerPrice": 7990
         }
       ]
     },
@@ -5673,7 +5673,7 @@
           "sourceId": 770,
           "specs": "пластик, 49х52х74см, черный ",
           "wholesalePrice": 870,
-          "retailPrice": 2450,
+          "retailPrice": 1220,
           "primaryImage": "assets/products/770/00-main.webp",
           "label": "49х52х74см · черный",
           "axes": {
@@ -5682,8 +5682,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 19,
-          "designerPrice": 1985
+          "designerDiscountPercent": 10,
+          "designerPrice": 1100
         },
         {
           "sourceId": 771,
@@ -6048,8 +6048,8 @@
               "hex": "#f5f3ee"
             }
           },
-          "designerDiscountPercent": 19,
-          "designerPrice": 2835
+          "designerDiscountPercent": 15,
+          "designerPrice": 2980
         },
         {
           "sourceId": 646,
@@ -6722,8 +6722,8 @@
               "hex": "#cbbb9f"
             }
           },
-          "designerDiscountPercent": 16,
-          "designerPrice": 6880
+          "designerDiscountPercent": 15,
+          "designerPrice": 6970
         },
         {
           "sourceId": 1228,
@@ -7330,8 +7330,8 @@
           "retailPrice": 9170,
           "primaryImage": "assets/products/1075/01.webp",
           "label": "молочный · 4",
-          "designerDiscountPercent": 19,
-          "designerPrice": 7428
+          "designerDiscountPercent": 15,
+          "designerPrice": 7800
         },
         {
           "sourceId": 1076,
@@ -9780,8 +9780,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 16,
-          "designerPrice": 10584
+          "designerDiscountPercent": 15,
+          "designerPrice": 10710
         },
         {
           "sourceId": 1130,
@@ -10111,7 +10111,7 @@
           "sourceId": 347,
           "specs": "ткань/металл, 46х52х88см, бежевый 08/черный",
           "wholesalePrice": 2240,
-          "retailPrice": 4410,
+          "retailPrice": 2880,
           "primaryImage": "assets/products/347/00-main.webp",
           "label": "46х52х88см · бежевый 08/черный",
           "axes": {
@@ -10124,8 +10124,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 19,
-          "designerPrice": 3572
+          "designerDiscountPercent": 10,
+          "designerPrice": 2600
         },
         {
           "sourceId": 348,
@@ -10928,8 +10928,8 @@
               "hex": "#e5dcc8"
             }
           },
-          "designerDiscountPercent": 16,
-          "designerPrice": 7736
+          "designerDiscountPercent": 15,
+          "designerPrice": 7830
         },
         {
           "sourceId": 233,
@@ -12230,8 +12230,8 @@
           "retailPrice": 10500,
           "primaryImage": "assets/products/1263/01.webp",
           "label": "серый/черный · 207/W-11",
-          "designerDiscountPercent": 19,
-          "designerPrice": 8505
+          "designerDiscountPercent": 15,
+          "designerPrice": 8930
         },
         {
           "sourceId": 1264,
@@ -12643,11 +12643,11 @@
           "sourceId": 239,
           "specs": "Нью, Многослойный березовый шпон, коричневый/велюр бежевый",
           "wholesalePrice": 3390,
-          "retailPrice": 5000,
+          "retailPrice": 4750,
           "primaryImage": "assets/products/239/00-main.webp",
           "label": "Многослойный березовый шпон · коричневый/велюр бежевый",
-          "designerDiscountPercent": 20,
-          "designerPrice": 4000
+          "designerDiscountPercent": 10,
+          "designerPrice": 4280
         },
         {
           "sourceId": 240,
@@ -12818,8 +12818,8 @@
               "hex": "#cbbb9f"
             }
           },
-          "designerDiscountPercent": 17,
-          "designerPrice": 7553
+          "designerDiscountPercent": 15,
+          "designerPrice": 7740
         },
         {
           "sourceId": 1222,
@@ -12845,7 +12845,7 @@
           "primaryImage": "assets/products/1910/oct-00-main.webp",
           "label": "коричневый · 6",
           "designerDiscountPercent": 15,
-          "designerPrice": 7735
+          "designerPrice": 7740
         }
       ]
     },
@@ -13671,11 +13671,11 @@
           "sourceId": 1615,
           "specs": "металл/кожа буйвола, 61х49х80см, античная медь/коричневый",
           "wholesalePrice": 23900,
-          "retailPrice": 47800,
+          "retailPrice": 29800,
           "primaryImage": "assets/products/1615/00-main.webp",
           "label": "61х49х80см · античная медь/коричневый",
           "designerDiscountPercent": 15,
-          "designerPrice": 40630
+          "designerPrice": 25330
         }
       ]
     },
@@ -13691,11 +13691,11 @@
           "sourceId": 1651,
           "specs": "кожа буйвола/ткань хлопок, 87х78х70см, коричневый/ткань: винтаж",
           "wholesalePrice": 66796,
-          "retailPrice": 133590,
+          "retailPrice": 117040,
           "primaryImage": "assets/products/1651/00-main.webp",
           "label": "87х78х70см · коричневый/ткань: винтаж",
           "designerDiscountPercent": 10,
-          "designerPrice": 120240
+          "designerPrice": 105340
         }
       ]
     },
@@ -13711,11 +13711,11 @@
           "sourceId": 1563,
           "specs": "металл/кожа буйвола, 71,5х79х70см, коричневый",
           "wholesalePrice": 16501,
-          "retailPrice": 33000,
+          "retailPrice": 56400,
           "primaryImage": "assets/products/1563/00-main.webp",
           "label": "5х79х70см · коричневый",
           "designerDiscountPercent": 15,
-          "designerPrice": 28050
+          "designerPrice": 47940
         }
       ]
     },
@@ -13751,7 +13751,7 @@
           "sourceId": 1690,
           "specs": "массив березы, ткань: вельвет, 97х95х83см, темно-синий",
           "wholesalePrice": 63700,
-          "retailPrice": 127400,
+          "retailPrice": 38220,
           "primaryImage": "assets/products/1690/00-main.webp",
           "label": "97х95х83см · темно-синий",
           "axes": {
@@ -13760,8 +13760,8 @@
               "hex": "#51657a"
             }
           },
-          "designerDiscountPercent": 11,
-          "designerPrice": 113386
+          "designerDiscountPercent": 10,
+          "designerPrice": 34400
         }
       ]
     },
@@ -13777,11 +13777,11 @@
           "sourceId": 1654,
           "specs": "кожа буйвола/металл/массив манго, 65х75х73см, коричневый",
           "wholesalePrice": 24402,
-          "retailPrice": 68400,
+          "retailPrice": 47880,
           "primaryImage": "assets/products/1654/00-main.webp",
           "label": "65х75х73см · коричневый",
-          "designerDiscountPercent": 14,
-          "designerPrice": 58824
+          "designerDiscountPercent": 15,
+          "designerPrice": 40700
         }
       ]
     },
@@ -13797,11 +13797,11 @@
           "sourceId": 1653,
           "specs": "кожа буйвола/металл/массив манго, 65х62х75см, коричневый",
           "wholesalePrice": 38200,
-          "retailPrice": 76400,
+          "retailPrice": 61120,
           "primaryImage": "assets/products/1653/00-main.webp",
           "label": "65х62х75см · коричневый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 64940
+          "designerDiscountPercent": 10,
+          "designerPrice": 55010
         }
       ]
     },
@@ -13817,11 +13817,11 @@
           "sourceId": 1655,
           "specs": "металл/кожа буйвола, 54х60х91см, черный",
           "wholesalePrice": 18500,
-          "retailPrice": 37000,
+          "retailPrice": 37080,
           "primaryImage": "assets/products/1655/00-main.webp",
           "label": "54х60х91см · черный",
           "designerDiscountPercent": 10,
-          "designerPrice": 33300
+          "designerPrice": 33380
         }
       ]
     },
@@ -13837,11 +13837,11 @@
           "sourceId": 1650,
           "specs": "массив палисандра/кожа буйвола, 53х60х88см, коричневый, орех",
           "wholesalePrice": 29100,
-          "retailPrice": 58200,
+          "retailPrice": 46560,
           "primaryImage": "assets/products/1650/00-main.webp",
           "label": "коричневый · орех",
-          "designerDiscountPercent": 15,
-          "designerPrice": 49470
+          "designerDiscountPercent": 10,
+          "designerPrice": 41910
         }
       ]
     },
@@ -13857,11 +13857,11 @@
           "sourceId": 1656,
           "specs": "металл/кожа буйвола, 63х71х78см, черный",
           "wholesalePrice": 28600,
-          "retailPrice": 57200,
+          "retailPrice": 47500,
           "primaryImage": "assets/products/1656/00-main.webp",
           "label": "63х71х78см · черный",
           "designerDiscountPercent": 10,
-          "designerPrice": 51480
+          "designerPrice": 42750
         }
       ]
     },
@@ -13897,7 +13897,7 @@
           "sourceId": 1716,
           "specs": "массив красного дерева/ткань флок виттория нойр, 79х74х77см, античный дуб/ткань серая",
           "wholesalePrice": 18001,
-          "retailPrice": 140800,
+          "retailPrice": 36000,
           "primaryImage": "assets/products/1716/00-main.webp",
           "label": "79х74х77см · античный дуб/ткань серая",
           "axes": {
@@ -13906,8 +13906,8 @@
               "hex": "#a9865f"
             }
           },
-          "designerDiscountPercent": 12,
-          "designerPrice": 123904
+          "designerDiscountPercent": 10,
+          "designerPrice": 32400
         }
       ]
     },
@@ -13923,11 +13923,11 @@
           "sourceId": 1649,
           "specs": "кожа буйвола, 73х90х80см, античный светлый",
           "wholesalePrice": 127500,
-          "retailPrice": 255000,
+          "retailPrice": 204000,
           "primaryImage": "assets/products/1649/00-main.webp",
           "label": "73х90х80см · античный светлый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 216750
+          "designerDiscountPercent": 10,
+          "designerPrice": 183600
         }
       ]
     },
@@ -13979,11 +13979,11 @@
           "sourceId": 1659,
           "specs": "кожа буйвола, 42х42х45см, черный",
           "wholesalePrice": 13300,
-          "retailPrice": 38000,
+          "retailPrice": 30400,
           "primaryImage": "assets/products/1659/00-main.webp",
           "label": "42х42х45см · черный",
-          "designerDiscountPercent": 17,
-          "designerPrice": 31540
+          "designerDiscountPercent": 15,
+          "designerPrice": 25840
         }
       ]
     },
@@ -14329,7 +14329,7 @@
           "sourceId": 275,
           "specs": "каркас бук, сиденье ткань, 86х48.5х54.5, натуральный бук ",
           "wholesalePrice": 4410,
-          "retailPrice": 6860,
+          "retailPrice": 6170,
           "primaryImage": "assets/products/275/00-main.webp",
           "label": "86х48.5х54.5 · натуральный бук",
           "axes": {
@@ -14338,8 +14338,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 19,
-          "designerPrice": 5557
+          "designerDiscountPercent": 10,
+          "designerPrice": 5560
         }
       ]
     },
@@ -14408,18 +14408,18 @@
           "retailPrice": 1960,
           "primaryImage": "assets/products/660/00-main.webp",
           "label": "51х46х82см · белый",
-          "designerDiscountPercent": 19,
-          "designerPrice": 1588
+          "designerDiscountPercent": 15,
+          "designerPrice": 1670
         },
         {
           "sourceId": 1824,
           "specs": "дерево бук/металл/сиденье пластик, 51х46х82см, оранжевый",
           "wholesalePrice": 1120,
-          "retailPrice": 1960,
+          "retailPrice": 1570,
           "primaryImage": "assets/products/1824/oct-00-main.webp",
           "label": "51х46х82см · оранжевый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 1666
+          "designerDiscountPercent": 10,
+          "designerPrice": 1420
         }
       ]
     },
@@ -14705,11 +14705,11 @@
           "sourceId": 1662,
           "specs": "металл/кожа буйвола, 51х61х88см, коричневый",
           "wholesalePrice": 20400,
-          "retailPrice": 40800,
+          "retailPrice": 34000,
           "primaryImage": "assets/products/1662/00-main.webp",
           "label": "51х61х88см · коричневый",
           "designerDiscountPercent": 10,
-          "designerPrice": 36720
+          "designerPrice": 30600
         }
       ]
     },
@@ -14751,11 +14751,11 @@
           "sourceId": 1689,
           "specs": "массив акации, 45х45х95см, серый/античный серый",
           "wholesalePrice": 17399,
-          "retailPrice": 34800,
+          "retailPrice": 34700,
           "primaryImage": "assets/products/1689/00-main.webp",
           "label": "45х45х95см · серый/античный серый",
           "designerDiscountPercent": 10,
-          "designerPrice": 31320
+          "designerPrice": 31230
         }
       ]
     },
@@ -14771,11 +14771,11 @@
           "sourceId": 1572,
           "specs": "металл/кожа буйвола, 88 х42х50см, коричневый",
           "wholesalePrice": 11700,
-          "retailPrice": 33400,
+          "retailPrice": 46800,
           "primaryImage": "assets/products/1572/00-main.webp",
           "label": "88 х42х50см · коричневый",
-          "designerDiscountPercent": 14,
-          "designerPrice": 28724
+          "designerDiscountPercent": 15,
+          "designerPrice": 39780
         }
       ]
     },
@@ -14811,11 +14811,11 @@
           "sourceId": 1575,
           "specs": "металл/кожа буйвола/ткань хлопок, 78х45х51см, коричневый/ткань: винтаж",
           "wholesalePrice": 9501,
-          "retailPrice": 36200,
+          "retailPrice": 41000,
           "primaryImage": "assets/products/1575/00-main.webp",
           "label": "78х45х51см · коричневый/ткань: винтаж",
-          "designerDiscountPercent": 17,
-          "designerPrice": 30046
+          "designerDiscountPercent": 15,
+          "designerPrice": 34850
         }
       ]
     },
@@ -14831,11 +14831,11 @@
           "sourceId": 1638,
           "specs": "металл/кожа буйвола, 58х46х82см, коричневый",
           "wholesalePrice": 31000,
-          "retailPrice": 62000,
+          "retailPrice": 31000,
           "primaryImage": "assets/products/1638/00-main.webp",
           "label": "58х46х82см · коричневый",
-          "designerDiscountPercent": 14,
-          "designerPrice": 53320
+          "designerDiscountPercent": 15,
+          "designerPrice": 26350
         }
       ]
     },
@@ -14851,11 +14851,11 @@
           "sourceId": 1635,
           "specs": "металл/шкура буйвола, 53х47х80см, античная медь",
           "wholesalePrice": 20799,
-          "retailPrice": 41600,
+          "retailPrice": 46200,
           "primaryImage": "assets/products/1635/00-main.webp",
           "label": "53х47х80см · античная медь",
           "designerDiscountPercent": 15,
-          "designerPrice": 35360
+          "designerPrice": 39270
         }
       ]
     },
@@ -14965,11 +14965,11 @@
           "sourceId": 1664,
           "specs": "металл/кожа буйвола, 47х45х79см, коричневый",
           "wholesalePrice": 8199,
-          "retailPrice": 16400,
+          "retailPrice": 13700,
           "primaryImage": "assets/products/1664/00-main.webp",
           "label": "47х45х79см · коричневый",
           "designerDiscountPercent": 10,
-          "designerPrice": 14760
+          "designerPrice": 12330
         }
       ]
     },
@@ -14985,11 +14985,11 @@
           "sourceId": 1665,
           "specs": "металл/кожа буйвола, 42х35х45, коричневый",
           "wholesalePrice": 19800,
-          "retailPrice": 39600,
+          "retailPrice": 31680,
           "primaryImage": "assets/products/1665/00-main.webp",
           "label": "42х35х45 · коричневый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 33660
+          "designerDiscountPercent": 10,
+          "designerPrice": 28520
         }
       ]
     },
@@ -15047,11 +15047,11 @@
           "sourceId": 1576,
           "specs": "металл/кожа буйвола, 49х56х81см, коричневый",
           "wholesalePrice": 14101,
-          "retailPrice": 46800,
+          "retailPrice": 23400,
           "primaryImage": "assets/products/1576/00-main.webp",
           "label": "49х56х81см · коричневый",
-          "designerDiscountPercent": 12,
-          "designerPrice": 41184
+          "designerDiscountPercent": 15,
+          "designerPrice": 19890
         }
       ]
     },
@@ -15285,11 +15285,11 @@
           "sourceId": 1658,
           "specs": "кожа буйвола, 48х48х24см, коричневый",
           "wholesalePrice": 22300,
-          "retailPrice": 44600,
+          "retailPrice": 35680,
           "primaryImage": "assets/products/1658/02.webp",
           "label": "48х48х24см · коричневый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 37910
+          "designerDiscountPercent": 10,
+          "designerPrice": 32120
         }
       ]
     },
@@ -15485,11 +15485,11 @@
           "sourceId": 1636,
           "specs": "металл/кожа буйвола, Д32х52-74см, коричневый",
           "wholesalePrice": 12100,
-          "retailPrice": 24200,
+          "retailPrice": 15100,
           "primaryImage": "assets/products/1636/03.webp",
           "label": "Д32х52-74см · коричневый",
           "designerDiscountPercent": 15,
-          "designerPrice": 20570
+          "designerPrice": 12840
         }
       ]
     },
@@ -15505,11 +15505,11 @@
           "sourceId": 1637,
           "specs": "металл, 33х33х36см, античная медь",
           "wholesalePrice": 7400,
-          "retailPrice": 20400,
+          "retailPrice": 10200,
           "primaryImage": "assets/products/1637/03.webp",
           "label": "33х33х36см · античная медь",
           "designerDiscountPercent": 15,
-          "designerPrice": 17340
+          "designerPrice": 8670
         }
       ]
     },
@@ -15883,11 +15883,11 @@
           "sourceId": 1663,
           "specs": "металл/кожа буйвола, 32х32х49см, коричневый",
           "wholesalePrice": 6800,
-          "retailPrice": 13600,
+          "retailPrice": 12160,
           "primaryImage": "assets/products/1663/03.webp",
           "label": "32х32х49см · коричневый",
           "designerDiscountPercent": 15,
-          "designerPrice": 11560
+          "designerPrice": 10340
         }
       ]
     },
@@ -15979,7 +15979,7 @@
           "sourceId": 1349,
           "specs": "диаметр подушки 125см, 115х101х104см, античный черно-коричневый, ткань коричневый,",
           "wholesalePrice": 13730,
-          "retailPrice": 21360,
+          "retailPrice": 19220,
           "primaryImage": "assets/products/1349/00-main.webp",
           "label": "античный черно-коричневый · ткань коричневый",
           "axes": {
@@ -15988,8 +15988,8 @@
               "hex": "#76533e"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 18156
+          "designerDiscountPercent": 10,
+          "designerPrice": 17300
         },
         {
           "sourceId": 1351,
@@ -16427,11 +16427,11 @@
           "sourceId": 1570,
           "specs": "металл/кожа буйвола/ткань хлопок, Д36х46см, коричневый/ткань: винтаж",
           "wholesalePrice": 9800,
-          "retailPrice": 19600,
+          "retailPrice": 28600,
           "primaryImage": "assets/products/1570/02.webp",
           "label": "Д36х46см · коричневый/ткань: винтаж",
-          "designerDiscountPercent": 16,
-          "designerPrice": 16464
+          "designerDiscountPercent": 15,
+          "designerPrice": 24310
         }
       ]
     },
@@ -16527,11 +16527,11 @@
           "sourceId": 1933,
           "specs": "115х78х104см, античный черно-коричневый, ткань коричневый, 3м7-147",
           "wholesalePrice": 19810,
-          "retailPrice": 30810,
+          "retailPrice": 27740,
           "primaryImage": "assets/products/1933/oct-00-main.webp",
           "label": "ткань коричневый · 3м7-147",
-          "designerDiscountPercent": 15,
-          "designerPrice": 26189
+          "designerDiscountPercent": 10,
+          "designerPrice": 24970
         },
         {
           "sourceId": 1934,
@@ -16547,21 +16547,21 @@
           "sourceId": 1935,
           "specs": "115х78х104см, медовый, ткань коричневый, 3м7-147",
           "wholesalePrice": 19810,
-          "retailPrice": 30810,
+          "retailPrice": 27740,
           "primaryImage": "assets/products/1935/oct-00-main.webp",
           "label": "ткань коричневый · 3м7-147",
-          "designerDiscountPercent": 15,
-          "designerPrice": 26189
+          "designerDiscountPercent": 10,
+          "designerPrice": 24970
         },
         {
           "sourceId": 1936,
           "specs": "115х78х104см, пекан орех, ткань коричневый, 3м7-147",
           "wholesalePrice": 19810,
-          "retailPrice": 30810,
+          "retailPrice": 27740,
           "primaryImage": "assets/products/1936/oct-00-main.webp",
           "label": "ткань коричневый · 3м7-147",
-          "designerDiscountPercent": 15,
-          "designerPrice": 26189
+          "designerDiscountPercent": 10,
+          "designerPrice": 24970
         },
         {
           "sourceId": 1937,
@@ -16759,7 +16759,7 @@
           "sourceId": 1691,
           "specs": "массив акации, натуральный",
           "wholesalePrice": 20900,
-          "retailPrice": 41800,
+          "retailPrice": 33440,
           "primaryImage": "assets/products/1691/00-main.webp",
           "label": "массив акации · натуральный",
           "axes": {
@@ -16768,8 +16768,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 35530
+          "designerDiscountPercent": 10,
+          "designerPrice": 30100
         }
       ]
     },
@@ -16945,7 +16945,7 @@
           "sourceId": 1673,
           "specs": "дерево манго, 120х150х75см, натуральный ",
           "wholesalePrice": 92297,
-          "retailPrice": 184590,
+          "retailPrice": 115400,
           "primaryImage": "assets/products/1673/00-main.webp",
           "label": "120х150х75см · натуральный",
           "axes": {
@@ -16955,7 +16955,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 156910
+          "designerPrice": 98090
         }
       ]
     },
@@ -17157,11 +17157,11 @@
           "sourceId": 1646,
           "specs": "кожа буйвола/ткань хлопок, 190х77х79см, коричневый/ткань: винтаж,",
           "wholesalePrice": 156700,
-          "retailPrice": 313400,
+          "retailPrice": 250720,
           "primaryImage": "assets/products/1646/00-main.webp",
           "label": "190х77х79см · коричневый/ткань: винтаж",
-          "designerDiscountPercent": 15,
-          "designerPrice": 266390
+          "designerDiscountPercent": 10,
+          "designerPrice": 225650
         }
       ]
     },
@@ -17285,11 +17285,11 @@
           "sourceId": 1648,
           "specs": "металл/кожа буйвола, 133х71х77см, коричневый",
           "wholesalePrice": 72800,
-          "retailPrice": 145600,
+          "retailPrice": 116480,
           "primaryImage": "assets/products/1648/00-main.webp",
           "label": "133х71х77см · коричневый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 123760
+          "designerDiscountPercent": 10,
+          "designerPrice": 104840
         }
       ]
     },
@@ -17305,7 +17305,7 @@
           "sourceId": 1694,
           "specs": "массив акации, натуральный",
           "wholesalePrice": 42900,
-          "retailPrice": 85800,
+          "retailPrice": 68640,
           "primaryImage": "assets/products/1694/00-main.webp",
           "label": "массив акации · натуральный",
           "axes": {
@@ -17314,8 +17314,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 72930
+          "designerDiscountPercent": 10,
+          "designerPrice": 61780
         }
       ]
     },
@@ -17351,11 +17351,11 @@
           "sourceId": 1702,
           "specs": "массив манго, 80х130х60см, античный белый/белый",
           "wholesalePrice": 56099,
-          "retailPrice": 112200,
+          "retailPrice": 86200,
           "primaryImage": "assets/products/1702/00-main.webp",
           "label": "80х130х60см · античный белый/белый",
           "designerDiscountPercent": 10,
-          "designerPrice": 100980
+          "designerPrice": 77580
         }
       ]
     },
@@ -17371,11 +17371,11 @@
           "sourceId": 1645,
           "specs": "кожа буйвола, 143х81х79см, коричневый",
           "wholesalePrice": 218600,
-          "retailPrice": 437200,
+          "retailPrice": 349760,
           "primaryImage": "assets/products/1645/03.webp",
           "label": "143х81х79см · коричневый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 371620
+          "designerDiscountPercent": 10,
+          "designerPrice": 314790
         }
       ]
     },
@@ -17487,11 +17487,11 @@
           "sourceId": 1647,
           "specs": "кожа буйвола, 190х77х79см, коричневый",
           "wholesalePrice": 262700,
-          "retailPrice": 525400,
+          "retailPrice": 420320,
           "primaryImage": "assets/products/1647/03.webp",
           "label": "190х77х79см · коричневый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 446590
+          "designerDiscountPercent": 10,
+          "designerPrice": 378290
         }
       ]
     },
@@ -17549,7 +17549,7 @@
           "sourceId": 1520,
           "specs": "массив манго/алюминий, 46х46х18см, коричневый/чеканка",
           "wholesalePrice": 5100,
-          "retailPrice": 10200,
+          "retailPrice": 5600,
           "primaryImage": "assets/products/1520/00-main.webp",
           "label": "46х46х18см · коричневый/чеканка",
           "axes": {
@@ -17559,7 +17559,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 8670
+          "designerPrice": 4760
         }
       ]
     },
@@ -17630,8 +17630,8 @@
               "hex": "#76533e"
             }
           },
-          "designerDiscountPercent": 19,
-          "designerPrice": 5322
+          "designerDiscountPercent": 15,
+          "designerPrice": 5590
         },
         {
           "sourceId": 1404,
@@ -17825,7 +17825,7 @@
           "sourceId": 1708,
           "specs": "массив палисандра, 118х70х45см, натуральный тонированный ",
           "wholesalePrice": 40800,
-          "retailPrice": 81600,
+          "retailPrice": 65280,
           "primaryImage": "assets/products/1708/01.webp",
           "label": "118х70х45см · натуральный тонированный",
           "axes": {
@@ -17834,8 +17834,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 69360
+          "designerDiscountPercent": 10,
+          "designerPrice": 58760
         }
       ]
     },
@@ -17887,7 +17887,7 @@
           "sourceId": 1712,
           "specs": "массив палисандра, 150х60х93см, натуральный тонированный ",
           "wholesalePrice": 42999,
-          "retailPrice": 86000,
+          "retailPrice": 89920,
           "primaryImage": "assets/products/1712/01.webp",
           "label": "150х60х93см · натуральный тонированный",
           "axes": {
@@ -17897,7 +17897,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 73100
+          "designerPrice": 76440
         }
       ]
     },
@@ -18417,11 +18417,11 @@
           "sourceId": 1660,
           "specs": "массив манго/кожа буйвола, 42х92х52см, коричневый",
           "wholesalePrice": 57601,
-          "retailPrice": 115200,
+          "retailPrice": 115360,
           "primaryImage": "assets/products/1660/03.webp",
           "label": "42х92х52см · коричневый",
           "designerDiscountPercent": 15,
-          "designerPrice": 97920
+          "designerPrice": 98060
         }
       ]
     },
@@ -18467,7 +18467,7 @@
           "sourceId": 1695,
           "specs": "массив акации, натуральный",
           "wholesalePrice": 42900,
-          "retailPrice": 85800,
+          "retailPrice": 68640,
           "primaryImage": "assets/products/1695/00-main.webp",
           "label": "массив акации · натуральный",
           "axes": {
@@ -18476,8 +18476,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 72930
+          "designerDiscountPercent": 10,
+          "designerPrice": 61780
         }
       ]
     },
@@ -18493,11 +18493,11 @@
           "sourceId": 1561,
           "specs": "алюминиевый сплав, 33,5х14х21,5см, серебряный",
           "wholesalePrice": 11700,
-          "retailPrice": 23400,
+          "retailPrice": 9400,
           "primaryImage": "assets/products/1561/03.webp",
           "label": "5см · серебряный",
           "designerDiscountPercent": 15,
-          "designerPrice": 19890
+          "designerPrice": 7990
         }
       ]
     },
@@ -18575,7 +18575,7 @@
           "sourceId": 1696,
           "specs": "массив акации, натуральный",
           "wholesalePrice": 21600,
-          "retailPrice": 43200,
+          "retailPrice": 34560,
           "primaryImage": "assets/products/1696/00-main.webp",
           "label": "массив акации · натуральный",
           "axes": {
@@ -18584,8 +18584,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 36720
+          "designerDiscountPercent": 10,
+          "designerPrice": 31110
         }
       ]
     },
@@ -18677,11 +18677,11 @@
           "sourceId": 1666,
           "specs": "металл/кожа буйвола, 38х33х60см, коричневый",
           "wholesalePrice": 28200,
-          "retailPrice": 56400,
+          "retailPrice": 45120,
           "primaryImage": "assets/products/1666/00-main.webp",
           "label": "38х33х60см · коричневый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 47940
+          "designerDiscountPercent": 10,
+          "designerPrice": 40610
         }
       ]
     },
@@ -18697,7 +18697,7 @@
           "sourceId": 1672,
           "specs": "массив манго, 210х105х45см, натуральный ",
           "wholesalePrice": 44600,
-          "retailPrice": 89200,
+          "retailPrice": 58300,
           "primaryImage": "assets/products/1672/00-main.webp",
           "label": "210х105х45см · натуральный",
           "axes": {
@@ -18707,7 +18707,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 80280
+          "designerPrice": 52470
         }
       ]
     },
@@ -18785,7 +18785,7 @@
           "sourceId": 1720,
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 70400,
-          "retailPrice": 140800,
+          "retailPrice": 112640,
           "primaryImage": "assets/products/1720/00-main.webp",
           "label": "массив манго/металл · античный белый/черный",
           "axes": {
@@ -18794,8 +18794,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 119680
+          "designerDiscountPercent": 10,
+          "designerPrice": 101380
         }
       ]
     },
@@ -18831,11 +18831,11 @@
           "sourceId": 1701,
           "specs": "массив манго, 120х120х78см, античный белый/белый",
           "wholesalePrice": 42801,
-          "retailPrice": 85600,
+          "retailPrice": 71300,
           "primaryImage": "assets/products/1701/01.webp",
           "label": "120х120х78см · античный белый/белый",
           "designerDiscountPercent": 10,
-          "designerPrice": 77040
+          "designerPrice": 64170
         }
       ]
     },
@@ -18851,7 +18851,7 @@
           "sourceId": 1721,
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 62500,
-          "retailPrice": 125000,
+          "retailPrice": 100000,
           "primaryImage": "assets/products/1721/00-main.webp",
           "label": "массив манго/металл · античный белый/черный",
           "axes": {
@@ -18860,8 +18860,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 106250
+          "designerDiscountPercent": 10,
+          "designerPrice": 90000
         }
       ]
     },
@@ -18877,7 +18877,7 @@
           "sourceId": 1717,
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 68300,
-          "retailPrice": 136600,
+          "retailPrice": 109280,
           "primaryImage": "assets/products/1717/00-main.webp",
           "label": "массив манго/металл · античный белый/черный",
           "axes": {
@@ -18886,8 +18886,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 116110
+          "designerDiscountPercent": 10,
+          "designerPrice": 98360
         }
       ]
     },
@@ -18903,7 +18903,7 @@
           "sourceId": 1697,
           "specs": "массив акации, натуральный",
           "wholesalePrice": 89600,
-          "retailPrice": 179200,
+          "retailPrice": 143360,
           "primaryImage": "assets/products/1697/00-main.webp",
           "label": "массив акации · натуральный",
           "axes": {
@@ -18912,8 +18912,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 152320
+          "designerDiscountPercent": 10,
+          "designerPrice": 129030
         }
       ]
     },
@@ -18965,11 +18965,11 @@
           "sourceId": 1704,
           "specs": "массив манго, 50х40х70см, античный белый/белый",
           "wholesalePrice": 19601,
-          "retailPrice": 69200,
+          "retailPrice": 34600,
           "primaryImage": "assets/products/1704/00-main.webp",
           "label": "50х40х70см · античный белый/белый",
-          "designerDiscountPercent": 12,
-          "designerPrice": 60896
+          "designerDiscountPercent": 10,
+          "designerPrice": 31140
         }
       ]
     },
@@ -18985,7 +18985,7 @@
           "sourceId": 1693,
           "specs": "массив акации, натуральный",
           "wholesalePrice": 51800,
-          "retailPrice": 103600,
+          "retailPrice": 82880,
           "primaryImage": "assets/products/1693/00-main.webp",
           "label": "массив акации · натуральный",
           "axes": {
@@ -18994,8 +18994,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 88060
+          "designerDiscountPercent": 10,
+          "designerPrice": 74600
         }
       ]
     },
@@ -19011,7 +19011,7 @@
           "sourceId": 1713,
           "specs": "массив палисандра, 145х40х155см, натуральный тонированный ",
           "wholesalePrice": 112600,
-          "retailPrice": 225200,
+          "retailPrice": 180160,
           "primaryImage": "assets/products/1713/00-main.webp",
           "label": "145х40х155см · натуральный тонированный",
           "axes": {
@@ -19020,8 +19020,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 191420
+          "designerDiscountPercent": 10,
+          "designerPrice": 162150
         }
       ]
     },
@@ -19103,11 +19103,11 @@
           "sourceId": 1699,
           "specs": "массив манго, 175х45х88см, античный белый/белый",
           "wholesalePrice": 83798,
-          "retailPrice": 167600,
+          "retailPrice": 104800,
           "primaryImage": "assets/products/1699/00-main.webp",
           "label": "175х45х88см · античный белый/белый",
           "designerDiscountPercent": 10,
-          "designerPrice": 150840
+          "designerPrice": 94320
         }
       ]
     },
@@ -19195,11 +19195,11 @@
           "sourceId": 1684,
           "specs": "массив акации/массив манго/МДФ, 133х45х45см, античный серый/серый",
           "wholesalePrice": 24900,
-          "retailPrice": 49800,
+          "retailPrice": 49700,
           "primaryImage": "assets/products/1684/03.webp",
           "label": "133х45х45см · античный серый/серый",
           "designerDiscountPercent": 10,
-          "designerPrice": 44820
+          "designerPrice": 44730
         }
       ]
     },
@@ -19215,7 +19215,7 @@
           "sourceId": 1710,
           "specs": "массив палисандра, 175х45х72см, натуральный тонированный ",
           "wholesalePrice": 81700,
-          "retailPrice": 163400,
+          "retailPrice": 130720,
           "primaryImage": "assets/products/1710/00-main.webp",
           "label": "175х45х72см · натуральный тонированный",
           "axes": {
@@ -19224,8 +19224,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 138890
+          "designerDiscountPercent": 10,
+          "designerPrice": 117650
         }
       ]
     },
@@ -19241,7 +19241,7 @@
           "sourceId": 1719,
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 51100,
-          "retailPrice": 102200,
+          "retailPrice": 81760,
           "primaryImage": "assets/products/1719/01.webp",
           "label": "массив манго/металл · античный белый/черный",
           "axes": {
@@ -19250,8 +19250,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 86870
+          "designerDiscountPercent": 10,
+          "designerPrice": 73590
         }
       ]
     },
@@ -19471,7 +19471,7 @@
           "sourceId": 1667,
           "specs": "массив акации/металл, 75х35х190см, коричневый/черный",
           "wholesalePrice": 35200,
-          "retailPrice": 70400,
+          "retailPrice": 50300,
           "primaryImage": "assets/products/1667/00-main.webp",
           "label": "75х35х190см · коричневый/черный",
           "axes": {
@@ -19481,7 +19481,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 63360
+          "designerPrice": 45270
         }
       ]
     },
@@ -19553,7 +19553,7 @@
           "sourceId": 1668,
           "specs": "массив акации/металл, 115х35х190см, коричневый/черный",
           "wholesalePrice": 49903,
-          "retailPrice": 99810,
+          "retailPrice": 71300,
           "primaryImage": "assets/products/1668/00-main.webp",
           "label": "115х35х190см · коричневый/черный",
           "axes": {
@@ -19563,7 +19563,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 89830
+          "designerPrice": 64170
         }
       ]
     },
@@ -19579,11 +19579,11 @@
           "sourceId": 1705,
           "specs": "массив манго, 73х40х115см, античный белый/белый",
           "wholesalePrice": 51100,
-          "retailPrice": 146000,
+          "retailPrice": 73000,
           "primaryImage": "assets/products/1705/00-main.webp",
           "label": "73х40х115см · античный белый/белый",
-          "designerDiscountPercent": 11,
-          "designerPrice": 129940
+          "designerDiscountPercent": 15,
+          "designerPrice": 62050
         }
       ]
     },
@@ -19599,11 +19599,11 @@
           "sourceId": 1682,
           "specs": "массив акации/массив манго/МДФ, 110х41х211см, черный/натуральный",
           "wholesalePrice": 110695,
-          "retailPrice": 221390,
+          "retailPrice": 138300,
           "primaryImage": "assets/products/1682/00-main.webp",
           "label": "110х41х211см · черный/натуральный",
           "designerDiscountPercent": 10,
-          "designerPrice": 199260
+          "designerPrice": 124470
         }
       ]
     },
@@ -19645,11 +19645,11 @@
           "sourceId": 1683,
           "specs": "массив акации/массив манго/МДФ, 120х45х210см, черный/натуральный",
           "wholesalePrice": 110695,
-          "retailPrice": 221390,
+          "retailPrice": 138300,
           "primaryImage": "assets/products/1683/00-main.webp",
           "label": "120х45х210см · черный/натуральный",
           "designerDiscountPercent": 10,
-          "designerPrice": 199260
+          "designerPrice": 124470
         }
       ]
     },
@@ -19665,11 +19665,11 @@
           "sourceId": 1706,
           "specs": "массив манго, 90х40х210см, античный белый/белый",
           "wholesalePrice": 88695,
-          "retailPrice": 177390,
+          "retailPrice": 110800,
           "primaryImage": "assets/products/1706/00-main.webp",
           "label": "90х40х210см · античный белый/белый",
           "designerDiscountPercent": 10,
-          "designerPrice": 159660
+          "designerPrice": 99720
         }
       ]
     },
@@ -19757,7 +19757,7 @@
           "sourceId": 1669,
           "specs": "массив акации/металл, 100х25х106см, коричневый/черный",
           "wholesalePrice": 24198,
-          "retailPrice": 48400,
+          "retailPrice": 34500,
           "primaryImage": "assets/products/1669/00-main.webp",
           "label": "100х25х106см · коричневый/черный",
           "axes": {
@@ -19767,7 +19767,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 43560
+          "designerPrice": 31050
         }
       ]
     },
@@ -19963,11 +19963,11 @@
           "sourceId": 1545,
           "specs": "алюминиевый сплав, 30,5х30,5х48см, черный/золотой",
           "wholesalePrice": 8301,
-          "retailPrice": 41400,
+          "retailPrice": 20700,
           "primaryImage": "assets/products/1545/00-main.webp",
           "label": "5х48см · черный/золотой",
-          "designerDiscountPercent": 13,
-          "designerPrice": 36018
+          "designerDiscountPercent": 15,
+          "designerPrice": 17600
         }
       ]
     },
@@ -20013,7 +20013,7 @@
           "sourceId": 1718,
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 53200,
-          "retailPrice": 106400,
+          "retailPrice": 85120,
           "primaryImage": "assets/products/1718/01.webp",
           "label": "массив манго/металл · античный белый/черный",
           "axes": {
@@ -20022,8 +20022,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 90440
+          "designerDiscountPercent": 10,
+          "designerPrice": 76610
         }
       ]
     },
@@ -20065,7 +20065,7 @@
           "sourceId": 1692,
           "specs": "массив акации, натуральный",
           "wholesalePrice": 62800,
-          "retailPrice": 125600,
+          "retailPrice": 100480,
           "primaryImage": "assets/products/1692/02.webp",
           "label": "массив акации · натуральный",
           "axes": {
@@ -20074,8 +20074,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 106760
+          "designerDiscountPercent": 10,
+          "designerPrice": 90440
         }
       ]
     },
@@ -20091,7 +20091,7 @@
           "sourceId": 1641,
           "specs": "массив манго, 17х20см, натуральный",
           "wholesalePrice": 1500,
-          "retailPrice": 2200,
+          "retailPrice": 1300,
           "primaryImage": "assets/products/1641/02.webp",
           "label": "17х20см · натуральный",
           "axes": {
@@ -20101,7 +20101,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 1870
+          "designerPrice": 1110
         },
         {
           "sourceId": 1642,
@@ -20133,7 +20133,7 @@
           "sourceId": 1711,
           "specs": "массив палисандра, 90х40х72см, натуральный тонированный",
           "wholesalePrice": 41900,
-          "retailPrice": 83800,
+          "retailPrice": 67040,
           "primaryImage": "assets/products/1711/03.webp",
           "label": "90х40х72см · натуральный тонированный",
           "axes": {
@@ -20142,8 +20142,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 71230
+          "designerDiscountPercent": 10,
+          "designerPrice": 60340
         }
       ]
     },
@@ -20219,7 +20219,7 @@
           "sourceId": 1722,
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 83700,
-          "retailPrice": 167400,
+          "retailPrice": 133920,
           "primaryImage": "assets/products/1722/02.webp",
           "label": "массив манго/металл · античный белый/черный",
           "axes": {
@@ -20228,8 +20228,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 142290
+          "designerDiscountPercent": 10,
+          "designerPrice": 120530
         }
       ]
     },
@@ -20393,11 +20393,11 @@
           "sourceId": 1614,
           "specs": "металл: алюминий/стекло/МДФ, 60х45х5см, золотой",
           "wholesalePrice": 5900,
-          "retailPrice": 19800,
+          "retailPrice": 9900,
           "primaryImage": "assets/products/1614/00-main.webp",
           "label": "60х45х5см · золотой",
-          "designerDiscountPercent": 16,
-          "designerPrice": 16632
+          "designerDiscountPercent": 15,
+          "designerPrice": 8420
         }
       ]
     },
@@ -20491,11 +20491,11 @@
           "sourceId": 1613,
           "specs": "металл: алюминий/стекло/МДФ, Д46см, золотой",
           "wholesalePrice": 11600,
-          "retailPrice": 18600,
+          "retailPrice": 11600,
           "primaryImage": "assets/products/1613/00-main.webp",
           "label": "Д46см · золотой",
           "designerDiscountPercent": 15,
-          "designerPrice": 15810
+          "designerPrice": 9860
         }
       ]
     },
@@ -20617,11 +20617,11 @@
           "sourceId": 1541,
           "specs": "алюминиевый сплав, 33х30,5х5,5см, серебряный",
           "wholesalePrice": 1400,
-          "retailPrice": 2800,
+          "retailPrice": 2600,
           "primaryImage": "assets/products/1541/00-main.webp",
           "label": "5см · серебряный",
           "designerDiscountPercent": 10,
-          "designerPrice": 2520
+          "designerPrice": 2340
         }
       ]
     },
@@ -20637,11 +20637,11 @@
           "sourceId": 1542,
           "specs": "алюминиевый сплав, 23х16х13,5см, серебряный",
           "wholesalePrice": 4600,
-          "retailPrice": 9200,
+          "retailPrice": 4600,
           "primaryImage": "assets/products/1542/00-main.webp",
           "label": "5см · серебряный",
-          "designerDiscountPercent": 18,
-          "designerPrice": 7544
+          "designerDiscountPercent": 15,
+          "designerPrice": 3910
         }
       ]
     },
@@ -20763,11 +20763,11 @@
           "sourceId": 1621,
           "specs": "металл: железо, 6х12х46/11х 19х58/11х19х68см, коричневый/бежевый",
           "wholesalePrice": 11500,
-          "retailPrice": 23000,
+          "retailPrice": 38200,
           "primaryImage": "assets/products/1621/00-main.webp",
           "label": "6х12х46/11х 19х58/11х19х68см · коричневый/бежевый",
-          "designerDiscountPercent": 10,
-          "designerPrice": 20700
+          "designerDiscountPercent": 15,
+          "designerPrice": 32470
         }
       ]
     },
@@ -20849,11 +20849,11 @@
           "sourceId": 1626,
           "specs": "металл: железо, 15х15х46/15х15х26см, серебряный",
           "wholesalePrice": 6600,
-          "retailPrice": 13200,
+          "retailPrice": 11000,
           "primaryImage": "assets/products/1626/00-main.webp",
           "label": "15х15х46/15х15х26см · серебряный",
           "designerDiscountPercent": 10,
-          "designerPrice": 11880
+          "designerPrice": 9900
         }
       ]
     },
@@ -20889,7 +20889,7 @@
           "sourceId": 1629,
           "specs": "металл: железо, 14х14х58/14х 14х48/14х14х37см, золотой",
           "wholesalePrice": 7299,
-          "retailPrice": 29000,
+          "retailPrice": 14600,
           "primaryImage": "assets/products/1629/00-main.webp",
           "label": "14х14х58/14х 14х48/14х14х37см · золотой",
           "axes": {
@@ -20899,7 +20899,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 24650
+          "designerPrice": 12410
         }
       ]
     },
@@ -20941,11 +20941,11 @@
           "sourceId": 1632,
           "specs": "бамбук, 30х30х12/25х25х10/20х20х8см, бежевый",
           "wholesalePrice": 3500,
-          "retailPrice": 7000,
+          "retailPrice": 5800,
           "primaryImage": "assets/products/1632/00-main.webp",
           "label": "30х30х12/25х25х10/20х20х8см · бежевый",
           "designerDiscountPercent": 10,
-          "designerPrice": 6300
+          "designerPrice": 5220
         }
       ]
     },
@@ -20961,7 +20961,7 @@
           "sourceId": 1585,
           "specs": "МДФ+павловния, 80х33х47, белый ",
           "wholesalePrice": 4200,
-          "retailPrice": 5880,
+          "retailPrice": 4900,
           "primaryImage": "assets/products/1585/00-main.webp",
           "label": "80х33х47 · белый",
           "axes": {
@@ -20971,7 +20971,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 5300
+          "designerPrice": 4410
         }
       ]
     },
@@ -21027,11 +21027,11 @@
           "sourceId": 1552,
           "specs": "алюминиевый сплав, 24х24х34см, серебряный",
           "wholesalePrice": 2200,
-          "retailPrice": 8800,
+          "retailPrice": 4400,
           "primaryImage": "assets/products/1552/00-main.webp",
           "label": "24х24х34см · серебряный",
-          "designerDiscountPercent": 16,
-          "designerPrice": 7392
+          "designerDiscountPercent": 15,
+          "designerPrice": 3740
         }
       ]
     },
@@ -21357,11 +21357,11 @@
           "sourceId": 1560,
           "specs": "алюминиевый сплав, 26х15х23см, серебряный",
           "wholesalePrice": 2600,
-          "retailPrice": 10200,
+          "retailPrice": 5200,
           "primaryImage": "assets/products/1560/00-main.webp",
           "label": "26х15х23см · серебряный",
-          "designerDiscountPercent": 16,
-          "designerPrice": 8568
+          "designerDiscountPercent": 15,
+          "designerPrice": 4420
         }
       ]
     },
@@ -21377,7 +21377,7 @@
           "sourceId": 1610,
           "specs": "металл: алюминий, 18х18х20см, коричневый",
           "wholesalePrice": 2500,
-          "retailPrice": 5000,
+          "retailPrice": 4100,
           "primaryImage": "assets/products/1610/01.webp",
           "label": "18х18х20см · коричневый",
           "axes": {
@@ -21387,7 +21387,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4500
+          "designerPrice": 3690
         }
       ]
     },
@@ -21473,7 +21473,7 @@
           "sourceId": 1611,
           "specs": "металл: алюминий, 15х16х26см, коричневый",
           "wholesalePrice": 2500,
-          "retailPrice": 5000,
+          "retailPrice": 4100,
           "primaryImage": "assets/products/1611/01.webp",
           "label": "15х16х26см · коричневый",
           "axes": {
@@ -21483,7 +21483,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4500
+          "designerPrice": 3690
         }
       ]
     },
@@ -21499,7 +21499,7 @@
           "sourceId": 1612,
           "specs": "металл: алюминий, 20х15х30см, черный",
           "wholesalePrice": 3100,
-          "retailPrice": 6200,
+          "retailPrice": 5200,
           "primaryImage": "assets/products/1612/01.webp",
           "label": "20х15х30см · черный",
           "axes": {
@@ -21509,7 +21509,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 5580
+          "designerPrice": 4680
         }
       ]
     },
@@ -21595,7 +21595,7 @@
           "sourceId": 1644,
           "specs": "массив манго, 37см, коричневый",
           "wholesalePrice": 2700,
-          "retailPrice": 5400,
+          "retailPrice": 6600,
           "primaryImage": "assets/products/1644/03.webp",
           "label": "37см · коричневый",
           "axes": {
@@ -21605,7 +21605,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 4860
+          "designerPrice": 5940
         }
       ]
     },
@@ -21621,11 +21621,11 @@
           "sourceId": 1527,
           "specs": "алюминиевый сплав, 10,5х10,5х29см, платина/антикварное покрытие",
           "wholesalePrice": 900,
-          "retailPrice": 1800,
+          "retailPrice": 1700,
           "primaryImage": "assets/products/1527/01.webp",
           "label": "5х29см · платина/антикварное покрытие",
           "designerDiscountPercent": 10,
-          "designerPrice": 1620
+          "designerPrice": 1530
         }
       ]
     },
@@ -21731,11 +21731,11 @@
           "sourceId": 1529,
           "specs": "алюминиевый сплав, 18х10х33см, платина/античный белый",
           "wholesalePrice": 900,
-          "retailPrice": 4600,
+          "retailPrice": 1800,
           "primaryImage": "assets/products/1529/01.webp",
           "label": "18х10х33см · платина/античный белый",
-          "designerDiscountPercent": 18,
-          "designerPrice": 3772
+          "designerDiscountPercent": 15,
+          "designerPrice": 1530
         }
       ]
     },
@@ -21923,7 +21923,7 @@
           "sourceId": 1619,
           "specs": "металл: алюминий, 24х45/19х36см, черный",
           "wholesalePrice": 8100,
-          "retailPrice": 16200,
+          "retailPrice": 11600,
           "primaryImage": "assets/products/1619/01.webp",
           "label": "24х45/19х36см · черный",
           "axes": {
@@ -21933,7 +21933,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 14580
+          "designerPrice": 10440
         }
       ]
     },
@@ -22061,11 +22061,11 @@
           "sourceId": 1680,
           "specs": "массив акации/массив манго/МДФ, 166х48х230см, черный/натуральный",
           "wholesalePrice": 192112,
-          "retailPrice": 384220,
+          "retailPrice": 240200,
           "primaryImage": "assets/products/1680/00-main.webp",
           "label": "166х48х230см · черный/натуральный",
           "designerDiscountPercent": 10,
-          "designerPrice": 345800
+          "designerPrice": 216180
         }
       ]
     },
@@ -22175,7 +22175,7 @@
           "sourceId": 1579,
           "specs": "ткань хлопок, 60х89см, коричневый",
           "wholesalePrice": 3400,
-          "retailPrice": 6800,
+          "retailPrice": 10600,
           "primaryImage": "assets/products/1579/02.webp",
           "label": "60х89см · коричневый",
           "axes": {
@@ -22185,7 +22185,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 5780
+          "designerPrice": 9010
         }
       ]
     },
@@ -22339,11 +22339,11 @@
           "sourceId": 1590,
           "specs": "хлопковые узоры, 80х80х20см, синий",
           "wholesalePrice": 17299,
-          "retailPrice": 34600,
+          "retailPrice": 21600,
           "primaryImage": "assets/products/1590/00-main.webp",
           "label": "80х80х20см · синий",
           "designerDiscountPercent": 10,
-          "designerPrice": 31140
+          "designerPrice": 19440
         }
       ]
     },
@@ -22359,11 +22359,11 @@
           "sourceId": 1681,
           "specs": "массив манго/ткань/тростник, 51х54х79см, черный/натуральный",
           "wholesalePrice": 20999,
-          "retailPrice": 42000,
+          "retailPrice": 33680,
           "primaryImage": "assets/products/1681/00-main.webp",
           "label": "51х54х79см · черный/натуральный",
           "designerDiscountPercent": 10,
-          "designerPrice": 37800
+          "designerPrice": 30320
         }
       ]
     },
@@ -22523,7 +22523,7 @@
           "sourceId": 1670,
           "specs": "массив манго, 210х190х40см, натуральный ",
           "wholesalePrice": 122308,
-          "retailPrice": 244620,
+          "retailPrice": 159900,
           "primaryImage": "assets/products/1670/03.webp",
           "label": "210х190х40см · натуральный",
           "axes": {
@@ -22533,7 +22533,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 207930
+          "designerPrice": 135920
         }
       ]
     },
@@ -22549,7 +22549,7 @@
           "sourceId": 1723,
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 50800,
-          "retailPrice": 101600,
+          "retailPrice": 81280,
           "primaryImage": "assets/products/1723/01.webp",
           "label": "массив манго/металл · античный белый/черный",
           "axes": {
@@ -22558,8 +22558,8 @@
               "hex": "#171717"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 86360
+          "designerDiscountPercent": 10,
+          "designerPrice": 73160
         }
       ]
     },
@@ -22575,7 +22575,7 @@
           "sourceId": 1698,
           "specs": "массив акации, натуральный",
           "wholesalePrice": 43600,
-          "retailPrice": 87200,
+          "retailPrice": 69760,
           "primaryImage": "assets/products/1698/01.webp",
           "label": "массив акации · натуральный",
           "axes": {
@@ -22584,8 +22584,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerDiscountPercent": 15,
-          "designerPrice": 74120
+          "designerDiscountPercent": 10,
+          "designerPrice": 62790
         }
       ]
     },
@@ -22673,11 +22673,11 @@
           "sourceId": 1581,
           "specs": "керамика, Д23см",
           "wholesalePrice": 500,
-          "retailPrice": 1000,
+          "retailPrice": 500,
           "primaryImage": "assets/products/1581/02.webp",
           "label": "керамика · Д23см",
-          "designerDiscountPercent": 15,
-          "designerPrice": 850
+          "designerDiscountPercent": 10,
+          "designerPrice": 450
         }
       ]
     },
@@ -22713,11 +22713,11 @@
           "sourceId": 1584,
           "specs": "стекло, Д19см",
           "wholesalePrice": 500,
-          "retailPrice": 1000,
+          "retailPrice": 500,
           "primaryImage": "assets/products/1584/02.webp",
           "label": "стекло · Д19см",
-          "designerDiscountPercent": 15,
-          "designerPrice": 850
+          "designerDiscountPercent": 10,
+          "designerPrice": 450
         }
       ]
     },
@@ -22753,11 +22753,11 @@
           "sourceId": 1707,
           "specs": "массив палисандра/стекло, 60х40х192см, натуральный тонированный ",
           "wholesalePrice": 51898,
-          "retailPrice": 103800,
+          "retailPrice": 103680,
           "primaryImage": "assets/products/1707/01.webp",
           "label": "60х40х192см · натуральный тонированный",
           "designerDiscountPercent": 10,
-          "designerPrice": 93420
+          "designerPrice": 93320
         }
       ]
     },
@@ -23643,11 +23643,11 @@
           "sourceId": 1960,
           "specs": "массив манго/латунная чеканка, Д48х19см, черный/этническая роспись",
           "wholesalePrice": 8600,
-          "retailPrice": 17200,
+          "retailPrice": 9500,
           "primaryImage": "assets/products/1960/oct-00-main.webp",
           "label": "Д48х19см · черный/этническая роспись",
           "designerDiscountPercent": 10,
-          "designerPrice": 15480
+          "designerPrice": 8550
         }
       ]
     },
@@ -23683,11 +23683,11 @@
           "sourceId": 1962,
           "specs": "кожа буйвола, 60х5х40см, натуральный",
           "wholesalePrice": 4100,
-          "retailPrice": 8200,
+          "retailPrice": 12000,
           "primaryImage": "assets/products/1962/oct-00-main.webp",
           "label": "60х5х40см · натуральный",
           "designerDiscountPercent": 15,
-          "designerPrice": 6970
+          "designerPrice": 10200
         }
       ]
     },
@@ -23703,11 +23703,11 @@
           "sourceId": 1963,
           "specs": "кожа буйвола/ткань, 40х40см, коричневый/ткань: винтаж",
           "wholesalePrice": 2600,
-          "retailPrice": 5200,
+          "retailPrice": 7200,
           "primaryImage": "assets/products/1963/oct-00-main.webp",
           "label": "40х40см · коричневый/ткань: винтаж",
           "designerDiscountPercent": 15,
-          "designerPrice": 4420
+          "designerPrice": 6120
         }
       ]
     },
@@ -23723,11 +23723,11 @@
           "sourceId": 1964,
           "specs": "кожа буйвола/ткань хлопок, 62х4х41см, коричневый/ткань: винтаж",
           "wholesalePrice": 4100,
-          "retailPrice": 8200,
+          "retailPrice": 12400,
           "primaryImage": "assets/products/1964/oct-00-main.webp",
           "label": "62х4х41см · коричневый/ткань: винтаж",
           "designerDiscountPercent": 15,
-          "designerPrice": 6970
+          "designerPrice": 10540
         }
       ]
     },
@@ -23743,11 +23743,11 @@
           "sourceId": 1965,
           "specs": "массив манго/кожа буйвола/ткань хлопок, 46х46х52см, коричневый/ткань: винтаж",
           "wholesalePrice": 13055,
-          "retailPrice": 37200,
+          "retailPrice": 52600,
           "primaryImage": "assets/products/1965/oct-00-main.webp",
           "label": "46х46х52см · коричневый/ткань: винтаж",
           "designerDiscountPercent": 15,
-          "designerPrice": 31620
+          "designerPrice": 44710
         }
       ]
     },
@@ -23763,11 +23763,11 @@
           "sourceId": 1966,
           "specs": "массив манго/ткань хлопок, 45х45х50см, натуральный/ткань: винтаж",
           "wholesalePrice": 23800,
-          "retailPrice": 47600,
+          "retailPrice": 56400,
           "primaryImage": "assets/products/1966/oct-00-main.webp",
           "label": "45х45х50см · натуральный/ткань: винтаж",
           "designerDiscountPercent": 15,
-          "designerPrice": 40460
+          "designerPrice": 47940
         }
       ]
     },
@@ -23803,11 +23803,11 @@
           "sourceId": 1968,
           "specs": "металл/кожа буйвола/ткань хлопок, 45х52х46см, коричневый/ткань: винтаж",
           "wholesalePrice": 11900,
-          "retailPrice": 23800,
+          "retailPrice": 27800,
           "primaryImage": "assets/products/1968/oct-00-main.webp",
           "label": "45х52х46см · коричневый/ткань: винтаж",
           "designerDiscountPercent": 15,
-          "designerPrice": 20230
+          "designerPrice": 23630
         }
       ]
     },
@@ -23823,11 +23823,11 @@
           "sourceId": 1969,
           "specs": "металл/кожа буйвола, 45х52х46см, коричневый",
           "wholesalePrice": 13400,
-          "retailPrice": 26800,
+          "retailPrice": 31600,
           "primaryImage": "assets/products/1969/oct-00-main.webp",
           "label": "45х52х46см · коричневый",
           "designerDiscountPercent": 15,
-          "designerPrice": 22780
+          "designerPrice": 26860
         }
       ]
     },
@@ -23843,11 +23843,11 @@
           "sourceId": 1970,
           "specs": "кожа буйвола/ткань, 60х89см, коричневый",
           "wholesalePrice": 4300,
-          "retailPrice": 8600,
+          "retailPrice": 12400,
           "primaryImage": "assets/products/1970/oct-00-main.webp",
           "label": "60х89см · коричневый",
           "designerDiscountPercent": 15,
-          "designerPrice": 7310
+          "designerPrice": 10540
         }
       ]
     },
@@ -23863,11 +23863,11 @@
           "sourceId": 1971,
           "specs": "металл/массив манго, 43х43х185см, античная медь/натуральный",
           "wholesalePrice": 26700,
-          "retailPrice": 53400,
+          "retailPrice": 71600,
           "primaryImage": "assets/products/1971/oct-00-main.webp",
           "label": "43х43х185см · античная медь/натуральный",
           "designerDiscountPercent": 15,
-          "designerPrice": 45390
+          "designerPrice": 60860
         }
       ]
     }
