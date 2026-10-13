@@ -1881,7 +1881,7 @@
           "collection": "Modern РФ/Модерн РФ (обеденная группа)",
           "specs": "велюр, серый, 29, 42х56х102см",
           "wholesalePrice": 3740,
-          "retailPrice": 5810,
+          "retailPrice": 5240,
           "primaryImage": "assets/products/139/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 139,
@@ -1899,7 +1899,9 @@
               "label": "серый",
               "hex": "#8b8b86"
             }
-          }
+          },
+          "designerPrice": 4720,
+          "designerDiscountPercent": 10
         },
         {
           "sourceId": 140,
@@ -4713,7 +4715,9 @@
           "photoBankCode": 2228,
           "photoBankSource": "https://tetchair.ru/products/kreslo-sn833-tkan-chernyy-2603.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 1
+          "photoBankImageCount": 1,
+          "designerPrice": 10710,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1130,
