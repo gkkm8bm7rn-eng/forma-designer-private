@@ -47,7 +47,7 @@
           "collection": "Whitewood/Вайтвуд (мебель)",
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 83700,
-          "retailPrice": 167400,
+          "retailPrice": 133920,
           "primaryImage": "assets/products/1722/02.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1722,
@@ -65,8 +65,8 @@
               "hex": "#171717"
             }
           },
-          "designerPrice": 142290,
-          "designerDiscountPercent": 15
+          "designerPrice": 120530,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -312,7 +312,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл: алюминий/стекло/МДФ, 60х45х5см, золотой",
           "wholesalePrice": 5900,
-          "retailPrice": 19800,
+          "retailPrice": 9900,
           "primaryImage": "assets/products/1614/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1614,
@@ -324,7 +324,9 @@
             "assets/products/1614/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 8420,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -451,7 +453,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл: алюминий/стекло/МДФ, Д46см, золотой",
           "wholesalePrice": 11600,
-          "retailPrice": 18600,
+          "retailPrice": 11600,
           "primaryImage": "assets/products/1613/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1613,
@@ -465,7 +467,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 15,
-          "designerPrice": 15810
+          "designerPrice": 9860
         }
       ]
     },
@@ -642,7 +644,7 @@
           "collection": "SILVER (декор)",
           "specs": "алюминиевый сплав, 33х30,5х5,5см, серебряный",
           "wholesalePrice": 2600,
-          "retailPrice": 2800,
+          "retailPrice": 2600,
           "primaryImage": "assets/products/1541/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1541,
@@ -656,7 +658,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 2520
+          "designerPrice": 2340
         }
       ]
     },
@@ -674,7 +676,7 @@
           "collection": "SILVER (декор)",
           "specs": "алюминиевый сплав, 23х16х13,5см, серебряный",
           "wholesalePrice": 4600,
-          "retailPrice": 9200,
+          "retailPrice": 4600,
           "primaryImage": "assets/products/1542/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1542,
@@ -686,7 +688,9 @@
             "assets/products/1542/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 3910,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -870,7 +874,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл: железо, 6х12х46/11х 19х58/11х19х68см, коричневый/бежевый",
           "wholesalePrice": 19100,
-          "retailPrice": 23000,
+          "retailPrice": 38200,
           "primaryImage": "assets/products/1621/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1621,
@@ -883,8 +887,8 @@
           ],
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
-          "designerDiscountPercent": 10,
-          "designerPrice": 20700
+          "designerDiscountPercent": 15,
+          "designerPrice": 32470
         }
       ]
     },
@@ -1004,7 +1008,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл: железо, 15х15х46/15х15х26см, серебряный",
           "wholesalePrice": 11000,
-          "retailPrice": 13200,
+          "retailPrice": 11000,
           "primaryImage": "assets/products/1626/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1626,
@@ -1018,7 +1022,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 11880
+          "designerPrice": 9900
         }
       ]
     },
@@ -1068,7 +1072,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл: железо, 14х14х58/14х 14х48/14х14х37см, золотой",
           "wholesalePrice": 7299,
-          "retailPrice": 29000,
+          "retailPrice": 14600,
           "primaryImage": "assets/products/1629/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1629,
@@ -1086,7 +1090,9 @@
               "label": "золотой",
               "hex": "#b59555"
             }
-          }
+          },
+          "designerPrice": 12410,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1140,7 +1146,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "бамбук, 30х30х12/25х25х10/20х20х8см, бежевый",
           "wholesalePrice": 5800,
-          "retailPrice": 7000,
+          "retailPrice": 5800,
           "primaryImage": "assets/products/1632/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1632,
@@ -1154,7 +1160,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 6300
+          "designerPrice": 5220
         }
       ]
     },
@@ -1172,7 +1178,7 @@
           "collection": "SAINT-TROPEZ (предметы интерьера)",
           "specs": "МДФ+павловния, 80х33х47, белый ",
           "wholesalePrice": 7000,
-          "retailPrice": 5880,
+          "retailPrice": 4900,
           "primaryImage": "assets/products/1585/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1585,
@@ -1192,7 +1198,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 5300
+          "designerPrice": 4410
         }
       ]
     },
@@ -1274,7 +1280,7 @@
           "collection": "SILVER (декор)",
           "specs": "алюминиевый сплав, 24х24х34см, серебряный",
           "wholesalePrice": 2200,
-          "retailPrice": 8800,
+          "retailPrice": 4400,
           "primaryImage": "assets/products/1552/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1552,
@@ -1286,7 +1292,9 @@
             "assets/products/1552/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 3740,
+          "designerDiscountPercent": 15
         }
       ]
     },
