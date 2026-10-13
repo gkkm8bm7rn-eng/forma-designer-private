@@ -163,7 +163,7 @@
           "collection": "Luchetta/Лучетта (мебель)",
           "specs": "хлопковые узоры, 80х80х20см, синий",
           "wholesalePrice": 21600,
-          "retailPrice": 34600,
+          "retailPrice": 21600,
           "primaryImage": "assets/products/1590/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1590,
@@ -177,7 +177,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 31140
+          "designerPrice": 19440
         }
       ]
     },
@@ -195,7 +195,7 @@
           "collection": "Black Label/Блэк Лэйбл (мебель)",
           "specs": "массив манго/ткань/тростник, 51х54х79см, черный/натуральный",
           "wholesalePrice": 42100,
-          "retailPrice": 42000,
+          "retailPrice": 33680,
           "primaryImage": "assets/products/1681/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1681,
@@ -209,7 +209,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 37800
+          "designerPrice": 30320
         }
       ]
     },
@@ -443,7 +443,7 @@
           "collection": "Academy/Академия (мебель)",
           "specs": "массив манго, 210х190х40см, натуральный ",
           "wholesalePrice": 159900,
-          "retailPrice": 244620,
+          "retailPrice": 159900,
           "primaryImage": "assets/products/1670/03.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1670,
@@ -462,7 +462,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 207930
+          "designerPrice": 135920
         }
       ]
     },
@@ -480,7 +480,7 @@
           "collection": "Whitewood/Вайтвуд (мебель)",
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 50800,
-          "retailPrice": 101600,
+          "retailPrice": 81280,
           "primaryImage": "assets/products/1723/01.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1723,
@@ -498,8 +498,8 @@
               "hex": "#171717"
             }
           },
-          "designerPrice": 86360,
-          "designerDiscountPercent": 15
+          "designerPrice": 73160,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -517,7 +517,7 @@
           "collection": "Naturwood/Натурвуд (мебель)",
           "specs": "массив акации, натуральный",
           "wholesalePrice": 43600,
-          "retailPrice": 87200,
+          "retailPrice": 69760,
           "primaryImage": "assets/products/1698/01.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1698,
@@ -535,8 +535,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerPrice": 74120,
-          "designerDiscountPercent": 15
+          "designerPrice": 62790,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -657,7 +657,7 @@
           "collection": "D ARTE (посуда)",
           "specs": "керамика, Д23см",
           "wholesalePrice": 500,
-          "retailPrice": 1000,
+          "retailPrice": 500,
           "primaryImage": "assets/products/1581/02.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1581,
@@ -668,8 +668,8 @@
           ],
           "localImageCount": 2,
           "primaryImageStatus": "verified-manifest",
-          "designerPrice": 850,
-          "designerDiscountPercent": 15
+          "designerPrice": 450,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -715,7 +715,7 @@
           "collection": "LA ROCHERE (посуда)",
           "specs": "стекло, Д19см",
           "wholesalePrice": 500,
-          "retailPrice": 1000,
+          "retailPrice": 500,
           "primaryImage": "assets/products/1584/02.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1584,
@@ -726,8 +726,8 @@
           ],
           "localImageCount": 2,
           "primaryImageStatus": "verified-manifest",
-          "designerPrice": 850,
-          "designerDiscountPercent": 15
+          "designerPrice": 450,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -776,7 +776,7 @@
           "collection": "Rosewood/Росвуд (мебель)",
           "specs": "массив палисандра/стекло, 60х40х192см, натуральный тонированный ",
           "wholesalePrice": 64800,
-          "retailPrice": 103800,
+          "retailPrice": 103680,
           "primaryImage": "assets/products/1707/01.webp",
           "primaryImageVerified": false,
           "primaryImageSourceId": 1707,
@@ -789,7 +789,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "visually-approved-local-replacement",
           "designerDiscountPercent": 10,
-          "designerPrice": 93420
+          "designerPrice": 93320
         }
       ]
     }
