@@ -2100,7 +2100,7 @@
           "collection": "",
           "specs": "массив манго/латунная чеканка, Д48х19см, черный/этническая роспись",
           "wholesalePrice": 9500,
-          "retailPrice": 17200,
+          "retailPrice": 9500,
           "primaryImage": "assets/products/1960/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1960,
@@ -2116,7 +2116,7 @@
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=13535",
           "photoBankEnrichedAt": "2026-10-08",
           "designerDiscountPercent": 10,
-          "designerPrice": 15480
+          "designerPrice": 8550
         }
       ]
     },
@@ -2166,7 +2166,7 @@
           "collection": "",
           "specs": "кожа буйвола, 60х5х40см, натуральный",
           "wholesalePrice": 4100,
-          "retailPrice": 8200,
+          "retailPrice": 12000,
           "primaryImage": "assets/products/1962/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1962,
@@ -2178,7 +2178,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 10270,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=10270",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 10200,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2196,7 +2198,7 @@
           "collection": "",
           "specs": "кожа буйвола/ткань, 40х40см, коричневый/ткань: винтаж",
           "wholesalePrice": 2600,
-          "retailPrice": 5200,
+          "retailPrice": 7200,
           "primaryImage": "assets/products/1963/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1963,
@@ -2208,7 +2210,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 10318,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=10318",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 6120,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2226,7 +2230,7 @@
           "collection": "",
           "specs": "кожа буйвола/ткань хлопок, 62х4х41см, коричневый/ткань: винтаж",
           "wholesalePrice": 4100,
-          "retailPrice": 8200,
+          "retailPrice": 12400,
           "primaryImage": "assets/products/1964/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1964,
@@ -2238,7 +2242,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 10271,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=10271",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 10540,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2256,7 +2262,7 @@
           "collection": "",
           "specs": "массив манго/кожа буйвола/ткань хлопок, 46х46х52см, коричневый/ткань: винтаж",
           "wholesalePrice": 13055,
-          "retailPrice": 37200,
+          "retailPrice": 52600,
           "primaryImage": "assets/products/1965/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1965,
@@ -2270,7 +2276,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 10265,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=10265",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 44710,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2288,7 +2296,7 @@
           "collection": "",
           "specs": "массив манго/ткань хлопок, 45х45х50см, натуральный/ткань: винтаж",
           "wholesalePrice": 23800,
-          "retailPrice": 47600,
+          "retailPrice": 56400,
           "primaryImage": "assets/products/1966/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1966,
@@ -2302,7 +2310,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 10557,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=10557",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 47940,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2351,7 +2361,7 @@
           "collection": "",
           "specs": "металл/кожа буйвола/ткань хлопок, 45х52х46см, коричневый/ткань: винтаж",
           "wholesalePrice": 11900,
-          "retailPrice": 23800,
+          "retailPrice": 27800,
           "primaryImage": "assets/products/1968/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1968,
@@ -2365,7 +2375,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 10263,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=10263",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 23630,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2383,7 +2395,7 @@
           "collection": "",
           "specs": "металл/кожа буйвола, 45х52х46см, коричневый",
           "wholesalePrice": 13400,
-          "retailPrice": 26800,
+          "retailPrice": 31600,
           "primaryImage": "assets/products/1969/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1969,
@@ -2397,7 +2409,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 10264,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=10264",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 26860,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2415,7 +2429,7 @@
           "collection": "",
           "specs": "кожа буйвола/ткань, 60х89см, коричневый",
           "wholesalePrice": 4300,
-          "retailPrice": 8600,
+          "retailPrice": 12400,
           "primaryImage": "assets/products/1970/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1970,
@@ -2428,7 +2442,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 11158,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=11158",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 10540,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2446,7 +2462,7 @@
           "collection": "",
           "specs": "металл/массив манго, 43х43х185см, античная медь/натуральный",
           "wholesalePrice": 26700,
-          "retailPrice": 53400,
+          "retailPrice": 71600,
           "primaryImage": "assets/products/1971/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1971,
@@ -2460,7 +2476,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 11190,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=11190",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 60860,
+          "designerDiscountPercent": 15
         }
       ]
     }
