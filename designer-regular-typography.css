@@ -58,6 +58,7 @@ html body :is(#top,#productDialog,#cartDialog,#delivery)
     .detail-cart-feedback,
     .detail-cart-feedback-status,
     .card-cart-quantity,
+    .card-cart-quantity span,
     .card-cart-quantity strong,
     .action-count,
     .pagination-gap
@@ -86,6 +87,12 @@ html body .brand-line .brand-home,
 html body .brand-line .brand-slash {
   font-weight:700!important;
 }
+
+/* Only symbol-only controls keep the original glyph stroke weight. */
+html body #top .mobile-scroll-button { font-weight:800!important; }
+html body #top .card-cart-quantity button,
+html body #productDialog .detail-cart-feedback button { font-weight:700!important; }
+html body #productDialog .detail-favorite { font-weight:900!important; }
 
 html body #toast { font-weight:400!important; }
 
