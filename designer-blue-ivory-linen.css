@@ -33,11 +33,13 @@ html body .category-subgroup .category-chip {
 html body .mobile-category-section+.mobile-category-section {border-color:#e1e7ef!important}
 html body .mobile-category-section.selected>.mobile-category-trigger,
 html body .mobile-category-section.open>.mobile-category-trigger,
+html body .mobile-category-section.open.selected>.mobile-category-trigger,
 html body .mobile-category-option.active,
 html body .category-main.active,
 html body .category-subgroup.active,
 html body .category-subgroup .category-chip.active,
-html body .category-chip.active {
+html body .category-chip.active,
+html body .category-chip[aria-pressed="true"] {
   background:#dfedfb!important;
   border-color:#c2d8ee!important;
   color:#223a56!important;
