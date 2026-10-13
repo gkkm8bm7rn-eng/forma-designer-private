@@ -1,0 +1,30 @@
+/* FORMA HOME Design Private — variant 2.
+   More visible mist blue/champagne accents; all controls remain solid.
+   No changes to catalog, typography, product imagery or interactions. */
+html body{
+  background-color:#f1f5fa!important;
+  background-image:
+    radial-gradient(ellipse 90% 23% at 0% 7%,rgba(126,167,212,.43) 0%,rgba(163,193,224,.19) 53%,transparent 81%),
+    radial-gradient(ellipse 83% 21% at 100% 23%,rgba(226,181,106,.39) 0%,rgba(239,212,163,.16) 55%,transparent 81%),
+    radial-gradient(ellipse 90% 21% at 0% 43%,rgba(125,165,211,.36) 0%,rgba(170,197,228,.15) 54%,transparent 81%),
+    radial-gradient(ellipse 88% 23% at 100% 63%,rgba(227,187,119,.35) 0%,rgba(242,216,174,.14) 55%,transparent 81%),
+    radial-gradient(ellipse 88% 21% at 2% 85%,rgba(138,175,216,.35) 0%,rgba(184,206,231,.15) 55%,transparent 81%),
+    linear-gradient(180deg,#f1f5fa 0%,#f4f6f9 48%,#f6f5f5 100%)!important;
+  background-attachment:scroll!important;
+  background-repeat:no-repeat!important;
+}
+html body .hero-content{
+  background:linear-gradient(108deg,#b9d2eb 0%,#dce8f3 44%,#f1d29b 100%)!important;
+  border-color:#b7c8da!important;
+}
+html body .category-chip.active,
+html body .category-chip[aria-pressed="true"]{
+  background:#c9d9eb!important;
+  border-color:#a9bfd7!important;
+}
+html body .new-products-toggle,
+html body .product-new-badge{
+  background:#f4e3c2!important;
+  border-color:#e2c696!important;
+}
+html body .product-card{box-shadow:0 4px 14px rgba(32,57,88,.05)!important}
