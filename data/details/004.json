@@ -780,7 +780,7 @@
           "collection": "MODERN (обеденная группа)",
           "specs": "ткань/металл, 46х52х88см, бежевый 08/черный",
           "wholesalePrice": 2240,
-          "retailPrice": 4410,
+          "retailPrice": 2880,
           "primaryImage": "assets/products/347/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 347,
@@ -802,7 +802,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 2600,
+          "designerDiscountPercent": 10
         },
         {
           "sourceId": 348,
@@ -2236,7 +2238,9 @@
               "label": "слоновая кость",
               "hex": "#e5dcc8"
             }
-          }
+          },
+          "designerPrice": 7830,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 233,

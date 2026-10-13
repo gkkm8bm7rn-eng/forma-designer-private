@@ -4792,7 +4792,7 @@
           "collection": "MODERN plastic (мебель)",
           "specs": "пластик, 49х52х74см, черный ",
           "wholesalePrice": 870,
-          "retailPrice": 2450,
+          "retailPrice": 1220,
           "primaryImage": "assets/products/770/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 770,
@@ -4810,7 +4810,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 1100,
+          "designerDiscountPercent": 10
         },
         {
           "sourceId": 771,
@@ -5500,7 +5502,9 @@
               "label": "белый",
               "hex": "#f5f3ee"
             }
-          }
+          },
+          "designerPrice": 2980,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 646,
@@ -7048,7 +7052,9 @@
           "photoBankCode": 21872,
           "photoBankSource": "https://tetchair.ru/products/kreslo-fiesta-flok-bezhevyy-7.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 6970,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1228,
@@ -8325,7 +8331,9 @@
           "photoBankCode": 13568,
           "photoBankSource": "https://tetchair.ru/products/kreslo-style-flok-molochnyy-4.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 7800,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1076,

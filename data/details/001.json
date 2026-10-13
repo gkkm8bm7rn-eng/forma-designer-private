@@ -709,7 +709,9 @@
               "label": "коричневый",
               "hex": "#76533e"
             }
-          }
+          },
+          "designerPrice": 9940,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 306,
@@ -2471,7 +2473,7 @@
           "collection": "MODERN (обеденная группа)",
           "specs": "вельвет/металл, 68х60х88см, серый /черный",
           "wholesalePrice": 3910,
-          "retailPrice": 10960,
+          "retailPrice": 5470,
           "primaryImage": "assets/products/319/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 319,
@@ -2493,7 +2495,9 @@
               "label": "черный",
               "hex": "#171717"
             }
-          }
+          },
+          "designerPrice": 4930,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -3885,7 +3889,7 @@
           "collection": "MODERN plastic (мебель)",
           "specs": "пластик, 60х63х83см, коричневый 14",
           "wholesalePrice": 2200,
-          "retailPrice": 6160,
+          "retailPrice": 3080,
           "primaryImage": "assets/products/625/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 625,
@@ -3903,7 +3907,9 @@
               "label": "коричневый",
               "hex": "#76533e"
             }
-          }
+          },
+          "designerPrice": 2780,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -4039,7 +4045,7 @@
           "collection": "SILVER (декор)",
           "specs": "алюминиевый сплав, 46х46х51см, черный/золотой",
           "wholesalePrice": 4700,
-          "retailPrice": 23000,
+          "retailPrice": 9400,
           "primaryImage": "assets/products/1557/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1557,
@@ -4051,7 +4057,9 @@
             "assets/products/1557/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 7990,
+          "designerDiscountPercent": 15
         }
       ]
     },

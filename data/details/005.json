@@ -1661,7 +1661,9 @@
           "photoBankCode": 20614,
           "photoBankSource": "https://tetchair.ru/products/kreslo-profit-plt-tkan-seryy-chernyy-207-w-11.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 8930,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1264,
@@ -2502,7 +2504,7 @@
           "collection": "ДЕЛЬФИЙСКАЯ (обеденная группа)",
           "specs": "Нью, Многослойный березовый шпон, коричневый/велюр бежевый",
           "wholesalePrice": 3390,
-          "retailPrice": 5000,
+          "retailPrice": 4750,
           "primaryImage": "assets/products/239/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 239,
@@ -2514,7 +2516,9 @@
             "assets/products/239/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 4280,
+          "designerDiscountPercent": 10
         },
         {
           "sourceId": 240,
@@ -2819,7 +2823,9 @@
           "photoBankCode": 24243,
           "photoBankSource": "https://tetchair.ru/products/kreslo-benefit-flok-bezhevyy-7.html",
           "photoBankEnrichedAt": "2026-08-20",
-          "photoBankImageCount": 6
+          "photoBankImageCount": 6,
+          "designerPrice": 7740,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1222,
@@ -2884,7 +2890,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 21885,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=21885",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 7740,
+          "designerDiscountPercent": 15
         }
       ]
     },

@@ -261,7 +261,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "кожа буйвола/ткань хлопок, 190х77х79см, коричневый/ткань: винтаж,",
           "wholesalePrice": 156700,
-          "retailPrice": 313400,
+          "retailPrice": 250720,
           "primaryImage": "assets/products/1646/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1646,
@@ -274,8 +274,8 @@
           ],
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
-          "designerPrice": 266390,
-          "designerDiscountPercent": 15
+          "designerPrice": 225650,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -478,7 +478,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "металл/кожа буйвола, 133х71х77см, коричневый",
           "wholesalePrice": 72800,
-          "retailPrice": 145600,
+          "retailPrice": 116480,
           "primaryImage": "assets/products/1648/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1648,
@@ -491,8 +491,8 @@
           ],
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
-          "designerPrice": 123760,
-          "designerDiscountPercent": 15
+          "designerPrice": 104840,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -510,7 +510,7 @@
           "collection": "Naturwood/Натурвуд (мебель)",
           "specs": "массив акации, натуральный",
           "wholesalePrice": 42900,
-          "retailPrice": 85800,
+          "retailPrice": 68640,
           "primaryImage": "assets/products/1694/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1694,
@@ -529,8 +529,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerPrice": 72930,
-          "designerDiscountPercent": 15
+          "designerPrice": 61780,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -580,7 +580,7 @@
           "collection": "Riviera/Ривьера (мебель)",
           "specs": "массив манго, 80х130х60см, античный белый/белый",
           "wholesalePrice": 60314,
-          "retailPrice": 112200,
+          "retailPrice": 86200,
           "primaryImage": "assets/products/1702/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1702,
@@ -594,7 +594,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 100980
+          "designerPrice": 77580
         }
       ]
     },
@@ -612,7 +612,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "кожа буйвола, 143х81х79см, коричневый",
           "wholesalePrice": 218600,
-          "retailPrice": 437200,
+          "retailPrice": 349760,
           "primaryImage": "assets/products/1645/03.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1645,
@@ -624,8 +624,8 @@
           ],
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
-          "designerPrice": 371620,
-          "designerDiscountPercent": 15
+          "designerPrice": 314790,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -810,7 +810,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "кожа буйвола, 190х77х79см, коричневый",
           "wholesalePrice": 262700,
-          "retailPrice": 525400,
+          "retailPrice": 420320,
           "primaryImage": "assets/products/1647/03.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1647,
@@ -822,8 +822,8 @@
           ],
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
-          "designerPrice": 446590,
-          "designerDiscountPercent": 15
+          "designerPrice": 378290,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -1004,7 +1004,7 @@
           "collection": "Antique clocks/Антик клок (интерьер и часы)",
           "specs": "массив манго/алюминий, 46х46х18см, коричневый/чеканка",
           "wholesalePrice": 5600,
-          "retailPrice": 10200,
+          "retailPrice": 5600,
           "primaryImage": "assets/products/1520/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1520,
@@ -1024,7 +1024,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 8670
+          "designerPrice": 4760
         }
       ]
     },
@@ -1141,7 +1141,9 @@
               "label": "коричневый",
               "hex": "#76533e"
             }
-          }
+          },
+          "designerPrice": 5590,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1404,
@@ -1466,7 +1468,7 @@
           "collection": "Rosewood/Росвуд (мебель)",
           "specs": "массив палисандра, 118х70х45см, натуральный тонированный ",
           "wholesalePrice": 40800,
-          "retailPrice": 81600,
+          "retailPrice": 65280,
           "primaryImage": "assets/products/1708/01.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1708,
@@ -1484,8 +1486,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerPrice": 69360,
-          "designerDiscountPercent": 15
+          "designerPrice": 58760,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -1570,7 +1572,7 @@
           "collection": "Rosewood/Росвуд (мебель)",
           "specs": "массив палисандра, 150х60х93см, натуральный тонированный ",
           "wholesalePrice": 56200,
-          "retailPrice": 86000,
+          "retailPrice": 89920,
           "primaryImage": "assets/products/1712/01.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1712,
@@ -1589,7 +1591,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 73100
+          "designerPrice": 76440
         }
       ]
     },
