@@ -161,7 +161,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "кожа буйвола, 48х48х24см, коричневый",
           "wholesalePrice": 22300,
-          "retailPrice": 44600,
+          "retailPrice": 35680,
           "primaryImage": "assets/products/1658/02.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1658,
@@ -173,8 +173,8 @@
           ],
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
-          "designerPrice": 37910,
-          "designerDiscountPercent": 15
+          "designerPrice": 32120,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -505,7 +505,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл/кожа буйвола, Д32х52-74см, коричневый",
           "wholesalePrice": 12100,
-          "retailPrice": 24200,
+          "retailPrice": 15100,
           "primaryImage": "assets/products/1636/03.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1636,
@@ -518,7 +518,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 15,
-          "designerPrice": 20570
+          "designerPrice": 12840
         }
       ]
     },
@@ -536,7 +536,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл, 33х33х36см, античная медь",
           "wholesalePrice": 7400,
-          "retailPrice": 20400,
+          "retailPrice": 10200,
           "primaryImage": "assets/products/1637/03.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1637,
@@ -547,7 +547,9 @@
             "assets/products/1637/02.webp"
           ],
           "localImageCount": 3,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 8670,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1294,7 +1296,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "металл/кожа буйвола, 32х32х49см, коричневый",
           "wholesalePrice": 7600,
-          "retailPrice": 13600,
+          "retailPrice": 12160,
           "primaryImage": "assets/products/1663/03.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1663,
@@ -1307,7 +1309,7 @@
           "localImageCount": 3,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 15,
-          "designerPrice": 11560
+          "designerPrice": 10340
         }
       ]
     },
@@ -1488,7 +1490,7 @@
           "collection": "РОТАНГ НАТУРАЛЬНЫЙ",
           "specs": "диаметр подушки 125см, 115х101х104см, античный черно-коричневый, ткань коричневый,",
           "wholesalePrice": 12200,
-          "retailPrice": 21360,
+          "retailPrice": 19220,
           "primaryImage": "assets/products/1349/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1349,
@@ -1506,7 +1508,9 @@
               "label": "коричневый",
               "hex": "#76533e"
             }
-          }
+          },
+          "designerPrice": 17300,
+          "designerDiscountPercent": 10
         },
         {
           "sourceId": 1351,
@@ -2293,7 +2297,7 @@
           "collection": "Loft art new/Лофт арт нью (декор и мебель)",
           "specs": "металл/кожа буйвола/ткань хлопок, Д36х46см, коричневый/ткань: винтаж",
           "wholesalePrice": 9800,
-          "retailPrice": 19600,
+          "retailPrice": 28600,
           "primaryImage": "assets/products/1570/02.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1570,
@@ -2303,7 +2307,9 @@
             "assets/products/1570/01.webp"
           ],
           "localImageCount": 2,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 24310,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -2507,7 +2513,7 @@
           "collection": "РОТАНГ НАТУРАЛЬНЫЙ",
           "specs": "115х78х104см, античный черно-коричневый, ткань коричневый, 3м7-147",
           "wholesalePrice": 17600,
-          "retailPrice": 30810,
+          "retailPrice": 27740,
           "primaryImage": "assets/products/1933/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1933,
@@ -2525,7 +2531,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 13746,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=13746",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 24970,
+          "designerDiscountPercent": 10
         },
         {
           "sourceId": 1934,
@@ -2561,7 +2569,7 @@
           "collection": "РОТАНГ НАТУРАЛЬНЫЙ",
           "specs": "115х78х104см, медовый, ткань коричневый, 3м7-147",
           "wholesalePrice": 17600,
-          "retailPrice": 30810,
+          "retailPrice": 27740,
           "primaryImage": "assets/products/1935/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1935,
@@ -2579,7 +2587,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 13748,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=13748",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 24970,
+          "designerDiscountPercent": 10
         },
         {
           "sourceId": 1936,
@@ -2588,7 +2598,7 @@
           "collection": "РОТАНГ НАТУРАЛЬНЫЙ",
           "specs": "115х78х104см, пекан орех, ткань коричневый, 3м7-147",
           "wholesalePrice": 17600,
-          "retailPrice": 30810,
+          "retailPrice": 27740,
           "primaryImage": "assets/products/1936/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1936,
@@ -2606,7 +2616,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 13749,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=13749",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 24970,
+          "designerDiscountPercent": 10
         },
         {
           "sourceId": 1937,
@@ -3040,7 +3052,7 @@
           "collection": "Naturwood/Натурвуд (мебель)",
           "specs": "массив акации, натуральный",
           "wholesalePrice": 20900,
-          "retailPrice": 41800,
+          "retailPrice": 33440,
           "primaryImage": "assets/products/1691/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1691,
@@ -3059,8 +3071,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerPrice": 35530,
-          "designerDiscountPercent": 15
+          "designerPrice": 30100,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -3382,7 +3394,7 @@
           "collection": "Academy/Академия (мебель)",
           "specs": "дерево манго, 120х150х75см, натуральный ",
           "wholesalePrice": 115400,
-          "retailPrice": 184590,
+          "retailPrice": 115400,
           "primaryImage": "assets/products/1673/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1673,
@@ -3402,7 +3414,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 156910
+          "designerPrice": 98090
         }
       ]
     },
