@@ -199,7 +199,7 @@
           "collection": "ДАТСКАЯ (обеденная группа)",
           "specs": "каркас бук, сиденье ткань, 86х48.5х54.5, натуральный бук ",
           "wholesalePrice": 4410,
-          "retailPrice": 6860,
+          "retailPrice": 6170,
           "primaryImage": "assets/products/275/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 275,
@@ -217,7 +217,9 @@
               "label": "натуральный",
               "hex": "#b99b71"
             }
-          }
+          },
+          "designerPrice": 5560,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -374,7 +376,9 @@
             "assets/products/660/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 1670,
+          "designerDiscountPercent": 15
         },
         {
           "sourceId": 1824,
@@ -383,7 +387,7 @@
           "collection": "MODERN (обеденная группа)",
           "specs": "дерево бук/металл/сиденье пластик, 51х46х82см, оранжевый",
           "wholesalePrice": 1120,
-          "retailPrice": 1960,
+          "retailPrice": 1570,
           "primaryImage": "assets/products/1824/oct-00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1824,
@@ -397,7 +401,9 @@
           "primaryImageStatus": "verified-supplier-photobank-local",
           "photoBankCode": 11464,
           "photoBankSource": "https://price.tetchair.ru/download_photo/?id=11464",
-          "photoBankEnrichedAt": "2026-10-08"
+          "photoBankEnrichedAt": "2026-10-08",
+          "designerPrice": 1420,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -832,7 +838,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "металл/кожа буйвола, 51х61х88см, коричневый",
           "wholesalePrice": 34000,
-          "retailPrice": 40800,
+          "retailPrice": 34000,
           "primaryImage": "assets/products/1662/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1662,
@@ -846,7 +852,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 36720
+          "designerPrice": 30600
         }
       ]
     },
@@ -902,7 +908,7 @@
           "collection": "Brighton/Брайтон (мебель)",
           "specs": "массив акации, 45х45х95см, серый/античный серый",
           "wholesalePrice": 34700,
-          "retailPrice": 34800,
+          "retailPrice": 34700,
           "primaryImage": "assets/products/1689/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1689,
@@ -916,7 +922,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 31320
+          "designerPrice": 31230
         }
       ]
     },
@@ -934,7 +940,7 @@
           "collection": "Loft art new/Лофт арт нью (декор и мебель)",
           "specs": "металл/кожа буйвола, 88 х42х50см, коричневый",
           "wholesalePrice": 11713,
-          "retailPrice": 33400,
+          "retailPrice": 46800,
           "primaryImage": "assets/products/1572/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1572,
@@ -946,7 +952,9 @@
             "assets/products/1572/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 39780,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -996,7 +1004,7 @@
           "collection": "Loft art new/Лофт арт нью (декор и мебель)",
           "specs": "металл/кожа буйвола/ткань хлопок, 78х45х51см, коричневый/ткань: винтаж",
           "wholesalePrice": 12646,
-          "retailPrice": 36200,
+          "retailPrice": 41000,
           "primaryImage": "assets/products/1575/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1575,
@@ -1008,7 +1016,9 @@
             "assets/products/1575/01.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 34850,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1026,7 +1036,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл/кожа буйвола, 58х46х82см, коричневый",
           "wholesalePrice": 31000,
-          "retailPrice": 62000,
+          "retailPrice": 31000,
           "primaryImage": "assets/products/1638/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1638,
@@ -1038,7 +1048,9 @@
             "assets/products/1638/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 26350,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1056,7 +1068,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "металл/шкура буйвола, 53х47х80см, античная медь",
           "wholesalePrice": 23100,
-          "retailPrice": 41600,
+          "retailPrice": 46200,
           "primaryImage": "assets/products/1635/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1635,
@@ -1070,7 +1082,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 15,
-          "designerPrice": 35360
+          "designerPrice": 39270
         }
       ]
     },
@@ -1229,7 +1241,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "металл/кожа буйвола, 47х45х79см, коричневый",
           "wholesalePrice": 9637,
-          "retailPrice": 16400,
+          "retailPrice": 13700,
           "primaryImage": "assets/products/1664/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1664,
@@ -1243,7 +1255,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 14760
+          "designerPrice": 12330
         }
       ]
     },
@@ -1261,7 +1273,7 @@
           "collection": "Loft soft/Лофт софт (декор и мебель)",
           "specs": "металл/кожа буйвола, 42х35х45, коричневый",
           "wholesalePrice": 19800,
-          "retailPrice": 39600,
+          "retailPrice": 31680,
           "primaryImage": "assets/products/1665/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1665,
@@ -1274,8 +1286,8 @@
           ],
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
-          "designerPrice": 33660,
-          "designerDiscountPercent": 15
+          "designerPrice": 28520,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -1356,7 +1368,7 @@
           "collection": "Loft art new/Лофт арт нью (декор и мебель)",
           "specs": "металл/кожа буйвола, 49х56х81см, коричневый",
           "wholesalePrice": 14101,
-          "retailPrice": 46800,
+          "retailPrice": 23400,
           "primaryImage": "assets/products/1576/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1576,
@@ -1368,7 +1380,9 @@
             "assets/products/1576/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 19890,
+          "designerDiscountPercent": 15
         }
       ]
     },
