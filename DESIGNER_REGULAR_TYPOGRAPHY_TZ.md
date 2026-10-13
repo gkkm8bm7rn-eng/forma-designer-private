@@ -1,5 +1,6 @@
 # ТЗ — FORMA HOME Design Private: типографика без жирного начертания
 
+Репозиторий: `gkkm8bm7rn-eng/forma-designer-private`.  
 Дата: 13.10.2026  
 Статус: пробная версия, не опубликована в main.  
 Базовая ветка: `preview/designer-readable-categories`.  
