@@ -15,7 +15,7 @@
           "collection": "Rosewood/Росвуд (мебель)",
           "specs": "массив палисандра, 175х45х72см, натуральный тонированный ",
           "wholesalePrice": 81700,
-          "retailPrice": 163400,
+          "retailPrice": 130720,
           "primaryImage": "assets/products/1710/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1710,
@@ -34,8 +34,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerPrice": 138890,
-          "designerDiscountPercent": 15
+          "designerPrice": 117650,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -53,7 +53,7 @@
           "collection": "Whitewood/Вайтвуд (мебель)",
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 51100,
-          "retailPrice": 102200,
+          "retailPrice": 81760,
           "primaryImage": "assets/products/1719/01.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1719,
@@ -71,8 +71,8 @@
               "hex": "#171717"
             }
           },
-          "designerPrice": 86870,
-          "designerDiscountPercent": 15
+          "designerPrice": 73590,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -456,7 +456,7 @@
           "collection": "Loft wood/Лофт вуд (мебель)",
           "specs": "массив акации/металл, 75х35х190см, коричневый/черный",
           "wholesalePrice": 50300,
-          "retailPrice": 70400,
+          "retailPrice": 50300,
           "primaryImage": "assets/products/1667/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1667,
@@ -476,7 +476,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 63360
+          "designerPrice": 45270
         }
       ]
     },
@@ -583,7 +583,7 @@
           "collection": "Loft wood/Лофт вуд (мебель)",
           "specs": "массив акации/металл, 115х35х190см, коричневый/черный",
           "wholesalePrice": 71300,
-          "retailPrice": 99810,
+          "retailPrice": 71300,
           "primaryImage": "assets/products/1668/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1668,
@@ -603,7 +603,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 89830
+          "designerPrice": 64170
         }
       ]
     },
@@ -621,7 +621,7 @@
           "collection": "Riviera/Ривьера (мебель)",
           "specs": "массив манго, 73х40х115см, античный белый/белый",
           "wholesalePrice": 73000,
-          "retailPrice": 146000,
+          "retailPrice": 73000,
           "primaryImage": "assets/products/1705/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1705,
@@ -633,7 +633,9 @@
             "assets/products/1705/03.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 62050,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -651,7 +653,7 @@
           "collection": "Black Label/Блэк Лэйбл (мебель)",
           "specs": "массив акации/массив манго/МДФ, 110х41х211см, черный/натуральный",
           "wholesalePrice": 138300,
-          "retailPrice": 221390,
+          "retailPrice": 138300,
           "primaryImage": "assets/products/1682/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1682,
@@ -665,7 +667,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 199260
+          "designerPrice": 124470
         }
       ]
     },
@@ -719,7 +721,7 @@
           "collection": "Black Label/Блэк Лэйбл (мебель)",
           "specs": "массив акации/массив манго/МДФ, 120х45х210см, черный/натуральный",
           "wholesalePrice": 138300,
-          "retailPrice": 221390,
+          "retailPrice": 138300,
           "primaryImage": "assets/products/1683/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1683,
@@ -733,7 +735,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 199260
+          "designerPrice": 124470
         }
       ]
     },
@@ -751,7 +753,7 @@
           "collection": "Riviera/Ривьера (мебель)",
           "specs": "массив манго, 90х40х210см, античный белый/белый",
           "wholesalePrice": 110800,
-          "retailPrice": 177390,
+          "retailPrice": 110800,
           "primaryImage": "assets/products/1706/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1706,
@@ -765,7 +767,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 10,
-          "designerPrice": 159660
+          "designerPrice": 99720
         }
       ]
     },
@@ -853,7 +855,7 @@
           "collection": "Rosewood/Росвуд (мебель)",
           "specs": "массив палисандра/стекло, 100х40х128см, натуральный тонированный ",
           "wholesalePrice": 70900,
-          "retailPrice": 108600,
+          "retailPrice": 113440,
           "primaryImage": "assets/products/1714/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1714,
@@ -867,7 +869,7 @@
           "localImageCount": 4,
           "primaryImageStatus": "verified-manifest",
           "designerDiscountPercent": 15,
-          "designerPrice": 92310
+          "designerPrice": 96430
         }
       ]
     },
@@ -921,7 +923,7 @@
           "collection": "Loft wood/Лофт вуд (мебель)",
           "specs": "массив акации/металл, 100х25х106см, коричневый/черный",
           "wholesalePrice": 34500,
-          "retailPrice": 48400,
+          "retailPrice": 34500,
           "primaryImage": "assets/products/1669/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1669,
@@ -941,7 +943,7 @@
             }
           },
           "designerDiscountPercent": 10,
-          "designerPrice": 43560
+          "designerPrice": 31050
         }
       ]
     },
@@ -1230,7 +1232,7 @@
           "collection": "Rosewood/Росвуд (мебель)",
           "specs": "массив палисандра, 120х40х192см, натуральный тонированный ",
           "wholesalePrice": 116100,
-          "retailPrice": 232200,
+          "retailPrice": 185760,
           "primaryImage": "assets/products/1709/01.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1709,
@@ -1248,8 +1250,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerPrice": 197370,
-          "designerDiscountPercent": 15
+          "designerPrice": 167190,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -1303,7 +1305,7 @@
           "collection": "SILVER (декор)",
           "specs": "алюминиевый сплав, 30,5х30,5х48см, черный/золотой",
           "wholesalePrice": 20700,
-          "retailPrice": 41400,
+          "retailPrice": 20700,
           "primaryImage": "assets/products/1545/00-main.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1545,
@@ -1315,7 +1317,9 @@
             "assets/products/1545/02.webp"
           ],
           "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest"
+          "primaryImageStatus": "verified-manifest",
+          "designerPrice": 17600,
+          "designerDiscountPercent": 15
         }
       ]
     },
@@ -1384,7 +1388,7 @@
           "collection": "Whitewood/Вайтвуд (мебель)",
           "specs": "массив манго/металл, античный белый/черный",
           "wholesalePrice": 53200,
-          "retailPrice": 106400,
+          "retailPrice": 85120,
           "primaryImage": "assets/products/1718/01.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1718,
@@ -1402,8 +1406,8 @@
               "hex": "#171717"
             }
           },
-          "designerPrice": 90440,
-          "designerDiscountPercent": 15
+          "designerPrice": 76610,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -1459,7 +1463,7 @@
           "collection": "Naturwood/Натурвуд (мебель)",
           "specs": "массив акации, натуральный",
           "wholesalePrice": 62800,
-          "retailPrice": 125600,
+          "retailPrice": 100480,
           "primaryImage": "assets/products/1692/02.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1692,
@@ -1477,8 +1481,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerPrice": 106760,
-          "designerDiscountPercent": 15
+          "designerPrice": 90440,
+          "designerDiscountPercent": 10
         }
       ]
     },
@@ -1496,7 +1500,7 @@
           "collection": "Loft art/Лофт арт (декор и мебель)",
           "specs": "массив манго, 17х20см, натуральный",
           "wholesalePrice": 1500,
-          "retailPrice": 2200,
+          "retailPrice": 1300,
           "primaryImage": "assets/products/1641/02.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1641,
@@ -1515,7 +1519,7 @@
             }
           },
           "designerDiscountPercent": 15,
-          "designerPrice": 1870
+          "designerPrice": 1110
         },
         {
           "sourceId": 1642,
@@ -1559,7 +1563,7 @@
           "collection": "Rosewood/Росвуд (мебель)",
           "specs": "массив палисандра, 90х40х72см, натуральный тонированный",
           "wholesalePrice": 41900,
-          "retailPrice": 83800,
+          "retailPrice": 67040,
           "primaryImage": "assets/products/1711/03.webp",
           "primaryImageVerified": true,
           "primaryImageSourceId": 1711,
@@ -1577,8 +1581,8 @@
               "hex": "#b99b71"
             }
           },
-          "designerPrice": 71230,
-          "designerDiscountPercent": 15
+          "designerPrice": 60340,
+          "designerDiscountPercent": 10
         }
       ]
     },
