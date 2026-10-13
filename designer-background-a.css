@@ -1,0 +1,28 @@
+/* FORMA HOME Design Private — background A: soft but clearly visible.
+   Light mist-blue and champagne areas alternate along the ENTIRE page height.
+   Background scrolls with the document; no animation, fixed attachment,
+   blur filters, additional images or changes to controls/typography. */
+html body{
+  background-color:#f5f7fa!important;
+  background-image:
+    radial-gradient(ellipse 94% 23% at 5% 6%,
+      rgba(119,160,212,.37) 0%,rgba(164,194,229,.19) 44%,transparent 80%),
+    radial-gradient(ellipse 90% 23% at 94% 19%,
+      rgba(228,190,126,.33) 0%,rgba(241,215,174,.18) 43%,transparent 79%),
+    radial-gradient(ellipse 98% 25% at 6% 34%,
+      rgba(119,161,211,.34) 0%,rgba(174,201,231,.16) 46%,transparent 81%),
+    radial-gradient(ellipse 88% 23% at 95% 49%,
+      rgba(227,186,117,.31) 0%,rgba(242,217,181,.15) 44%,transparent 81%),
+    radial-gradient(ellipse 99% 25% at 5% 65%,
+      rgba(132,171,217,.32) 0%,rgba(180,204,229,.15) 46%,transparent 82%),
+    radial-gradient(ellipse 89% 23% at 92% 81%,
+      rgba(230,193,136,.30) 0%,rgba(245,223,191,.14) 44%,transparent 79%),
+    radial-gradient(ellipse 91% 20% at 8% 94%,
+      rgba(126,167,215,.27) 0%,rgba(185,205,231,.13) 44%,transparent 81%),
+    linear-gradient(180deg,
+      #f4f7fb 0%,#f6f8fa 18%,#f8f6f2 33%,
+      #f4f7fa 51%,#f8f6f2 72%,#f4f7fa 100%)!important;
+  background-size:100% 100%!important;
+  background-repeat:no-repeat!important;
+  background-attachment:scroll!important;
+}
