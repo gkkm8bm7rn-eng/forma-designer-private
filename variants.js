@@ -162,12 +162,23 @@ function axisControls(product,variant,context='detail'){
   if(!model)return'';
   const active=axisVariant(product,variant),activePresentation=variantPresentation(active),compact=context==='card';
   const group=(type,title,shape)=>{
-    const other=type==='soft'?'hard':'soft';
-    return `<div class="axis-group ${compact?'axis-group-compact':''}">${compact?'':`<div class="variant-label"><strong>${title}</strong><span>${escapeHtml(activePresentation[type].label)}</span></div>`}<div class="axis-options">${model[type].map(option=>{
+    const other=type==='soft'?'hard':'soft',all=model[type];
+    // The card has space for a three-column, two-row axis palette.
+    // The full, unchanged set is still shown on the product detail view.
+    let visible=all;
+    if(compact&&all.length>6){
+      visible=all.slice(0,5);
+      const selected=all.find(option=>option.key===activePresentation[type].key);
+      if(selected&&!visible.some(option=>option.key===selected.key))visible[4]=selected;
+    }
+    const controls=visible.map(option=>{
       const available=model.entries.some(entry=>entry.presentation[type].key===option.key&&entry.presentation[other].key===activePresentation[other].key);
       const selected=activePresentation[type].key===option.key;
       return `<button class="axis-swatch ${shape} ${selected?'active':''}" style="--axis-color:${option.hex}" data-axis="${type}" data-axis-value="${escapeAttr(option.key)}" data-product="${escapeAttr(product.id)}" title="${escapeAttr(title+': '+option.label)}" aria-label="${escapeAttr(title+': '+option.label)}" ${available?'':'disabled'}></button>`;
-    }).join('')}</div></div>`;
+    }).join('');
+    const remainder=all.length-visible.length;
+    const more=compact&&remainder>0?`<button type="button" class="axis-more" data-open="${escapeAttr(product.id)}" title="${escapeAttr('Показать все варианты: '+title)}" aria-label="${escapeAttr('Открыть товар и посмотреть ещё '+remainder+' вариантов: '+title)}">+${remainder}</button>`:'';
+    return `<div class="axis-group ${compact?'axis-group-compact':''}">${compact?'':`<div class="variant-label"><strong>${title}</strong><span>${escapeHtml(activePresentation[type].label)}</span></div>`}<div class="axis-options" role="group" aria-label="${escapeAttr(title)}">${controls}${more}</div></div>`;
   };
   return `<div class="dual-axes ${compact?'dual-axes-compact':''}">${group('soft','Цвет обивки или подушки','soft-axis')}${group('hard','Цвет каркаса или основания','hard-axis')}</div>`;
 }
@@ -196,7 +207,16 @@ function choiceOptions(product,selected){
 function variantChoices(product,variant,context='card'){
   if((product.variants||[]).length<2)return'';
   const options=choiceOptions(product,variant),detail=context==='detail';
-  const controls=options.map((option,index)=>{
+  const swatchesOnly=options.every(option=>option.presentation.colors.length>0);
+  let visible=options;
+  // Ten compact slots: all ten colors, or nine colors plus a real
+  // "+N" button that opens the existing full product variant selector.
+  if(!detail&&swatchesOnly&&options.length>10){
+    visible=options.slice(0,9);
+    const selected=options.find(option=>option.active);
+    if(selected&&!visible.some(option=>option.active))visible[8]=selected;
+  }
+  const controls=visible.map((option,index)=>{
     const {variant:item,presentation,active}=option,label=choiceLabel(item,presentation),paint=swatchPaint(presentation.colors);
     if(!presentation.colors.length){
       const attributes=detail?`data-variant="${item.sourceId}"`:`data-card-variant="${item.sourceId}" data-product="${escapeAttr(product.id)}"`;
@@ -205,7 +225,9 @@ function variantChoices(product,variant,context='card'){
     const attributes=detail?`data-variant="${item.sourceId}"`:`data-card-variant="${item.sourceId}" data-product="${escapeAttr(product.id)}"`;
     return `<button class="${detail?'variant-swatch-option':'card-swatch'} ${presentation.colors.length>1?'composite':''} ${active?'active':''}" style="--swatch:${escapeAttr(paint)}" ${attributes} title="${escapeAttr(label)}" aria-label="${escapeAttr('Выбрать: '+label)}"></button>`;
   }).join('');
-  return detail?`<div class="variant-section variant-choice-section"><div class="variant-label"><strong>Цвет и исполнение</strong><span>${escapeHtml(choiceLabel(variant))}</span></div><div class="variant-options variant-swatch-options">${controls}</div></div>`:`<div class="card-variants" aria-label="Доступные цветовые исполнения">${controls}</div>`;
+  const remainder=options.length-visible.length;
+  const more=!detail&&swatchesOnly&&remainder>0?`<button type="button" class="card-variants-more" data-open="${escapeAttr(product.id)}" title="${escapeAttr('Посмотреть все '+options.length+' цветовых вариантов')}" aria-label="${escapeAttr('Открыть товар и посмотреть ещё '+remainder+' цветовых вариантов')}">+${remainder}</button>`:'';
+  return detail?`<div class="variant-section variant-choice-section"><div class="variant-label"><strong>Цвет и исполнение</strong><span>${escapeHtml(choiceLabel(variant))}</span></div><div class="variant-options variant-swatch-options">${controls}</div></div>`:`<div class="card-variants ${swatchesOnly?'card-variants--two-rows':''}" aria-label="Доступные цветовые исполнения">${controls}${more}</div>`;
 }
 
 function priceTemplate(variant,detail=false){
@@ -241,8 +263,8 @@ function auditVariantPresentation(products=state.products){
     if(variants.length<2)return;
     const model=axisModel(product),choices=choiceOptions(product,variants[0]);
     if(!model&&choices.some(choice=>!choice.presentation.colors.length))report.withoutVisibleChoice.push(product.id);
-    // There is intentionally no visual limit: every distinct presentation is
-    // rendered or horizontally reachable, rather than being cut off at eight.
+    // The compact card shows up to ten slots, with +N opening the full
+    // product details; no variant is lost or removed from the dataset.
     if(choices.length>8)report.legacyHiddenChoices+=choices.length-8;
   });
   console.info('[FORMA HOME variant audit]',report);
