@@ -36,7 +36,10 @@ jobs:
             echo "Applying media batch $i"
             python scripts/enrich-computer-chair-media.py --apply --batch-index "$i" --batch-size 12 || true
           done
-      - name: Import exact October product media\n        if: github.event.issue.title == '[media-apply] October products'\n        run: python scripts/import-october-media.py\n      - name: Repair Amura and Moncler
+      - name: Import exact October product media
+        if: github.event.issue.title == '[media-apply] October products'
+        run: python scripts/import-october-media.py
+      - name: Repair Amura and Moncler
         if: github.event.issue.title == '[media-fix] Amura Moncler'
         run: python scripts/fix-amura-moncler-media.py
       - name: Commit media changes
