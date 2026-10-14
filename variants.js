@@ -163,13 +163,14 @@ function axisControls(product,variant,context='detail'){
   const active=axisVariant(product,variant),activePresentation=variantPresentation(active),compact=context==='card';
   const group=(type,title,shape)=>{
     const other=type==='soft'?'hard':'soft',all=model[type];
-    // The card has space for a three-column, two-row axis palette.
-    // The full, unchanged set is still shown on the product detail view.
+    // One or two rows of comfortable 30px tap targets; the full model
+    // remains unrestricted in product details. Narrow phones use 3 columns.
+    const slots=window.matchMedia('(max-width:359px)').matches?6:8;
     let visible=all;
-    if(compact&&all.length>6){
-      visible=all.slice(0,5);
+    if(compact&&all.length>slots){
+      visible=all.slice(0,slots-1);
       const selected=all.find(option=>option.key===activePresentation[type].key);
-      if(selected&&!visible.some(option=>option.key===selected.key))visible[4]=selected;
+      if(selected&&!visible.some(option=>option.key===selected.key))visible[slots-2]=selected;
     }
     const controls=visible.map(option=>{
       const available=model.entries.some(entry=>entry.presentation[type].key===option.key&&entry.presentation[other].key===activePresentation[other].key);
@@ -209,12 +210,14 @@ function variantChoices(product,variant,context='card'){
   const options=choiceOptions(product,variant),detail=context==='detail';
   const swatchesOnly=options.every(option=>option.presentation.colors.length>0);
   let visible=options;
-  // Ten compact slots: all ten colors, or nine colors plus a real
-  // "+N" button that opens the existing full product variant selector.
-  if(!detail&&swatchesOnly&&options.length>10){
-    visible=options.slice(0,9);
+  // At most four 30px swatches per row, two rows, with +N in the final
+  // slot when needed. On very narrow phones use 3 columns, still 2 rows.
+  // Keep an off-page selected color among the visible choices.
+  const slots=window.matchMedia('(max-width:359px)').matches?6:8;
+  if(!detail&&swatchesOnly&&options.length>slots){
+    visible=options.slice(0,slots-1);
     const selected=options.find(option=>option.active);
-    if(selected&&!visible.some(option=>option.active))visible[8]=selected;
+    if(selected&&!visible.some(option=>option.active))visible[slots-2]=selected;
   }
   const controls=visible.map((option,index)=>{
     const {variant:item,presentation,active}=option,label=choiceLabel(item,presentation),paint=swatchPaint(presentation.colors);
@@ -263,9 +266,10 @@ function auditVariantPresentation(products=state.products){
     if(variants.length<2)return;
     const model=axisModel(product),choices=choiceOptions(product,variants[0]);
     if(!model&&choices.some(choice=>!choice.presentation.colors.length))report.withoutVisibleChoice.push(product.id);
-    // The compact card shows up to ten slots, with +N opening the full
-    // product details; no variant is lost or removed from the dataset.
-    if(choices.length>8)report.legacyHiddenChoices+=choices.length-8;
+    // The compact card shows up to eight 30px targets (six on a narrow phone).
+    // +N opens full product details; no real variant is removed.
+    const slots=window.matchMedia('(max-width:359px)').matches?6:8;
+    if(choices.length>slots)report.legacyHiddenChoices+=choices.length-(slots-1);
   });
   console.info('[FORMA HOME variant audit]',report);
   window.lastVariantPresentationAudit=report;
