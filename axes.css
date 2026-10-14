@@ -38,7 +38,10 @@ html body .category-main.active[data-main-category]:not([data-main-category="all
     max-width:100%!important;
     min-width:0!important;
   }
-  .catalog-section,.catalog-layout,.catalog-content,#productGrid{overflow-x:clip!important}
+  /* Do not create nested overflow clip paint boundaries around the long
+     product grid: iOS WebKit can leave visually blank tiles after scrolling.
+     The minmax(0,1fr) columns and min-width guards above prevent horizontal
+     overflow without forcing additional clipping/compositing ancestors. */
   #productGrid.product-grid{
     display:grid!important;
     grid-template-columns:repeat(2,minmax(0,1fr))!important;
