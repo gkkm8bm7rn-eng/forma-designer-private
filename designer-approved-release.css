@@ -1441,3 +1441,34 @@ html body .product-card .product-name,
 html body .product-card .product-price {
   color:var(--forma-graphite)!important;
 }
+
+/* Designer 320px header-width correction.
+ * CI iPhone WebKit identified 9px horizontal overflow from the existing
+ * header actions at 320px. The swatch palette and product cards were within
+ * bounds. Adjust ONLY the compact navigation controls below 360px; preserve
+ * four visible actions, 40px tap widths, branding and every product style. */
+@media(max-width:359px){
+  html body .site-header .header-actions{
+    gap:2px!important;
+  }
+  html body .site-header .brand-lockup{
+    margin-right:2px!important;
+  }
+  html body .site-header .question-button,
+  html body .site-header .favorites-button,
+  html body .site-header .cart-button{
+    width:40px!important;
+    min-width:40px!important;
+  }
+  html body .site-header .delivery-payment-button{
+    width:68px!important;
+    min-width:68px!important;
+    padding-inline:3px!important;
+    grid-template-columns:17px auto 17px!important;
+    gap:2px!important;
+  }
+  html body .site-header .delivery-payment-icon{
+    width:17px!important;
+    height:17px!important;
+  }
+}
