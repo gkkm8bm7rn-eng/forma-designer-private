@@ -79,7 +79,11 @@ try {
       });
       assert.ok(painted.some(v=>v.dark>=10&&v.ratio>.012),
         'WebKit blank-painted images despite decoded DOM photos at scroll '+y+': '+JSON.stringify(painted));
-      const widthState=await page.evaluate(()=>({viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth}));
+      const widthState=await page.evaluate(()=>({viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,
+        offenders:[...document.querySelectorAll('body *')].map(el=>({el,r:el.getBoundingClientRect()}))
+          .filter(({el,r})=>r.width>0&&r.height>0&&(r.right>innerWidth+2||r.left< -2)&&getComputedStyle(el).position!=='fixed')
+          .slice(0,14).map(({el,r})=>({tag:el.tagName,cls:String(el.className).slice(0,80),
+            right:Math.round(r.right),left:Math.round(r.left),width:Math.round(r.width)}))}));
       assert.ok(widthState.scrollWidth<=widthState.viewport+2,
         'Horizontal page overflow: '+JSON.stringify(widthState));
       console.log('PASS: visual image paint '+width+'px scroll '+y+' '+JSON.stringify(painted));
