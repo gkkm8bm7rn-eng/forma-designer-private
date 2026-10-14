@@ -14,9 +14,18 @@ const cart=read('cart-feedback.js');
 const version=sw.match(/SHELL_VERSION='([^']+)'/)?.[1];
 
 assert.ok(version,'Service Worker cache must have a version');
-for (const path of ['styles.css','enhancements.css','axes.css','ui.css','architectural-minimal.css','media-policy.js','variants.js','app.js','search-fallback.js','cart-feedback.js']) {
+for (const path of ['styles.css','enhancements.css','axes.css','ui.css','architectural-minimal.css','designer-approved-release.css','media-policy.js','variants.js','app.js','search-fallback.js','cart-feedback.js']) {
   assert.ok(index.includes(path+'?v='+version),'Asset version mismatch: '+path);
 }
+const approvedCss=read('designer-approved-release.css');
+assert.match(sw,/\.\/designer-approved-release\.css/,'SW must cache approved CSS for repeat visits');
+for(const hex of ['#F0EDE9','#E7E2DC','#E8E9E7','#F4F0EB','#DDD8D2','#3D4246']){
+  assert.ok(approvedCss.includes(hex),'Approved Pearl Linen color missing: '+hex);
+}
+assert.match(approvedCss,/grid-template-columns:repeat\(4,30px\)/,'Expected 4×2 touch-friendly swatches');
+assert.match(approvedCss,/background-color:#FFFFFF!important/,'White photo stages missing');
+assert.match(approvedCss,/font-weight:400!important/,'Approved regular typography missing');
+assert.match(variants,/max-width:359px/,'Narrow iPhone two-row swatches fallback missing');
 assert.match(app,/ASSET_BASE=new URL\('\.\/',document\.baseURI\)\.href/);
 assert.match(sw,/LOCAL_ASSET_PREFIX=new URL\('\.\/assets\/',self\.registration\.scope\)\.pathname/);
 assert.match(cart,/new URL\('assets\/'.*document\.baseURI/);
