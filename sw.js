@@ -4,7 +4,7 @@
  * on its own stable version so a design update does not discard product photos.
  * Bump IMAGE_CACHE only when product media itself changes materially.
  */
-const SHELL_VERSION='20261012-cart-stepper-1';
+const SHELL_VERSION='20261014-pearl-release-1';
 const SHELL_CACHE=`forma-shell-${SHELL_VERSION}`;
 const DATA_CACHE=`forma-data-${SHELL_VERSION}`;
 const IMAGE_CACHE='forma-images-v1';
@@ -22,6 +22,17 @@ const SHELL_ASSETS=[
   './axes.css',
   './ui.css',
   './architectural-minimal.css',
+  './designer-indigo-champagne-preview.css',
+  './designer-readable-categories.css',
+  './designer-regular-typography.css',
+  './designer-background-b.css',
+  './designer-palette-surfaces.css',
+  './designer-blue-ivory-linen.css',
+  './designer-warm-beige-linen.css',
+  './designer-pearl-linen-graphite.css',
+  './designer-card-consistency.css',
+  './designer-two-row-swatches.css',
+  './designer-approved-pearl-palette-lock.css',
   './media-policy.js',
   './variants.js',
   './app.js',
