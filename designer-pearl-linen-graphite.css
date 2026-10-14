@@ -254,3 +254,63 @@ html body footer#delivery{
   background:var(--forma-graphite)!important;
   color:#F4F0EB!important;
 }
+
+/* Higher-specificity legacy monochrome overrides inside product cards.
+   Explicitly neutralize old black/white paint without affecting photo pixels,
+   dimensions, purchase text weight, or the existing cart controls. */
+html body .product-card .product-info{
+  background:var(--forma-milkstone)!important;
+}
+html body .product-card .product-name,
+html body .product-card .product-price,
+html body .recent-card .recent-name,
+html body .recent-prices strong{
+  color:var(--forma-graphite)!important;
+}
+html body .product-card .product-meta,
+html body .product-card .price-kind,
+html body .product-card .retail-row,
+html body .product-card del{
+  color:#686B6C!important;
+}
+html body .product-card .quick-add,
+html body .recent-card .recent-add{
+  background:var(--forma-graphite)!important;
+  border-color:var(--forma-graphite)!important;
+  color:var(--forma-milkstone)!important;
+}
+html body .product-card .quick-add:hover,
+html body .recent-card .recent-add:hover{
+  background:#30363A!important;
+  border-color:#30363A!important;
+}
+html body .product-card .product-categories .product-type:not(.product-new-badge),
+html body .product-card .product-categories .product-category-link,
+html body .detail-breadcrumbs button,
+html body .designer-discount{
+  background:#E7E2DC!important;
+  border-color:#D7D0C8!important;
+  color:var(--forma-graphite)!important;
+}
+html body .site-header .action-count{
+  background:var(--forma-graphite)!important;
+  border-color:var(--forma-pearl)!important;
+  color:var(--forma-milkstone)!important;
+}
+html body .pagination .page-button.page-arrow{
+  background:#E6E2DC!important;
+  border-color:#D7D0C8!important;
+  color:var(--forma-graphite)!important;
+}
+html body .mobile-scroll-button{
+  background:var(--forma-milkstone)!important;
+  border-color:var(--forma-soft-line)!important;
+  color:var(--forma-graphite)!important;
+}
+html body .filters,
+html body .favorites-toolbar,
+html body .gallery,
+html body .gallery-stage{
+  background:#EDE9E3!important;
+  border-color:#DDD7D0!important;
+}
