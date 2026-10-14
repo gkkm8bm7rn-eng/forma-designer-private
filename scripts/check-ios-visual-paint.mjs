@@ -56,7 +56,9 @@ try {
         })
         .filter(r=>r.w>75&&r.h>75&&r.y<innerHeight-65&&r.y+r.h>75));
       assert.ok(visible.length>0,'No visible product image element at scroll '+y);
-      assert.ok(visible.some(img=>img.loaded),'No visible decoded image at scroll '+y);
+      const fullyVisible=visible.filter(img=>img.y>=76&&img.y+img.h<=720);
+      assert.ok(fullyVisible.every(img=>img.loaded),
+        'A fully visible product photo failed to load: '+JSON.stringify(fullyVisible));
 
       const png=PNG.sync.read(await page.screenshot({type:'png',animations:'disabled'}));
       const scale=png.width/width;
@@ -77,8 +79,10 @@ try {
         }
         return {src:v.src,dark,total,ratio:total?dark/total:0};
       });
-      assert.ok(painted.some(v=>v.dark>=10&&v.ratio>.012),
-        'WebKit blank-painted images despite decoded DOM photos at scroll '+y+': '+JSON.stringify(painted));
+      const inspectable=painted.filter(v=>v.total>=45);
+      assert.ok(inspectable.length>0,'No photo region to inspect at scroll '+y);
+      assert.ok(inspectable.every(v=>v.dark>=10&&v.ratio>.012),
+        'A neighboring product photo is blank despite decoded DOM images at scroll '+y+': '+JSON.stringify(inspectable));
       const widthState=await page.evaluate(()=>({viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,
         offenders:[...document.querySelectorAll('body *')].map(el=>({el,r:el.getBoundingClientRect()}))
           .filter(({el,r})=>r.width>0&&r.height>0&&(r.right>innerWidth+2||r.left< -2)&&getComputedStyle(el).position!=='fixed')
@@ -87,6 +91,37 @@ try {
       assert.ok(widthState.scrollWidth<=widthState.viewport+2,
         'Horizontal page overflow: '+JSON.stringify(widthState));
       console.log('PASS: visual image paint '+width+'px scroll '+y+' '+JSON.stringify(painted));
+    }
+    // Named customer-reported blank images, not just arbitrary office chairs.
+    if(width===390){
+      for(const term of ['Книжный шкаф Secret de Maison Росвуд','Стул барный Secret de Maison Байк']){
+        await page.goto('http://127.0.0.1:8765/?tetopt_internal=on#q='+encodeURIComponent(term),
+          {waitUntil:'domcontentloaded',timeout:45000});
+        const photo=page.locator('#productGrid .product-card .product-image-stage img').first();
+        await photo.waitFor({timeout:45000});
+        await page.waitForFunction(()=>{
+          const el=document.querySelector('#productGrid .product-image-stage img');
+          return el?.complete&&el.naturalWidth>0;
+        },null,{timeout:15000});
+        await photo.scrollIntoViewIfNeeded();
+        const rect=await photo.boundingBox();
+        const png=PNG.sync.read(await page.screenshot({type:'png',animations:'disabled'}));
+        const scale=png.width/390;
+        let dark=0,total=0;
+        for(let yy=Math.max(0,Math.floor((rect.y+rect.height*.20)*scale));
+          yy<Math.min(png.height,(rect.y+rect.height*.78)*scale);yy+=7){
+          for(let xx=Math.max(0,Math.floor((rect.x+rect.width*.28)*scale));
+            xx<Math.min(png.width,(rect.x+rect.width*.72)*scale);xx+=7){
+            const i=(yy*png.width+xx)*4;
+            if(png.data[i+3]<200)continue;
+            if(Math.min(png.data[i],png.data[i+1],png.data[i+2])<216)dark++;
+            total++;
+          }
+        }
+        assert.ok(total>50&&dark>=12,
+          'Customer-reported photo is blank: '+term+' dark='+dark+' total='+total);
+        console.log('PASS: reported furniture photo '+term+' dark='+dark+' total='+total);
+      }
     }
     await context.close();
   }
