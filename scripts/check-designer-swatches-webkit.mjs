@@ -62,9 +62,11 @@ try{
         noOverflow:bounds.every(b=>b.x>=container.x-1&&b.x+b.width<=container.right+1),
         footerBelowPalette:price.top>=swatchArea.bottom-1,
         photo,buttonBackground,
+        overflowNodes:[...document.querySelectorAll('body *')].map(e=>({e,r:e.getBoundingClientRect()})).filter(x=>x.r.right>innerWidth+2).slice(0,9).map(x=>({tag:x.e.tagName,cls:typeof x.e.className==='string'?x.e.className:'',right:Math.round(x.r.right),width:Math.round(x.r.width)})),
         selectedSourceId:String(product._selected)
       };
     });
+    console.log('SWATCH WIDTH '+width+' DIAGNOSTICS '+JSON.stringify(initial));
     assert.ok(!initial.error,JSON.stringify(initial));
     assert.equal(initial.slots,width<=359?6:8);
     assert.equal(initial.buttonCount,initial.slots);
