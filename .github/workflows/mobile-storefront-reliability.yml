@@ -36,4 +36,5 @@ jobs:
           done
           node scripts/smoke-iphone-webkit.mjs
           node scripts/check-ios-scroll-gap.mjs
+          node scripts/check-ios-visual-paint.mjs
           node scripts/check-cart-mobile-webkit.mjs
