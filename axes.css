@@ -38,7 +38,10 @@ html body .category-main.active[data-main-category]:not([data-main-category="all
     max-width:100%!important;
     min-width:0!important;
   }
-  .catalog-section,.catalog-layout,.catalog-content,#productGrid{overflow-x:clip!important}
+  /* Do not create nested overflow clip paint boundaries around the long
+     product grid: iOS WebKit can leave visually blank tiles after scrolling.
+     The minmax(0,1fr) columns and min-width guards above prevent horizontal
+     overflow without forcing additional clipping/compositing ancestors. */
   #productGrid.product-grid{
     display:grid!important;
     grid-template-columns:repeat(2,minmax(0,1fr))!important;
@@ -79,6 +82,16 @@ html body .category-main.active[data-main-category]:not([data-main-category="all
   html body .site-header .delivery-payment-slash{font-size:16px!important}
   html body .site-header .favorites-button,
   html body .site-header .cart-button{width:42px!important;min-width:42px!important;height:42px!important;min-height:42px!important}
+}
+
+/* At 320px the full mobile header was 9px too wide. Keep every action
+   and its 42px touch target; fit the existing compact wordmark instead of
+   clipping the scroll root or hiding the cart counter. */
+@media(max-width:359px){
+  html body .site-header{padding-left:6px!important;padding-right:6px!important}
+  html body .site-header .brand-lockup{margin-right:2px!important}
+  html body .site-header .brand-line{font-size:10px!important;letter-spacing:0!important}
+  html body .site-header .header-actions{gap:2px!important}
 }
 
 /* Desktop sort control: preserve dedicated room for the approved slider icon and chevron so neither overlaps the label. */
