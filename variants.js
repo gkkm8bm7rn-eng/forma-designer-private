@@ -167,7 +167,7 @@ function axisControls(product,variant,context='detail'){
     // remains unrestricted in product details. Narrow phones use 3 columns.
     const slots=window.matchMedia('(max-width:359px)').matches?6:8;
     let visible=all;
-    if(compact&&all.length>slots){
+    if(compact&&!product._variantsExpanded&&all.length>slots){
       visible=all.slice(0,slots-1);
       const selected=all.find(option=>option.key===activePresentation[type].key);
       if(selected&&!visible.some(option=>option.key===selected.key))visible[slots-2]=selected;
@@ -178,7 +178,7 @@ function axisControls(product,variant,context='detail'){
       return `<button class="axis-swatch ${shape} ${selected?'active':''}" style="--axis-color:${option.hex}" data-axis="${type}" data-axis-value="${escapeAttr(option.key)}" data-product="${escapeAttr(product.id)}" title="${escapeAttr(title+': '+option.label)}" aria-label="${escapeAttr(title+': '+option.label)}" ${available?'':'disabled'}></button>`;
     }).join('');
     const remainder=all.length-visible.length;
-    const more=compact&&remainder>0?`<button type="button" class="axis-more" data-open="${escapeAttr(product.id)}" title="${escapeAttr('Показать все варианты: '+title)}" aria-label="${escapeAttr('Открыть товар и посмотреть ещё '+remainder+' вариантов: '+title)}">+${remainder}</button>`:'';
+    const more=compact&&all.length>slots?`<button type="button" class="axis-more" data-toggle-variants="${escapeAttr(product.id)}" aria-expanded="${!!product._variantsExpanded}" aria-label="${product._variantsExpanded?'Свернуть варианты':'Развернуть ещё '+remainder+' вариантов: '+title}">${product._variantsExpanded?'−':'+'+remainder}</button>`:'';
     return `<div class="axis-group ${compact?'axis-group-compact':''}">${compact?'':`<div class="variant-label"><strong>${title}</strong><span>${escapeHtml(activePresentation[type].label)}</span></div>`}<div class="axis-options" role="group" aria-label="${escapeAttr(title)}">${controls}${more}</div></div>`;
   };
   return `<div class="dual-axes ${compact?'dual-axes-compact':''}">${group('soft','Цвет обивки или подушки','soft-axis')}${group('hard','Цвет каркаса или основания','hard-axis')}</div>`;
@@ -194,15 +194,11 @@ function selectAxis(product,type,key){
 }
 
 function choiceOptions(product,selected){
-  const byPresentation=new Map;
-  product.variants.forEach(variant=>{
-    const presentation=variantPresentation(variant),existing=byPresentation.get(presentation.key);
-    // Identical visual executions lead to the least expensive actual source
-    // variant. Its full specification remains available in the product sheet.
-    if(!existing||Number(variant.wholesalePrice)<Number(existing.variant.wholesalePrice))byPresentation.set(presentation.key,{variant,presentation});
-  });
-  const selectedPresentation=variantPresentation(selected);
-  return [...byPresentation.values()].map(option=>({...option,active:option.presentation.key===selectedPresentation.key}));
+  // Color alone does not identify upholstery, construction or a purchasable SKU.
+  const options=product.variants.map(variant=>({variant,presentation:variantPresentation(variant)}));
+  return options.map(option=>({...option,
+    sameColor:options.filter(other=>other.presentation.key===option.presentation.key).length>1,
+    active:String(option.variant.sourceId)===String(selected.sourceId)}));
 }
 
 function variantChoices(product,variant,context='card'){
@@ -214,22 +210,22 @@ function variantChoices(product,variant,context='card'){
   // slot when needed. On very narrow phones use 3 columns, still 2 rows.
   // Keep an off-page selected color among the visible choices.
   const slots=window.matchMedia('(max-width:359px)').matches?6:8;
-  if(!detail&&swatchesOnly&&options.length>slots){
+  if(!detail&&swatchesOnly&&!product._variantsExpanded&&options.length>slots){
     visible=options.slice(0,slots-1);
     const selected=options.find(option=>option.active);
     if(selected&&!visible.some(option=>option.active))visible[slots-2]=selected;
   }
   const controls=visible.map((option,index)=>{
-    const {variant:item,presentation,active}=option,label=choiceLabel(item,presentation),paint=swatchPaint(presentation.colors);
+    const {variant:item,presentation,active,sameColor}=option,label=sameColor?`${item.specs} · арт. ${item.sourceId}`:choiceLabel(item,presentation),paint=swatchPaint(presentation.colors);
     if(!presentation.colors.length){
       const attributes=detail?`data-variant="${item.sourceId}"`:`data-card-variant="${item.sourceId}" data-product="${escapeAttr(product.id)}"`;
       return `<button class="variant-text ${active?'active':''}" ${attributes} title="${escapeAttr(variantLabel(item))}">${escapeHtml(variantLabel(item)||`Вариант ${index+1}`)}</button>`;
     }
     const attributes=detail?`data-variant="${item.sourceId}"`:`data-card-variant="${item.sourceId}" data-product="${escapeAttr(product.id)}"`;
-    return `<button class="${detail?'variant-swatch-option':'card-swatch'} ${presentation.colors.length>1?'composite':''} ${active?'active':''}" style="--swatch:${escapeAttr(paint)}" ${attributes} title="${escapeAttr(label)}" aria-label="${escapeAttr('Выбрать: '+label)}"></button>`;
+    return `<button class="${detail?'variant-swatch-option':'card-swatch'} ${presentation.colors.length>1?'composite':''} ${active?'active':''}" style="--swatch:${escapeAttr(paint)}" ${attributes} title="${escapeAttr(label)}" aria-label="${escapeAttr('Выбрать: '+label)}" aria-pressed="${active}"></button>`;
   }).join('');
   const remainder=options.length-visible.length;
-  const more=!detail&&swatchesOnly&&remainder>0?`<button type="button" class="card-variants-more" data-open="${escapeAttr(product.id)}" title="${escapeAttr('Посмотреть все '+options.length+' цветовых вариантов')}" aria-label="${escapeAttr('Открыть товар и посмотреть ещё '+remainder+' цветовых вариантов')}">+${remainder}</button>`:'';
+  const more=!detail&&swatchesOnly&&options.length>slots?`<button type="button" class="card-variants-more" data-toggle-variants="${escapeAttr(product.id)}" aria-expanded="${!!product._variantsExpanded}" title="${product._variantsExpanded?'Свернуть варианты':'Развернуть оставшиеся варианты'}" aria-label="${product._variantsExpanded?'Свернуть варианты':'Развернуть ещё '+remainder+' вариантов'}">${product._variantsExpanded?'−':'+'+remainder}</button>`:'';
   return detail?`<div class="variant-section variant-choice-section"><div class="variant-label"><strong>Цвет и исполнение</strong><span>${escapeHtml(choiceLabel(variant))}</span></div><div class="variant-options variant-swatch-options">${controls}</div></div>`:`<div class="card-variants ${swatchesOnly?'card-variants--two-rows':''}" aria-label="Доступные цветовые исполнения">${controls}${more}</div>`;
 }
 
@@ -268,7 +264,7 @@ function auditVariantPresentation(products=state.products){
     const model=axisModel(product),choices=choiceOptions(product,variants[0]);
     if(!model&&choices.some(choice=>!choice.presentation.colors.length))report.withoutVisibleChoice.push(product.id);
     // The compact card shows up to eight 30px targets (six on a narrow phone).
-    // +N opens full product details; no real variant is removed.
+    // +N expands the palette in place; every SKU remains selectable.
     const slots=window.matchMedia('(max-width:359px)').matches?6:8;
     if(choices.length>slots)report.legacyHiddenChoices+=choices.length-(slots-1);
   });
@@ -286,12 +282,11 @@ document.addEventListener('click',async event=>{
   const product=state.products.find(item=>item.id===button.dataset.product),previous=product?String(product._selected):'',match=product&&selectAxis(product,button.dataset.axis,button.dataset.axisValue);
   if(!match)return;
   if(button.closest('[data-detail-id]')){
-    const full=await getFullProduct(product);
-    full._selected=match.sourceId;
-    els.detail.innerHTML=detailTemplate(full,currentVariant(full,match.sourceId));
+    await selectVariant(product.id,match.sourceId);
   }else if(String(match.sourceId)!==previous){
     const card=button.closest('.product-card');
     if(card)card.outerHTML=cardTemplate(product);
+    renderRecent();
   }
 },true);
 
