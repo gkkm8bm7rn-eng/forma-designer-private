@@ -11,14 +11,14 @@ const sw=read('sw.js');
 const variants=read('variants.js');
 const media=read('media-policy.js');
 const cart=read('cart-feedback.js');
-const version=sw.match(/SHELL_VERSION='([^']+)'/)?.[1];
+const version=sw.match(/SHELL_VERSION=["']([^"']+)["']/)?.[1];
 
 assert.ok(version,'Service Worker cache must have a version');
-for (const path of ['styles.css','enhancements.css','axes.css','ui.css','architectural-minimal.css','media-policy.js','variants.js','app.js','search-fallback.js','cart-feedback.js']) {
+for (const path of ['storefront.css','media-policy.js','variants.js','app.js','search-fallback.js','cart-feedback.js']) {
   assert.ok(index.includes(path+'?v='+version),'Asset version mismatch: '+path);
 }
 assert.match(app,/ASSET_BASE=new URL\('\.\/',document\.baseURI\)\.href/);
-assert.match(sw,/LOCAL_ASSET_PREFIX=new URL\('\.\/assets\/',self\.registration\.scope\)\.pathname/);
+assert.ok(sw.includes("new URL('assets/',SCOPE).pathname"));
 assert.match(cart,/new URL\('assets\/'.*document\.baseURI/);
 assert.match(media,/forma-designer-private\/main\/data\/details\//);
 assert.doesNotMatch(media,/raw\.githubusercontent\.com\/gkkm8bm7rn-eng\/tetopt\/main\/data\/details\//);
