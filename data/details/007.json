@@ -350,63 +350,6 @@
         }
       ]
     },
-    "model-160": {
-      "id": "model-160",
-      "name": "Стул Синди Имс/Cindy Eames (мод.001)",
-      "category": "Кресла и стулья",
-      "collection": "MODERN (обеденная группа)",
-      "variantCount": 2,
-      "variants": [
-        {
-          "sourceId": 660,
-          "name": "Стул Синди Имс/Cindy Eames (мод.001)",
-          "category": "Кресла и стулья",
-          "collection": "MODERN (обеденная группа)",
-          "specs": "дерево бук/металл/сиденье пластик, 51х46х82см, белый ",
-          "wholesalePrice": 1400,
-          "retailPrice": 1960,
-          "primaryImage": "assets/products/660/00-main.webp",
-          "primaryImageVerified": true,
-          "primaryImageSourceId": 660,
-          "primaryImageManifest": "data/confirmed-photo-release-batch-08.json",
-          "images": [
-            "assets/products/660/00-main.webp",
-            "assets/products/660/02.webp",
-            "assets/products/660/03.webp",
-            "assets/products/660/01.webp"
-          ],
-          "localImageCount": 4,
-          "primaryImageStatus": "verified-manifest",
-          "designerPrice": 1670,
-          "designerDiscountPercent": 15
-        },
-        {
-          "sourceId": 1824,
-          "name": "Стул Синди Имс/Cindy Eames (мод.001)",
-          "category": "Кресла и стулья",
-          "collection": "MODERN (обеденная группа)",
-          "specs": "дерево бук/металл/сиденье пластик, 51х46х82см, оранжевый",
-          "wholesalePrice": 1120,
-          "retailPrice": 1570,
-          "primaryImage": "assets/products/1824/oct-00-main.webp",
-          "primaryImageVerified": true,
-          "primaryImageSourceId": 1824,
-          "primaryImageManifest": "supplier-photo-bank-2026-10-local",
-          "images": [
-            "assets/products/1824/oct-00-main.webp",
-            "assets/products/1824/oct-01.webp",
-            "assets/products/1824/oct-02.webp"
-          ],
-          "localImageCount": 3,
-          "primaryImageStatus": "verified-supplier-photobank-local",
-          "photoBankCode": 11464,
-          "photoBankSource": "https://price.tetchair.ru/download_photo/?id=11464",
-          "photoBankEnrichedAt": "2026-10-08",
-          "designerPrice": 1420,
-          "designerDiscountPercent": 10
-        }
-      ]
-    },
     "model-69": {
       "id": "model-69",
       "name": "Стул Синди Софт/Cindy Soft (мод.C1021F1)",
