@@ -674,41 +674,6 @@
         }
       ]
     },
-    "model-556": {
-      "id": "model-556",
-      "name": "Кресло Ретро/Retro (мод. CD5020)",
-      "category": "Кресла",
-      "collection": "",
-      "variantCount": 1,
-      "variants": [
-        {
-          "sourceId": 1769,
-          "name": "Кресло Ретро/Retro (мод. CD5020)",
-          "category": "Кресла",
-          "collection": "",
-          "specs": "дерево вяз, 64х73х85, груша №3 ",
-          "wholesalePrice": 27300,
-          "retailPrice": 40950,
-          "primaryImage": "assets/products/1769/oct-00-main.webp",
-          "primaryImageVerified": true,
-          "primaryImageSourceId": 1769,
-          "primaryImageManifest": "supplier-photo-bank-2026-10-local",
-          "images": [
-            "assets/products/1769/oct-00-main.webp",
-            "assets/products/1769/oct-01.webp",
-            "assets/products/1769/oct-02.webp",
-            "assets/products/1769/oct-03.webp",
-            "assets/products/1769/oct-04.webp",
-            "assets/products/1769/oct-05.webp"
-          ],
-          "localImageCount": 6,
-          "primaryImageStatus": "verified-supplier-photobank-local",
-          "photoBankCode": 12827,
-          "photoBankSource": "https://price.tetchair.ru/download_photo/?id=12827",
-          "photoBankEnrichedAt": "2026-10-08"
-        }
-      ]
-    },
     "model-557": {
       "id": "model-557",
       "name": "Стул Гермес/Hermes",
