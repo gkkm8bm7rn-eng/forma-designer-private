@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
   "stats": {
-    "models": 586,
-    "variants": 1429,
+    "models": 584,
+    "variants": 1426,
     "pageSize": 24,
     "dualAxisVariants": 69
   },
@@ -1954,26 +1954,6 @@
           },
           "designerDiscountPercent": 10,
           "designerPrice": 4720
-        }
-      ]
-    },
-    {
-      "id": "model-556",
-      "name": "Кресло Ретро/Retro (мод. CD5020)",
-      "category": "Кресла",
-      "collection": "",
-      "variantCount": 1,
-      "detailShard": "details/015.json",
-      "variants": [
-        {
-          "sourceId": 1769,
-          "specs": "дерево вяз, 64х73х85, груша №3 ",
-          "wholesalePrice": 27300,
-          "retailPrice": 40950,
-          "primaryImage": "assets/products/1769/oct-00-main.webp",
-          "label": "64х73х85 · груша №3",
-          "designerDiscountPercent": 15,
-          "designerPrice": 34808
         }
       ]
     },
@@ -14390,36 +14370,6 @@
           "label": "груша №3 · 42х45х78см",
           "designerDiscountPercent": 15,
           "designerPrice": 16703
-        }
-      ]
-    },
-    {
-      "id": "model-160",
-      "name": "Стул Синди Имс/Cindy Eames (мод.001)",
-      "category": "Кресла и стулья",
-      "collection": "MODERN (обеденная группа)",
-      "variantCount": 2,
-      "detailShard": "details/007.json",
-      "variants": [
-        {
-          "sourceId": 660,
-          "specs": "дерево бук/металл/сиденье пластик, 51х46х82см, белый ",
-          "wholesalePrice": 1400,
-          "retailPrice": 1960,
-          "primaryImage": "assets/products/660/00-main.webp",
-          "label": "51х46х82см · белый",
-          "designerDiscountPercent": 15,
-          "designerPrice": 1670
-        },
-        {
-          "sourceId": 1824,
-          "specs": "дерево бук/металл/сиденье пластик, 51х46х82см, оранжевый",
-          "wholesalePrice": 1120,
-          "retailPrice": 1570,
-          "primaryImage": "assets/products/1824/oct-00-main.webp",
-          "label": "51х46х82см · оранжевый",
-          "designerDiscountPercent": 10,
-          "designerPrice": 1420
         }
       ]
     },
