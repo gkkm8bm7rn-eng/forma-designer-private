@@ -2446,6 +2446,260 @@
           "designerDiscountPercent": 15
         }
       ]
+    },
+    "model-596": {
+      "id": "model-596",
+      "name": "Настенный декор Secret de Maison \"ОКНО В ПАРИЖ\" (мод. M-9679)",
+      "category": "Декор и аксессуары",
+      "collection": "Loft art/Лофт арт (декор и мебель)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "sourceId": 10298,
+          "name": "Настенный декор Secret de Maison \"ОКНО В ПАРИЖ\" (мод. M-9679)",
+          "category": "Декор и аксессуары",
+          "collection": "Loft art/Лофт арт (декор и мебель)",
+          "specs": "массив манго/ткань, 57х3х79см, серо-бежевый",
+          "wholesalePrice": 19600,
+          "retailPrice": 39200,
+          "primaryImage": "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/10298/00-main.webp",
+          "primaryImageSourceId": 10298,
+          "primaryImageVerified": true,
+          "primaryImageManifest": "data/kemchand-photo-import-2026-10-19.json",
+          "images": [
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/10298/00-main.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/10298/01.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/10298/02.webp"
+          ],
+          "localImageCount": 3,
+          "primaryImageStatus": "visually-verified-supplier-gallery-local",
+          "photoBankSource": "https://secretdemaison.ru/products/nastennyy-dekor-secret-de-maison-okno-v-parizh-9679-naturalnyy.html",
+          "designerDiscountPercent": 15,
+          "designerPrice": 33320
+        }
+      ]
+    },
+    "model-597": {
+      "id": "model-597",
+      "name": "Настенный декор Secret de Maison Рикша/Riksha (мод. M-19685)",
+      "category": "Декор и аксессуары",
+      "collection": "Loft art/Лофт арт (декор и мебель)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "sourceId": 13108,
+          "name": "Настенный декор Secret de Maison Рикша/Riksha (мод. M-19685)",
+          "category": "Декор и аксессуары",
+          "collection": "Loft art/Лофт арт (декор и мебель)",
+          "specs": "массив манго, 74х3х103см, белый/черный",
+          "wholesalePrice": 14300,
+          "retailPrice": 28600,
+          "primaryImage": "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/13108/00-main.webp",
+          "primaryImageSourceId": 13108,
+          "primaryImageVerified": true,
+          "primaryImageManifest": "data/kemchand-photo-import-2026-10-19.json",
+          "images": [
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/13108/00-main.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/13108/01.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/13108/02.webp"
+          ],
+          "localImageCount": 3,
+          "primaryImageStatus": "visually-verified-supplier-gallery-local",
+          "photoBankSource": "https://secretdemaison.ru/products/nastennyy-dekor-secret-de-maison-riksha-mod-m-19685-derevo-mango-74h3h103sm.html",
+          "designerDiscountPercent": 15,
+          "designerPrice": 24310
+        }
+      ]
+    },
+    "model-598": {
+      "id": "model-598",
+      "name": "Настенный декор Secret de Maison Масаи/Masai (мод. M-17258)",
+      "category": "Декор и аксессуары",
+      "collection": "Loft art/Лофт арт (декор и мебель)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "sourceId": 13109,
+          "name": "Настенный декор Secret de Maison Масаи/Masai (мод. M-17258)",
+          "category": "Декор и аксессуары",
+          "collection": "Loft art/Лофт арт (декор и мебель)",
+          "specs": "массив манго, 79,5х3х110см, белый/черный",
+          "wholesalePrice": 14300,
+          "retailPrice": 28600,
+          "primaryImage": "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/13109/00-main.webp",
+          "primaryImageSourceId": 13109,
+          "primaryImageVerified": true,
+          "primaryImageManifest": "data/kemchand-photo-import-2026-10-19.json",
+          "images": [
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/13109/00-main.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/13109/01.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/13109/02.webp"
+          ],
+          "localImageCount": 3,
+          "primaryImageStatus": "visually-verified-supplier-gallery-local",
+          "photoBankSource": "https://secretdemaison.ru/products/nastennyy-dekor-secret-de-maison-masai-mod-m-17258-derevo-mango-79-5h3h110sm.html",
+          "designerDiscountPercent": 15,
+          "designerPrice": 24310
+        }
+      ]
+    },
+    "model-599": {
+      "id": "model-599",
+      "name": "Подставка для зонтов Secret de Maison Ватсон/Watson (мод. M-3533)",
+      "category": "Декор и аксессуары",
+      "collection": "Loft art/Лофт арт (декор и мебель)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "sourceId": 11183,
+          "name": "Подставка для зонтов Secret de Maison Ватсон/Watson (мод. M-3533)",
+          "category": "Декор и аксессуары",
+          "collection": "Loft art/Лофт арт (декор и мебель)",
+          "specs": "металл/кожа буйвола/ткань, Д29х61см",
+          "wholesalePrice": 15300,
+          "retailPrice": 30600,
+          "primaryImage": "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11183/00-main.webp",
+          "primaryImageSourceId": 11183,
+          "primaryImageVerified": true,
+          "primaryImageManifest": "data/kemchand-photo-import-2026-10-19.json",
+          "images": [
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11183/00-main.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11183/01.webp"
+          ],
+          "localImageCount": 2,
+          "primaryImageStatus": "visually-verified-supplier-gallery-local",
+          "photoBankSource": "https://secretdemaison.ru/products/podstavka-dlya-zontov-secret-de-maison-watson-mod-m-3533-naturalnyy.html",
+          "designerDiscountPercent": 15,
+          "designerPrice": 26010
+        }
+      ]
+    },
+    "model-600": {
+      "id": "model-600",
+      "name": "Пуф Secret de Maison Боксер/Boxer (мод. M-12765)",
+      "category": "Пуфы, банкетки и табуреты",
+      "collection": "Loft art/Лофт арт (декор и мебель)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "sourceId": 11180,
+          "name": "Пуф Secret de Maison Боксер/Boxer (мод. M-12765)",
+          "category": "Пуфы, банкетки и табуреты",
+          "collection": "Loft art/Лофт арт (декор и мебель)",
+          "specs": "кожа буйвола/ткань хлопок, 42х42х34см",
+          "wholesalePrice": 14800,
+          "retailPrice": 29600,
+          "primaryImage": "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11180/00-main.webp",
+          "primaryImageSourceId": 11180,
+          "primaryImageVerified": true,
+          "primaryImageManifest": "data/kemchand-photo-import-2026-10-19.json",
+          "images": [
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11180/00-main.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11180/01.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11180/02.webp"
+          ],
+          "localImageCount": 3,
+          "primaryImageStatus": "visually-verified-supplier-gallery-local",
+          "photoBankSource": "https://secretdemaison.ru/products/puf-secret-de-maison-boxer-mod-m-12765-korichnevyy.html",
+          "designerDiscountPercent": 15,
+          "designerPrice": 25160
+        }
+      ]
+    },
+    "model-601": {
+      "id": "model-601",
+      "name": "Стул Secret de Maison Лум/Loom (мод. M-17223)",
+      "category": "Пуфы, банкетки и табуреты",
+      "collection": "Loft art/Лофт арт (декор и мебель)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "sourceId": 12232,
+          "name": "Стул Secret de Maison Лум/Loom (мод. M-17223)",
+          "category": "Пуфы, банкетки и табуреты",
+          "collection": "Loft art/Лофт арт (декор и мебель)",
+          "specs": "металл/кожа буйвола, 42х42х47см, античная медь/коричневый",
+          "wholesalePrice": 18200,
+          "retailPrice": 36400,
+          "primaryImage": "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/12232/00-main.webp",
+          "primaryImageSourceId": 12232,
+          "primaryImageVerified": true,
+          "primaryImageManifest": "data/kemchand-photo-import-2026-10-19.json",
+          "images": [
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/12232/00-main.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/12232/01.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/12232/02.webp"
+          ],
+          "localImageCount": 3,
+          "primaryImageStatus": "visually-verified-supplier-gallery-local",
+          "photoBankSource": "https://secretdemaison.ru/products/stul-secret-de-maison-loom-mod-m-17223-antichnaya-med.html",
+          "designerDiscountPercent": 15,
+          "designerPrice": 30940
+        }
+      ]
+    },
+    "model-602": {
+      "id": "model-602",
+      "name": "Стул Secret de Maison Мэйнз/Mainz (мод. M-14531)",
+      "category": "Барные и полубарные стулья",
+      "collection": "Loft art/Лофт арт (декор и мебель)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "sourceId": 11219,
+          "name": "Стул Secret de Maison Мэйнз/Mainz (мод. M-14531)",
+          "category": "Барные и полубарные стулья",
+          "collection": "Loft art/Лофт арт (декор и мебель)",
+          "specs": "металл/ткань хлопок, Д38х52-70см, серый антик/натуральный",
+          "wholesalePrice": 12100,
+          "retailPrice": 24200,
+          "primaryImage": "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11219/00-main.webp",
+          "primaryImageSourceId": 11219,
+          "primaryImageVerified": true,
+          "primaryImageManifest": "data/kemchand-photo-import-2026-10-19.json",
+          "images": [
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11219/00-main.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11219/01.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11219/02.webp"
+          ],
+          "localImageCount": 3,
+          "primaryImageStatus": "visually-verified-supplier-gallery-local",
+          "photoBankSource": "https://secretdemaison.ru/products/stul-na-vintovoy-nozhke-secret-de-maison-mainz-mod-m-14531-seryy-tkan.html",
+          "designerDiscountPercent": 15,
+          "designerPrice": 20570
+        }
+      ]
+    },
+    "model-603": {
+      "id": "model-603",
+      "name": "Корзина Secret de Maison Бакет/Bucket (мод. M-2432)",
+      "category": "Декор и аксессуары",
+      "collection": "Loft art/Лофт арт (декор и мебель)",
+      "variantCount": 1,
+      "variants": [
+        {
+          "sourceId": 11186,
+          "name": "Корзина Secret de Maison Бакет/Bucket (мод. M-2432)",
+          "category": "Декор и аксессуары",
+          "collection": "Loft art/Лофт арт (декор и мебель)",
+          "specs": "металл/кожа буйвола/ткань, 39х39х42см, коричневый",
+          "wholesalePrice": 13900,
+          "retailPrice": 27800,
+          "primaryImage": "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11186/00-main.webp",
+          "primaryImageSourceId": 11186,
+          "primaryImageVerified": true,
+          "primaryImageManifest": "data/kemchand-photo-import-2026-10-19.json",
+          "images": [
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11186/00-main.webp",
+            "https://gkkm8bm7rn-eng.github.io/tetopt/assets/products/11186/01.webp"
+          ],
+          "localImageCount": 2,
+          "primaryImageStatus": "visually-verified-supplier-gallery-local",
+          "photoBankSource": "https://secretdemaison.ru/products/korzina-secret-de-maison-bucket-mod-m-2432-korichnevyy.html",
+          "designerDiscountPercent": 15,
+          "designerPrice": 23630
+        }
+      ]
     }
   }
 }
