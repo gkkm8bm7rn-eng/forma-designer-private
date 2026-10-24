@@ -1,34 +1,34 @@
 /* Generated with build-release.py. Cache ownership is the full registration
    scope, never a shared origin-wide prefix. */
-const SHELL_VERSION="20261017-retro-cindy-archive-v3";
+const SHELL_VERSION="20261024-designer-new-arrivals-f39dbc2410";
 const RESOURCES=[
   {
-    "url": "index.html?release=20261015-cache-isolation-53071ccdeb",
+    "url": "index.html?release=20261024-designer-new-arrivals-f39dbc2410",
     "key": "index.html",
-    "sha256": "53434dbb7de926176cc80219bc930d0b16ce3d76518e45c3245124696beef0f4"
+    "sha256": "28a10a85ad0fea76b3edb277342d4ed19f2393b04576bea07e3263390ad625c6"
   },
   {
-    "url": "storefront.css?v=20261015-cache-isolation-53071ccdeb",
-    "sha256": "4356a000db19051219074f53249fad7d3b7812b091f7cc8cfb4b5050f3f423ea"
+    "url": "storefront.css?v=20261024-designer-new-arrivals-f39dbc2410",
+    "sha256": "47467a2c580a6b5cd99e1073cc431cc25e6c153cfcb40fc973abc56b2f11af57"
   },
   {
-    "url": "media-policy.js?v=20261015-cache-isolation-53071ccdeb",
+    "url": "media-policy.js?v=20261024-designer-new-arrivals-f39dbc2410",
     "sha256": "96716768dcc89ed01dec49ef1fd76477180426d9f0ac09d4cfc697e357e25bef"
   },
   {
-    "url": "variants.js?v=20261015-cache-isolation-53071ccdeb",
+    "url": "variants.js?v=20261024-designer-new-arrivals-f39dbc2410",
     "sha256": "92df1a00a967df75e62c9332da1d722e4fa3ad955df0ad371d2398b9b3485d1c"
   },
   {
-    "url": "app.js?v=20261015-cache-isolation-53071ccdeb",
-    "sha256": "b1b6288c2844a016046ca876b8a0fe4d086cc6ff795e35e3cdb667ae02d9b818"
+    "url": "app.js?v=20261024-designer-new-arrivals-f39dbc2410",
+    "sha256": "f33274b8c67172555ac9bcae632f30f251b201ef11cae2e065e25e9b26cbc327"
   },
   {
-    "url": "search-fallback.js?v=20261015-cache-isolation-53071ccdeb",
+    "url": "search-fallback.js?v=20261024-designer-new-arrivals-f39dbc2410",
     "sha256": "4cc7168e260f63ebe0ecfa67ac2c16016bbb8049bb3c19d8d44b6db8a73f236e"
   },
   {
-    "url": "cart-feedback.js?v=20261015-cache-isolation-53071ccdeb",
+    "url": "cart-feedback.js?v=20261024-designer-new-arrivals-f39dbc2410",
     "sha256": "94b2436fa53531cd59c01af9f99398c1e072fe1e10b51b3962fafab89cbf1d90"
   }
 ];
