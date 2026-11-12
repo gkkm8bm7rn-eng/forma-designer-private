@@ -1,0 +1,36 @@
+name: Build designer catalog WhatsApp preview
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-designer-whatsapp-preview.py'
+      - '.github/workflows/build-designer-whatsapp-preview.yml'
+permissions:
+  contents: write
+concurrency:
+  group: designer-whatsapp-preview
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check Pillow
+      - name: Render real catalog photos and validate six designer prices
+        run: python scripts/build-designer-whatsapp-preview.py
+      - name: Publish only the preview image
+        run: |
+          git config user.name "Catalog preview bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/ui/designer-six-products-og.png
+          if git diff --cached --quiet; then echo "Image unchanged"; exit 0; fi
+          git commit -m "Publish six real catalog products for WhatsApp preview"
+          git pull --rebase origin main
+          git push origin HEAD:main
